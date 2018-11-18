@@ -1,7 +1,7 @@
 ---
 title: "Min fina titel"
 ---
-Min me-sida i kursen design
+Mos sida i kursen design
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
