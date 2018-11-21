@@ -1,3 +1,3 @@
 #### Footer col 2
-
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+* [Använd markdown till me-sidan](https://dbwebb.se/coachen/anvand-markdown-till-me-sidan)
+* [PHP Markdown Extra](https://michelf.ca/projects/php-markdown/extra/#ol)

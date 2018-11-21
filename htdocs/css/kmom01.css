@@ -14,3 +14,96 @@
 .rm-navbar-max {
     display: none;
 }
+
+html {
+  background-color: green;
+}
+
+body {
+  background-color: #ffc;
+  color: #e9d7b3;
+}
+
+.footer {
+    background-color: blue;
+}
+
+.author-byline {
+    color: red;
+    float: left;
+    background-color: gold;
+    padding: 10px;
+}
+
+.wrap-all {
+  background-color: #bf7c32;
+  max-width: 1000px;
+  padding: 10px;
+  margin: 0 auto;
+  border: red;
+  border-width: thick;
+  border-style: solid;
+}
+
+.outer-wrap {
+    border-style: groove;
+    color: #e9d7b3;
+}
+
+article {
+    padding: 10px;
+    background-color: cornflowerblue;
+}
+
+.flash {
+    max-width: 90%;
+    display: inline;
+    float: left;
+}
+
+.img {
+  max-width: 100%;
+}
+.site-logo {
+  display: none;
+}
+
+.region-header {
+    background-color: gold;
+}
+
+.region-header-col-1 {
+  background-color: lemonchiffon;
+  border: aliceblue;
+  border-width: thick;
+}
+
+.region-footer {
+    background-color: white;
+    color: red;
+    text-align: center;
+    padding: 2px;
+}
+
+.footer-column-x
+{
+  background-color: beige;
+  border: red;
+  width: 32%;
+  border-style: dashed;
+  float: left;
+  text-align: left;
+  padding: 2px;
+}
+
+.footer-column-1
+{
+  border: blue;
+  border-style: outset;
+}
+
+.footer-column-3
+{
+  border: black;
+  border-style: inset;
+}

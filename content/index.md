@@ -1,25 +1,32 @@
 ---
-title: "Min fina titel"
+title: "Britts"
+
+views:
+  byline:
+      region: main
+      template: anax/v2/block/default
+      sort: 2
+      data:
+          meta:
+              type: single
+              route: block/byline
 ---
-Mos sida i kursen design
-=========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+Detta är Britts "me-sida" i kursen "design".
+==============================================
+Mitt namn är Britt Hallin, pensionär som behöver underhålla de hjärnceller som fortfarande finns kvar. Jag har arbetat med ADB och/eller data i större delen av mitt liv. Det har varit allt från programmerare till operatör.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/hund.jpg?w=500" class="right" caption="Min daghund"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Jag är inte något att se så jag lägger in en bild på min "daghund" i stället. Jag vet inte ännu hur man gör för att rotera den.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Jag kommer från Dalarna, närmare bestämt Mora, och har kvar mitt barndomshem. Numera bor jag i Bromma.
+Mina intressen är trädgård (jag är ju pensionär), hundar och hästar.
+Jag har en odlingslott i [Föreningen Råcksta Fritidsträdgårdar](https://rackstakoloni.se/) och är dagmatte åt en [liten yorkshireterriertik](https://www.skk.se/sv/hundraser/yorkshireterrier/).
+Jag hade häst i mer än 30 år. De var tre engelska fullblod och ett svenskt halvblod, varav ett köpt och de övriga min uppfödning.
+Hade jag skaffat häst idag hade det blivit en [lusitano](http://www.cavalo-lusitano.com/).
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Denna webbplats är byggd i HTML, CSS och Markdown och är en del i kursen design.
+Detta innehåll är skrivet i **markdown** och du hittar innehållet i filen `content/index.md`.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+### Detta är skoj men vad visade de på TV igår?###
