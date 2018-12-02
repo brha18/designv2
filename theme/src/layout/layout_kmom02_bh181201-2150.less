@@ -1,0 +1,353 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+ .outer-wrap-flash {
+     max-width: 100%;
+ }
+
+.inner-wrap {
+//    max-width: 1100px;
+
+    max-width: 100%;
+//    max-width: 55.5%;
+
+//    max-width: 70%;
+    margin: 0 auto;
+}
+
+.inner-wrap-flash {
+//    max-width: 55.5%;
+
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+.inner-wrap-main {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    background-color: grey;
+}
+
+.author-byline {
+    color: red;
+    float: inherit;
+    background-color: gold;
+    padding: 1em;
+    border: yellow;
+    border-width: thin;
+    border-style: solid;
+}
+
+.wrap-all {
+//  background-color: #ccf;
+//  max-width: 300rem;
+//  padding: 10px;
+//  margin: 0 auto;
+//  border: none;
+//  border-width: thick;
+//  border-style: none;
+
+//  max-width: 100%;
+//  padding: 10px;
+//  margin: 0 auto;
+
+  background-color: #bf7c32;
+  max-width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+  border: red;
+  border-width: thick;
+  border-style: solid;
+}
+
+.outer-wrap {
+//    border-style: none;
+
+    border-style: groove;
+    color: #e9d7b3;
+    max-width: 100%;
+}
+
+.outer-wrap-header {
+//    height: 3.2rem;
+//    max-width: 100%;
+    background-color: #9f9;
+//    overflow: hidden; // för att wrappa runt
+
+    height: 65px;
+    max-width: 100%;
+//    overflow: auto;  of=auto gör att submenyerna inte syns
+}
+
+.inner-wrap-header {
+    height: 100%;
+    max-width: 100%;
+//    overflow: hidden;
+}
+
+.outer-wrap-main {
+  background-image: url('gardening-tools_960_549_X');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% -20%;
+}
+
+/* Hide submenu, leave this to kmom02 */
+//.rm-desktop ul {
+    //display: list-item;
+//}
+
+a.rm-button{
+    color: red;
+    border-style: inset;
+    border-color: red;
+    padding: 0.5em;
+}
+
+.rm-navbar {
+//    border-style: inset;
+    font-size: 1.4em;
+    color: inherit;
+//    display: inline-block;
+    position: relative;
+    height: 100%;
+//    border-color: black;
+//    padding: 0.5em;
+}
+
+.rm-small-wrapper {
+    color: black;
+//    border-color: black;
+//    border-style: inset;
+//    padding: 0.5em;
+}
+
+.rm-max.rm-navbar {
+    top: auto;
+    right: 20px;
+}
+
+.rm-desktop li ul {
+    background-color: #fff;
+}
+
+.rm-default ul li {
+    box-shadow: 0 0 1px rgba(0,0,0,.4);
+}
+
+.img {
+    max-width: 100%;
+}
+.site-logo {
+  display: none;
+}
+
+.region-header {
+//    height: 4rem;
+    background-color: gold;
+    height: 100%;
+}
+
+.region-header-col-1 {
+  border-style: none;
+
+//  width: 22.5%;
+  height: inherit;
+
+  display: inline;
+  float: left;
+  width: 23%;
+  background-color: lemonchiffon;
+  border: aliceblue;
+  border-width: thick;
+}
+
+.region-header-col-2 {
+    text-align: center;
+    height: inherit;
+    background-color: blueviolet;
+    display: inline;
+    float: left;
+    width: 53%;
+}
+
+.region-header-col-3 {
+//  width: 22.5%;
+  height: inherit;
+
+  display: inline;
+  float: left;
+  width: 23%;
+  background-color: lemonchiffon;
+  border: aliceblue;
+  border-width: thick;
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    display: inline;
+    float: left;
+    width: 28.125%;
+    margin-left: .52083333%;
+    margin-right: .52083333%;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    display: inline;
+    float: left;
+    width: 22.5%;
+//        width: 23.95833333%;
+    margin-right: .52083333%;
+    margin-left: .52083333%;
+}
+
+.region-main {
+    display: inline;
+    float: left;
+    //width: auto;
+    width: 70%;
+    margin-top: 0.5em;
+    margin-left: 10%;
+    overflow-x: auto;
+
+    &.has-sidebar {  //OBS att det är ingen punkt före "has"
+      margin-left: 0;
+    }
+}
+
+.region-main.has-sidebar-left.has-sidebar-right {
+    display: inline;
+    float: left;
+    //width: auto;
+    width: 48.95833333%;
+    margin-top: 0.5em;
+    margin-right: .52083333%;
+    margin-left: .52083333%;
+}
+
+.region-main.has-sidebar-left {
+    display: inline;
+    float: left;
+    //width: auto;
+    width: 60%;
+    margin-top: 0.5em;
+    margin-right: .52083333%;
+    margin-left: 4.52083333%;
+}
+
+.wrap-sidebar {
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+.wrap-sidebar.block {
+    margin-bottom: 48px;
+}
+
+.toc {
+    margin-bottom: 24px;
+}
+
+.article {
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+/**
+* Footer Layout
+**/
+.region-footer {
+//  float: inherit;
+
+    display: inline;
+    background-color: white;
+    color: red;
+    text-align: center;
+    padding: 2px;
+    float: left;
+    width: 98%;
+}
+
+.footer-column-wrapper {
+    width: 100%;
+}
+
+.footer {
+    background-color: blue;
+}
+
+.footer-column-x
+{
+    background-color: beige;
+    border: red;
+    width: 32%;
+    border-style: dashed;
+    float: left;
+    text-align: left;
+    padding: 2px;
+}
+
+.footer-column-1
+{
+  border: blue;
+  border-style: outset;
+  float: left;
+}
+
+.footer-column-2
+{
+    width: 33%;
+}
+
+.footer-column-3
+{
+  border: black;
+  border-style: inset;
+}
+
+.footer-column-wrapper::after {
+    content:"";display:block;clear:both
+}
+
+.block site-footer {
+//  max-width: auto;
+//  max-height: 60rem;
+  border-top-style: solid;
+  border-top-width: thick;
+  border-color: gold;
+
+  text-align: center;
+  max-width: 500px;
+  max-height: 100px;
+  margin: 0 auto;
+  background-color: rgb(0, 100, 0);
+}
+
+.author-byline {
+    color: red;
+    float: inherit;
+    background-color: gold;
+    padding: 1em;
+    border: yellow;
+    border-width: thin;
+    border-style: solid;
+}
+
+.route-testa row {
+    background-color: #ccc;
+}

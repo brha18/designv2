@@ -52,7 +52,21 @@ return [
         [
             "text" => "Testa",
             "url" => "testa",
-            "title" => "Testa.",
-        ],
+            "title" => "Testar möjligheter och problem.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Test 2 kolumner",
+                        "url" => "testa/testa_2kol",
+                        "title" => "Test 2 kolumner.",
+                    ],
+                    [
+                        "text" => "Test 3 kolumner",
+                        "url" => "testa/testa_3kol",
+                        "title" => "Test 3 kolumner.",
+                    ],
+                ],
+              ],
+          ],
     ],
 ];

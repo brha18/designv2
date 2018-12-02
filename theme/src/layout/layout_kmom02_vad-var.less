@@ -1,0 +1,163 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+ .outer-wrap-flash {
+     max-width: 100%;
+ }
+
+.inner-wrap {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.inner-wrap-flash {
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+.row {
+    background-color: grey;
+}
+
+.footer {
+    background-color: blue;
+}
+
+.author-byline {
+    color: red;
+    float: inherit;
+    background-color: gold;
+    padding: 1em;
+    border: yellow;
+    border-width: thin;
+    border-style: solid;
+}
+
+.wrap-all {
+  background-color: #bf7c32;
+  max-width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+  border: red;
+  border-width: thick;
+  border-style: solid;
+}
+
+.outer-wrap {
+    border-style: groove;
+    color: #e9d7b3;
+    max-width: 100%;
+}
+
+.outer-wrap-header {
+  height: 48px;
+  max-width: 100%;
+}
+
+.inner-wrap-header {
+  max-width: 100%;
+}
+
+.outer-wrap-main {
+  background-image: url('gardening-tools_960_549_X');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% -20%;
+}
+
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+    display: none;
+}
+
+.img {
+  max-width: 100%;
+}
+.site-logo {
+  display: none;
+}
+
+.region-header {
+    background-color: gold;
+    height: auto;
+}
+
+.region-header-col-1 {
+  display: inline;
+  float: left;
+  width: 23%;
+  background-color: lemonchiffon;
+  border: aliceblue;
+  border-width: thick;
+}
+
+.region-header-col-2 {
+    background-color: blueviolet;
+    display: inline;
+    float: left;
+    width: 53%;
+}
+
+.region-header-col-3 {
+  display: inline;
+  float: left;
+  width: 23%;
+  background-color: lemonchiffon;
+  border: aliceblue;
+  border-width: thick;
+}
+
+.region-footer {
+    display: inline;
+    background-color: white;
+    color: red;
+    text-align: center;
+    padding: 2px;
+    float: left;
+    width: 98%;
+}
+
+.footer-column-x
+{
+    background-color: beige;
+    border: red;
+    width: 32%;
+    border-style: dashed;
+    float: left;
+    text-align: left;
+    padding: 2px;
+}
+
+.footer-column-1
+{
+  border: blue;
+  border-style: outset;
+  float: left;
+}
+
+.footer-column-3
+{
+  border: black;
+  border-style: inset;
+}
+.footer-column-wrapper::after {
+    content:"";display:block;clear:both}
+
+.block site-footer {
+  text-align: center;
+  max-width: 500px;
+  max-height: 100px;
+  margin: 0 auto;
+  background-color: rgb(0, 100, 0);
+}

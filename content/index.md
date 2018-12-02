@@ -18,7 +18,8 @@ Mitt namn är Britt Hallin, pensionär som behöver underhålla de hjärnceller 
 
 [FIGURE src="image/hund.jpg?w=500" class="right" caption="Min daghund"]
 
-Jag är inte något att se så jag lägger in en bild på min "daghund" i stället. Jag vet inte ännu hur man gör för att rotera den.
+Jag är inte något att se så jag lägger in en bild på min "daghund" i stället. Jag vet inte ännu hur man gör för att rotera den. Får fixa det i ett senare kursmoment, moment 05, då vi håller på med bilder. Undras om man använder
+*.@{fa-css-prefix}-rotate-90  { .fa-icon-rotate(90deg, 1);  }*, som finns i mappen theme/node_modules/fontawesome-free/less. Fast den kanske bara avser ikoner och inte bilder.
 
 Jag kommer från Dalarna, närmare bestämt Mora, och har kvar mitt barndomshem. Numera bor jag i Bromma.
 Mina intressen är trädgård (jag är ju pensionär), hundar och hästar.

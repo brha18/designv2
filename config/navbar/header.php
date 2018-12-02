@@ -52,6 +52,20 @@ return [
             "text" => "Testa",
             "url" => "testa",
             "title" => "Testar möjligheter och problem.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Test flera kolumner",
+                        "url" => "testa/testa_2kol",
+                        "title" => "Test flera kolumner.",
+                    ],
+                    [
+                        "text" => "Test flera kolumner",
+                        "url" => "testa/testa_3kol",
+                        "title" => "Test flera kolumner.",
+                    ],
+                ],
+            ],
         ],
     ],
 ];

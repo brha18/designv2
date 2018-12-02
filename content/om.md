@@ -1,44 +1,38 @@
 ---
 views:
     kursrepo:
-        region: sidebar-right
+        region: sidebar-left
         template: anax/v2/block/default
+        sort: 1
         data:
             meta:
                 type: single
                 route: block/om-kursrepo
 
     redovisa:
-        region: sidebar-right
+        region: sidebar-left
         template: anax/v2/block/default
+        sort: 2
         data:
             meta:
                 type: single
                 route: block/om-redovisa
 
+    tradgard:
+        region: sidebar-left
+        template: anax/v2/block/default
+        sort: 3
+        data:
+            meta:
+                type: single
+                route: block/om-tradgard
+
 ---
-Om
+Om detta kursmoment, 02, i designkursen
 =========================
 
 Detta innehåll är skrivet i markdown och innehållet finns i filen `content/om.md`.
 
-Information om kursen "design" finns på BTHs sida
-[Kmom01: Ramverk, innehåll, style](https://dbwebb.se/kurser/design-v2/kmom01).
+#### Krav i kmom02 (.jpg)####
 
-En länk till GitHub-repot för min me-sida
-[min me-sida på GitHup](https://github.com/brha18/designv2)
-
-En länk till kursens GitHub-repo
-[Kursens GitHub-repo](https://github.com/dbwebb-se/design)
-
-#### Krav i kmom01 (.jpg)####
-[FIGURE src="image/KravJpg.jpg?w=500" class="left" alt="Uppfyllda krav i kmom01 (jpg)"]
-#### Krav i kmom01 (.png)####
-[FIGURE src="image/KravPng.png?w=500" class="left" alt="Uppfyllda krav i kmom01 (png)"]
-
-Det är bra med videor för att visa hur det går till, allra helst när de är så bra som i denna kurs. MEN de kan inte ersätta den skrivna texten.
-Man kan inte markera ngt man tycker är viktigt, man kan inte gå tillbaka till förra sidan och se vad det var man missat. Själv har jag missat att man måste göra ngt i GitHub innan man kan ladda upp. Jag har kollat nycklar och letat på en massa ställen. Jag har missat hur man startar webbplatsen, fick igång den genom att jag av misstag klickade på mappen. Jag vet ff inte om det finns något i texten eller på video om hur detta ska göras. Helt nytt för mig. Det har tagit massor med tid.
-####Markdown#
-Varför Markdown? Det ställer bara till det. Det översätts ju till html. Bättre att använda html direkt.
-#### Krav i kmom01####
-Se bilderna ovan.
+[FIGURE src="image/Krav02Jpg.jpg?w=100%" class="left" alt="Uppfyllda krav i kmom01 (jpg)"]
