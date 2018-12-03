@@ -61,9 +61,9 @@ return [
                         "title" => "Test 2 kolumner.",
                     ],
                     [
-                        "text" => "Test 3 kolumner",
-                        "url" => "testa/testa_3kol",
-                        "title" => "Test 3 kolumner.",
+                        "text" => "Test ikon kolumner",
+                        "url" => "testa/testa_ikon_kol",
+                        "title" => "Test ikon kolumner.",
                     ],
                 ],
               ],

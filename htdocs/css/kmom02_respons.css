@@ -575,7 +575,7 @@ html {
 body {
   margin: 0;
   font: 100.01%/1 serif;
-  background-color: #cfc;
+  background-color: #6dc577;
   color: #e9d7b3;
 }
 article {
@@ -4862,7 +4862,7 @@ a.rm-button {
 .footer-column-x {
   background-color: beige;
   border: red;
-  width: 33%;
+  width: 32.5%;
   border-style: dashed;
   float: left;
   text-align: left;
@@ -4898,6 +4898,16 @@ a.rm-button {
 }
 .route-testa row {
   background-color: #ccc;
+}
+.fa-stroopwafel {
+  font-size: 3em;
+}
+.fa-stroopwafel.fas {
+  background-color: tomato;
+}
+.fa-stroopwafel.fab {
+  background-color: gold;
+  color: black;
 }
 /**
  * Layout for responsive style through media queries.

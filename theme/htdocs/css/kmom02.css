@@ -347,7 +347,7 @@ html {
 body {
   margin: 0;
   font: 100.01%/1 serif;
-  background-color: #cfc;
+  background-color: #6dc577;
   color: #e9d7b3;
 }
 article {
@@ -4631,177 +4631,8 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   right: 0;
 }
 /**
- * Style for responsive menu
- */
-/**
-  * Example on media queries
-  */
-@media screen and (max-width: 680px) {
-  .rm-small {
-    display: block;
-  }
-  .rm-desktop {
-    display: none;
-  }
-}
-@media screen and (min-width: 680px) {
-  .rm-small {
-    display: none;
-  }
-}
-/**
  * My own settings, not currently in their own module.
  */
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Variables
- */
-/**
- * General layout
- */
-/*.wrap-all {
-   background-color: #ccf;
-   max-width: 300rem;
-   padding: 10px;
-   margin: 0 auto;
-   border: none;
-   border-width: thick;
-   border-style: none;
- }
-*/
-/*
- .outer-wrap {
-     border-style: none;
-     color: #e9d7b3;
- }
- */
-/*
- .outer-wrap-main {
-   background-image: url('gardening-tools_960_549_X');
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: 50% -20%;
- }
-*/
-/*
-.inner-wrap {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-*/
-/*
-.inner-wrap-main {
-    max-width: 55%;
-    margin: 0 auto;
-}
-*/
-/* Hide submenu, leave this to kmom02 */
-/*
-.rm-desktop ul {
-    display: none;
-}
-*/
-/*
-.img {
-  max-width: 100%;
-}
-*/
-/*
-.site-logo {
-  display: none;
-}
-*/
-/*
-.region-header {
-    background-color: gold;
-}
-*/
-/*
-.region-header-col-1 {
-  background-color: lemonchiffon;
-  border: aliceblue;
-  border-style: none;
-  border-width: thick;
-}
-*/
-/*
-.region-header-col-2 {
-    background-color: blueviolet;
-}
-*/
-/*
-.author-byline {
-    color: red;
-    float: inherit;
-    background-color: yellow;
-    padding: 10px;
-    border-top: gold;
-    border-width: thin;
-    border-style: solid;
-}
-*/
-/*
-.region-footer {
-  float: inherit;
-    background-color: white;
-    color: red;
-    text-align: center;
-    padding: 2px;
-}
-*/
-/*
-.footer {
-    background-color: blue;
-}
-*/
-/*
-.footer-column-x
-{
-  background-color: beige;
-  border: red;
-  width: 32%;
-  border-style: dashed;
-  float: left;
-  text-align: left;
-  padding: 2px;
-}
-*/
-/*
-.footer-column-1
-{
-    border: blue;
-    border-style: outset;
-//    float: left;
-}
-*/
-/*
-.footer-column-2
-{
-    width: 35%;
-}
-*/
-/*
-.footer-column-3
-{
-    border: black;
-    border-style: inset;
-}
-*/
-/*
-.block site-footer {
-  text-align: center;
-  max-width: auto;
-  max-height: 60rem;
-  margin: 0 auto;
-  background-color: rgb(0, 100, 50);
-  border-top-style: solid;
-  border-top-width: thick;
-  border-color: gold;
-}
-*/
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -5031,7 +4862,7 @@ a.rm-button {
 .footer-column-x {
   background-color: beige;
   border: red;
-  width: 33%;
+  width: 32.5%;
   border-style: dashed;
   float: left;
   text-align: left;
@@ -5067,4 +4898,14 @@ a.rm-button {
 }
 .route-testa row {
   background-color: #ccc;
+}
+.fa-stroopwafel {
+  font-size: 3em;
+}
+.fa-stroopwafel.fas {
+  background-color: tomato;
+}
+.fa-stroopwafel.fab {
+  background-color: gold;
+  color: black;
 }
