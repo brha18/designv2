@@ -1,0 +1,2000 @@
+/*!
+ * Stylesheet for design kmom02.
+ *
+ * This stylesheet is for the design course and kmom02. Its intention is to
+ * use kmom02.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+  * Normalize and reset the style.
+  */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+* Fonts from google
+*/
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Font Awesome.
+ */
+/**
+ * A responsive menu.
+ */
+/**
+ * My own settings, not currently in their own module.
+ */
+/**
+* USA
+*/
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * Fluid and Responsive Vertical Grid
+ */
+/**
+ * Namespace what could be namespaced
+ */
+#desinax-vgrid {
+  /**
+     * Wrap grid in a container.
+     */
+  /**
+     * Show grid.
+     */
+  /**
+     * All columns must be wrapped in a row.
+     */
+  /**
+     * Create a column spanning @col columns.
+     */
+  /**
+     * Push a column @offset columns.
+     */
+  /**
+     * Pull a column left @offset columns.
+     */
+  /**
+     * Pull a column right @offset columns.
+     */
+}
+/**
+ * General layout
+ */
+/*
+ .wrap-all {
+ //  background-color: #ccf;
+ //  max-width: 300rem;
+ //  padding: 10px;
+ //  margin: 0 auto;
+ //  border: none;
+ //  border-width: thick;
+ //  border-style: none;
+
+ //  max-width: 100%;
+ //  padding: 10px;
+ //  margin: 0 auto;
+
+   background-color: #bf7c32;
+   max-width: 100%;
+   padding: 10px;
+   margin: 0 auto;
+   border: red;
+   border-width: thick;
+   border-style: solid;
+ }
+*/
+* {
+  box-sizing: border-box;
+}
+.region {
+  height: 80px;
+  background-color: #ffff33;
+}
+/*
+ .outer-wrap {
+ //    border-style: none;
+
+     border-style: groove;
+     color: #e9d7b3;
+     max-width: 100%;
+ }
+*/
+/*
+ .inner-wrap {
+ //    max-width: 1100px;
+
+     max-width: 100%;
+ //    max-width: 55.5%;
+
+ //    max-width: 70%;
+     margin: 0 auto;
+ }
+*/
+.inner-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+}
+/*
+ .row {
+     background-color: grey;
+ }
+*/
+.row {
+  display: block;
+  width: 101.04166667%;
+  margin-left: -0.52083333%;
+  margin-right: -0.52083333%;
+  background-color: #0f0;
+  margin-bottom: 12px;
+}
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header1,
+header2 {
+  display: inline;
+  float: left;
+  width: 48.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.flash {
+  display: inline;
+  float: left;
+  width: 82.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 8.85416667%;
+}
+/*
+ .outer-wrap-header {
+ //    height: 3.2rem;
+ //    max-width: 100%;
+     background-color: #9f9;
+ //    overflow: hidden; // för att wrappa runt
+
+     height: 65px;
+     max-width: 100%;
+ //    overflow: auto;  of=auto gör att submenyerna inte syns
+ }
+*/
+/*
+ .inner-wrap-header {
+     height: 100%;
+     max-width: 100%;
+ //    overflow: hidden;
+ }
+*/
+.inner-wrap-header,
+.inner-wrap-footer {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+}
+.outer-wrap-flash {
+  max-width: 100%;
+}
+/*
+.inner-wrap-flash {
+//    max-width: 55.5%;
+
+    max-width: 55%;
+    margin: 0 auto;
+}
+*/
+/*
+.img {
+    max-width: 100%;
+}
+*/
+/*
+.site-logo {
+  display: none;
+}
+*/
+/*
+.region-header {
+//    height: 4rem;
+    background-color: gold;
+    height: 100%;
+}
+*/
+/*
+.region-header-col-1 {
+  border-style: none;
+
+//  width: 22.5%;
+  height: inherit;
+
+  display: inline;
+  float: left;
+  width: 23%;
+  background-color: lemonchiffon;
+  border: aliceblue;
+  border-width: thick;
+}
+*/
+/*
+.region-header-col-2 {
+    text-align: center;
+    height: inherit;
+    background-color: blueviolet;
+    display: inline;
+    float: left;
+    width: 53%;
+}
+*/
+/*
+.region-header-col-3 {
+//  width: 22.5%;
+  height: inherit;
+
+  display: inline;
+  float: left;
+  width: 23%;
+  background-color: lemonchiffon;
+  border: aliceblue;
+  border-width: thick;
+}
+*/
+/* Hide submenu, leave this to kmom02 */
+/*
+a.rm-button{
+    color: red;
+    border-style: inset;
+    border-color: red;
+    padding: 0.5em;
+}
+*/
+/*
+.rm-navbar {
+//    border-style: inset;
+    font-size: 1.4em;
+    color: inherit;
+//    display: inline-block;
+    position: relative;
+    height: 100%;
+//    border-color: black;
+//    padding: 0.5em;
+}
+*/
+/*
+.rm-small-wrapper {
+    color: black;
+//    border-color: black;
+//    border-style: inset;
+//    padding: 0.5em;
+}
+*/
+/*
+.rm-max.rm-navbar {
+    top: auto;
+    right: 20px;
+}
+*/
+/*
+.rm-desktop li ul {
+    background-color: #fff;
+}
+
+.rm-default ul li {
+    box-shadow: 0 0 1px rgba(0,0,0,.4);
+}
+*/
+/*
+.wrap-sidebar {
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+.wrap-sidebar.block {
+    margin-bottom: 48px;
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    display: inline;
+    float: left;
+    width: 26%;
+    margin-left: .1%;
+    margin-right: .52083333%;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    display: inline;
+    float: left;
+    width: 20%;
+//        width: 23.95833333%;
+    margin-right: .52083333%;
+    margin-left: .1%;
+}
+
+
+.outer-wrap-main {
+  background-image: url('gardening-tools_960_549_X');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% -20%;
+}
+
+.inner-wrap-main {
+    max-width: 100%;
+    margin: 0.5 auto;
+}
+
+.region-main {
+    display: inline;
+    float: left;
+    //width: auto;
+    width: 100%;
+    margin-top: 0.5em;
+//    margin-left: 2%;
+    overflow-x: auto;
+
+    &.has-sidebar {  //OBS att det är ingen punkt före "has"
+      margin-left: 0;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {  //OBS att det är ingen punkt före "has"
+//      margin-left: 0;
+        display: inline;
+        float: left;
+        //width: auto;
+        width: 54%;
+        margin-top: 0.5em;
+        margin-right: .52083333%;
+        margin-left: .1%;
+    }
+}
+
+.next-previous {
+	margin-top: 1.0em;
+}
+
+
+.region-main.has-sidebar-left,
+.region-main.has-sidebar-right  {
+//    display: inline;
+//    float: left;
+//    width: auto;
+    width: 70%;
+    margin-top: 0.5em;
+    margin-right: .52083333%;
+    margin-left: 1.0%;
+}
+/*
+.region-main.has-sidebar-right {
+//    display: inline;
+//    float: left;
+//    width: auto;
+    width: 70%;
+    margin-top: 0.5em;
+    margin-right: .52083333%;
+    margin-left: 1.0%;
+}
+*/
+/*
+.region-main.has-sidebar-left.has-sidebar-right {
+    display: inline;
+    float: left;
+    //width: auto;
+    width: 54%;
+    margin-top: 0.5em;
+    margin-right: .52083333%;
+    margin-left: .1%;
+}
+*/
+.sidebar-left,
+.sidebar-roght {
+  display: inline;
+  float: left;
+  width: 23.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.main {
+  display: inline;
+  float: left;
+  width: 48.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+/*
+.toc {
+    margin-bottom: 24px;
+}
+
+.article {
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+.author-byline {
+    color: red;
+    float: inherit;
+    background-color: gold;
+    padding: 1em;
+    border: yellow;
+    border-width: thin;
+    border-style: solid;
+}
+*/
+/**
+* Footer Layout
+**/
+/*
+.region-footer {
+//  float: inherit;
+
+    display: inline;
+    background-color: white;
+    color: red;
+//    text-align: center;
+    padding: 2px;
+    float: left;
+    width: 100%;
+}
+
+.footer-column-wrapper {
+    width: 100%;
+}
+*/
+/*.footer {
+    background-color: blue;
+}*/
+.footer {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+/*
+.footer-column-x
+{
+    background-color: beige;
+    border: red;
+    width: 32.5%;
+    border-style: dashed;
+    float: left;
+    text-align: left;
+    padding: 2px;
+}
+
+.footer-column-1
+{
+  border: blue;
+  border-style: outset;
+  float: left;
+}
+
+.footer-column-2
+{
+    width: 32.5%;
+}
+
+.footer-column-3
+{
+  border: black;
+  border-style: inset;
+}
+
+.footer-column-wrapper::after {
+    content:"";display:block;clear:both
+}
+
+.block.site-footer {
+//  max-width: auto;
+//  max-height: 60rem;
+  border-top: solid;
+  border-width: thin;
+  border-color: ;
+
+  text-align: center;
+  max-width: 50em;
+  max-height: 10em;
+  padding: 0.5em;
+  margin: 0.5em auto;
+  background-color: rgb(0, 100, 0);
+}
+
+.route-testa row {
+    background-color: #ccc;
+}
+
+.fa-stroopwafel {
+    font-size: 3em;
+
+    &.fas {
+          background-color: tomato;
+    }
+    &.fab {
+          background-color: gold;
+          color: black;
+    }
+}
+*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 100%;
+}
+body {
+  line-height: 1.4;
+  margin-left: 3em;
+}
+h1 {
+  font-size: 3em;
+  margin-bottom: 24px;
+}
+p {
+  font-size: 1.2em;
+  margin-bottom: 24px;
+}
+@media (min-width: 60em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+.main {
+  width: 60em;
+  margin: 0 auto;
+  background-color: grey;
+  color: blueviolet;
+}
+/**
+ * Import the vertical grid.
+ */
+.gtest {
+  background-color: #e0ff66;
+}
+.vgrid .inner-wrap {
+  background: url("../../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
+  background-size: 100% auto;
+  background-color: gold;
+  color: black;
+}
+@media (min-width: 1100px) {
+  .vgrid .inner-wrap {
+    background-size: 1100px auto;
+  }
+}
+.vgrid .inner-wrap.inner-wrap-header,
+.vgrid .inner-wrap.inner-wrap-footer {
+  background: url("../../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
+  background-size: 100% auto;
+  color: blueviolet;
+}
+@media (min-width: 100%) {
+  .vgrid .inner-wrap.inner-wrap-header,
+  .vgrid .inner-wrap.inner-wrap-footer {
+    background-size: 100% auto;
+  }
+}
+.region {
+  height: 80px;
+  opacity: 0.5;
+}
+.header1,
+.header2 {
+  display: inline;
+  float: left;
+  width: 48.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.flash {
+  display: inline;
+  float: left;
+  width: 82.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 8.85416667%;
+}
+.sidebar-left,
+.sidebar-right {
+  display: inline;
+  float: left;
+  width: 23.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.main {
+  display: inline;
+  float: left;
+  width: 48.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.footer {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.row {
+  display: block;
+  width: 101.04166667%;
+  margin-left: -0.52083333%;
+  margin-right: -0.52083333%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: transparent;
+  margin-bottom: 12px;
+}
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/**
+ * Import the vertical grid.
+ */
+/**
+ * Typographic font families to choose from.
+ */
+/**
+ * Typographic defaults.
+ */
+#desinax-hgrid {
+  /**
+     * Mixins used when setting default fonts
+     */
+  /**
+     * Settings for headings H1-H6
+     */
+  /**
+     * Text elements
+     */
+  /**
+     * Display source code.
+     */
+  /**
+     * Lists
+     */
+  /**
+     * Tables. Because of the need for padding on TH and TD, the vertical rhythm
+     * on table cells has to be 1.5*@magic-number.
+     */
+  /**
+     * More typography elements
+     */
+  /**
+     * Enable all default typographic elements.
+     */
+}
+/*@columnWidth:   30;
+@gutterWidth:   10;
+@columns:       24;
+@gridType:      "float"; // "flex"
+*/
+body {
+  font: 16px/1.5 Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: red;
+}
+h1 h1,
+h2 h1,
+h3 h1,
+h4 h1,
+h5 h1,
+h6 h1,
+p h1,
+code h1,
+table h1,
+h1 h2,
+h2 h2,
+h3 h2,
+h4 h2,
+h5 h2,
+h6 h2,
+p h2,
+code h2,
+table h2,
+h1 h3,
+h2 h3,
+h3 h3,
+h4 h3,
+h5 h3,
+h6 h3,
+p h3,
+code h3,
+table h3,
+h1 h4,
+h2 h4,
+h3 h4,
+h4 h4,
+h5 h4,
+h6 h4,
+p h4,
+code h4,
+table h4,
+h1 h5,
+h2 h5,
+h3 h5,
+h4 h5,
+h5 h5,
+h6 h5,
+p h5,
+code h5,
+table h5,
+h1 h6,
+h2 h6,
+h3 h6,
+h4 h6,
+h5 h6,
+h6 h6,
+p h6,
+code h6,
+table h6 {
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+h1 h1 img,
+h2 h1 img,
+h3 h1 img,
+h4 h1 img,
+h5 h1 img,
+h6 h1 img,
+p h1 img,
+code h1 img,
+table h1 img,
+h1 h2 img,
+h2 h2 img,
+h3 h2 img,
+h4 h2 img,
+h5 h2 img,
+h6 h2 img,
+p h2 img,
+code h2 img,
+table h2 img,
+h1 h3 img,
+h2 h3 img,
+h3 h3 img,
+h4 h3 img,
+h5 h3 img,
+h6 h3 img,
+p h3 img,
+code h3 img,
+table h3 img,
+h1 h4 img,
+h2 h4 img,
+h3 h4 img,
+h4 h4 img,
+h5 h4 img,
+h6 h4 img,
+p h4 img,
+code h4 img,
+table h4 img,
+h1 h5 img,
+h2 h5 img,
+h3 h5 img,
+h4 h5 img,
+h5 h5 img,
+h6 h5 img,
+p h5 img,
+code h5 img,
+table h5 img,
+h1 h6 img,
+h2 h6 img,
+h3 h6 img,
+h4 h6 img,
+h5 h6 img,
+h6 h6 img,
+p h6 img,
+code h6 img,
+table h6 img {
+  margin: 0;
+}
+h1 h1,
+h2 h1,
+h3 h1,
+h4 h1,
+h5 h1,
+h6 h1,
+p h1,
+code h1,
+table h1 {
+  font-size: 2.375em;
+  line-height: 1.26315789;
+  font-weight: normal;
+  border-bottom: 1px solid #666;
+  margin-bottom: 23px;
+}
+h1 h1 ~ h1,
+h2 h1 ~ h1,
+h3 h1 ~ h1,
+h4 h1 ~ h1,
+h5 h1 ~ h1,
+h6 h1 ~ h1,
+p h1 ~ h1,
+code h1 ~ h1,
+table h1 ~ h1,
+h1 h1 ~ h2,
+h2 h1 ~ h2,
+h3 h1 ~ h2,
+h4 h1 ~ h2,
+h5 h1 ~ h2,
+h6 h1 ~ h2,
+p h1 ~ h2,
+code h1 ~ h2,
+table h1 ~ h2,
+h1 h1 ~ h3,
+h2 h1 ~ h3,
+h3 h1 ~ h3,
+h4 h1 ~ h3,
+h5 h1 ~ h3,
+h6 h1 ~ h3,
+p h1 ~ h3,
+code h1 ~ h3,
+table h1 ~ h3,
+h1 h1 ~ h4,
+h2 h1 ~ h4,
+h3 h1 ~ h4,
+h4 h1 ~ h4,
+h5 h1 ~ h4,
+h6 h1 ~ h4,
+p h1 ~ h4,
+code h1 ~ h4,
+table h1 ~ h4,
+h1 h1 ~ h5,
+h2 h1 ~ h5,
+h3 h1 ~ h5,
+h4 h1 ~ h5,
+h5 h1 ~ h5,
+h6 h1 ~ h5,
+p h1 ~ h5,
+code h1 ~ h5,
+table h1 ~ h5,
+h1 h1 ~ h6,
+h2 h1 ~ h6,
+h3 h1 ~ h6,
+h4 h1 ~ h6,
+h5 h1 ~ h6,
+h6 h1 ~ h6,
+p h1 ~ h6,
+code h1 ~ h6,
+table h1 ~ h6 {
+  margin-top: 48px;
+}
+h1 h1 + h2,
+h2 h1 + h2,
+h3 h1 + h2,
+h4 h1 + h2,
+h5 h1 + h2,
+h6 h1 + h2,
+p h1 + h2,
+code h1 + h2,
+table h1 + h2 {
+  margin-top: 24px;
+}
+h1 h2,
+h2 h2,
+h3 h2,
+h4 h2,
+h5 h2,
+h6 h2,
+p h2,
+code h2,
+table h2 {
+  font-size: 1.875em;
+  line-height: 1.6;
+  font-weight: normal;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #CCC;
+}
+h1 h2 + h3,
+h2 h2 + h3,
+h3 h2 + h3,
+h4 h2 + h3,
+h5 h2 + h3,
+h6 h2 + h3,
+p h2 + h3,
+code h2 + h3,
+table h2 + h3 {
+  margin-top: 24px;
+}
+h1 h3,
+h2 h3,
+h3 h3,
+h4 h3,
+h5 h3,
+h6 h3,
+p h3,
+code h3,
+table h3 {
+  font-size: 1.75em;
+  line-height: 1.71428571;
+  font-weight: normal;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
+}
+h1 h3 + h4,
+h2 h3 + h4,
+h3 h3 + h4,
+h4 h3 + h4,
+h5 h3 + h4,
+h6 h3 + h4,
+p h3 + h4,
+code h3 + h4,
+table h3 + h4 {
+  margin-top: 24px;
+}
+h1 h4,
+h2 h4,
+h3 h4,
+h4 h4,
+h5 h4,
+h6 h4,
+p h4,
+code h4,
+table h4 {
+  font-size: 1.5em;
+  line-height: 1;
+  font-weight: normal;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
+}
+h1 h4 + h5,
+h2 h4 + h5,
+h3 h4 + h5,
+h4 h4 + h5,
+h5 h4 + h5,
+h6 h4 + h5,
+p h4 + h5,
+code h4 + h5,
+table h4 + h5 {
+  margin-top: 24px;
+}
+h1 h5,
+h2 h5,
+h3 h5,
+h4 h5,
+h5 h5,
+h6 h5,
+p h5,
+code h5,
+table h5 {
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
+}
+h1 h5 + h6,
+h2 h5 + h6,
+h3 h5 + h6,
+h4 h5 + h6,
+h5 h5 + h6,
+h6 h5 + h6,
+p h5 + h6,
+code h5 + h6,
+table h5 + h6 {
+  margin-top: 24px;
+}
+h1 h6,
+h2 h6,
+h3 h6,
+h4 h6,
+h5 h6,
+h6 h6,
+p h6,
+code h6,
+table h6 {
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
+}
+h1 p,
+h2 p,
+h3 p,
+h4 p,
+h5 p,
+h6 p,
+p p,
+code p,
+table p {
+  margin-bottom: 24px;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+p small,
+code small,
+table small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+p .small,
+code .small,
+table .small,
+h1 .smaller,
+h2 .smaller,
+h3 .smaller,
+h4 .smaller,
+h5 .smaller,
+h6 .smaller,
+p .smaller,
+code .smaller,
+table .smaller {
+  font-size: 0.875em;
+}
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong,
+p strong,
+code strong,
+table strong,
+h1 b,
+h2 b,
+h3 b,
+h4 b,
+h5 b,
+h6 b,
+p b,
+code b,
+table b {
+  font-weight: bold;
+}
+h1 mark,
+h2 mark,
+h3 mark,
+h4 mark,
+h5 mark,
+h6 mark,
+p mark,
+code mark,
+table mark {
+  color: #000;
+  background-color: #ff9;
+}
+h1 abbr[title],
+h2 abbr[title],
+h3 abbr[title],
+h4 abbr[title],
+h5 abbr[title],
+h6 abbr[title],
+p abbr[title],
+code abbr[title],
+table abbr[title],
+h1 dfn[title],
+h2 dfn[title],
+h3 dfn[title],
+h4 dfn[title],
+h5 dfn[title],
+h6 dfn[title],
+p dfn[title],
+code dfn[title],
+table dfn[title] {
+  text-decoration: dotted underline;
+}
+h1 em,
+h2 em,
+h3 em,
+h4 em,
+h5 em,
+h6 em,
+p em,
+code em,
+table em,
+h1 i,
+h2 i,
+h3 i,
+h4 i,
+h5 i,
+h6 i,
+p i,
+code i,
+table i,
+h1 dfn,
+h2 dfn,
+h3 dfn,
+h4 dfn,
+h5 dfn,
+h6 dfn,
+p dfn,
+code dfn,
+table dfn {
+  font-style: italic;
+}
+h1 sub,
+h2 sub,
+h3 sub,
+h4 sub,
+h5 sub,
+h6 sub,
+p sub,
+code sub,
+table sub,
+h1 sup,
+h2 sup,
+h3 sup,
+h4 sup,
+h5 sup,
+h6 sup,
+p sup,
+code sup,
+table sup {
+  font-size: 0.75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+h1 sup,
+h2 sup,
+h3 sup,
+h4 sup,
+h5 sup,
+h6 sup,
+p sup,
+code sup,
+table sup {
+  top: -0.5em;
+}
+h1 sub,
+h2 sub,
+h3 sub,
+h4 sub,
+h5 sub,
+h6 sub,
+p sub,
+code sub,
+table sub {
+  bottom: -0.25em;
+}
+h1 blockquote,
+h2 blockquote,
+h3 blockquote,
+h4 blockquote,
+h5 blockquote,
+h6 blockquote,
+p blockquote,
+code blockquote,
+table blockquote {
+  border-left: 4px solid #eee;
+  padding-left: 1em;
+  margin-left: 0;
+  margin-bottom: 24px;
+}
+h1 pre,
+h2 pre,
+h3 pre,
+h4 pre,
+h5 pre,
+h6 pre,
+p pre,
+code pre,
+table pre,
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code,
+p code,
+code code,
+table code,
+h1 kbd,
+h2 kbd,
+h3 kbd,
+h4 kbd,
+h5 kbd,
+h6 kbd,
+p kbd,
+code kbd,
+table kbd,
+h1 samp,
+h2 samp,
+h3 samp,
+h4 samp,
+h5 samp,
+h6 samp,
+p samp,
+code samp,
+table samp,
+h1 .code,
+h2 .code,
+h3 .code,
+h4 .code,
+h5 .code,
+h6 .code,
+p .code,
+code .code,
+table .code {
+  font-family: "Courier New", Courier, monospace;
+}
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code,
+p code,
+code code,
+table code,
+h1 samp,
+h2 samp,
+h3 samp,
+h4 samp,
+h5 samp,
+h6 samp,
+p samp,
+code samp,
+table samp {
+  border: 1px solid #ccc;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code,
+p code,
+code code,
+table code {
+  background-color: #eee;
+}
+h1 pre,
+h2 pre,
+h3 pre,
+h4 pre,
+h5 pre,
+h6 pre,
+p pre,
+code pre,
+table pre,
+h1 div.code,
+h2 div.code,
+h3 div.code,
+h4 div.code,
+h5 div.code,
+h6 div.code,
+p div.code,
+code div.code,
+table div.code,
+h1 pre code,
+h2 pre code,
+h3 pre code,
+h4 pre code,
+h5 pre code,
+h6 pre code,
+p pre code,
+code pre code,
+table pre code {
+  font-size: 1em;
+  line-height: 1.5;
+  white-space: pre;
+}
+h1 pre,
+h2 pre,
+h3 pre,
+h4 pre,
+h5 pre,
+h6 pre,
+p pre,
+code pre,
+table pre {
+  margin-bottom: 24px;
+}
+h1 pre code,
+h2 pre code,
+h3 pre code,
+h4 pre code,
+h5 pre code,
+h6 pre code,
+p pre code,
+code pre code,
+table pre code {
+  display: block;
+  overflow: auto;
+}
+h1 div.code,
+h2 div.code,
+h3 div.code,
+h4 div.code,
+h5 div.code,
+h6 div.code,
+p div.code,
+code div.code,
+table div.code,
+h1 pre code,
+h2 pre code,
+h3 pre code,
+h4 pre code,
+h5 pre code,
+h6 pre code,
+p pre code,
+code pre code,
+table pre code {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 23px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 0.5em;
+  background-color: #eee;
+}
+h1 ul,
+h2 ul,
+h3 ul,
+h4 ul,
+h5 ul,
+h6 ul,
+p ul,
+code ul,
+table ul,
+h1 ol,
+h2 ol,
+h3 ol,
+h4 ol,
+h5 ol,
+h6 ol,
+p ol,
+code ol,
+table ol {
+  margin-bottom: 24px;
+  padding-left: 1.5em;
+}
+h1 ul p,
+h2 ul p,
+h3 ul p,
+h4 ul p,
+h5 ul p,
+h6 ul p,
+p ul p,
+code ul p,
+table ul p,
+h1 ol p,
+h2 ol p,
+h3 ol p,
+h4 ol p,
+h5 ol p,
+h6 ol p,
+p ol p,
+code ol p,
+table ol p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+h1 ul ul,
+h2 ul ul,
+h3 ul ul,
+h4 ul ul,
+h5 ul ul,
+h6 ul ul,
+p ul ul,
+code ul ul,
+table ul ul,
+h1 ol ul,
+h2 ol ul,
+h3 ol ul,
+h4 ol ul,
+h5 ol ul,
+h6 ol ul,
+p ol ul,
+code ol ul,
+table ol ul,
+h1 ul ol,
+h2 ul ol,
+h3 ul ol,
+h4 ul ol,
+h5 ul ol,
+h6 ul ol,
+p ul ol,
+code ul ol,
+table ul ol,
+h1 ol ol,
+h2 ol ol,
+h3 ol ol,
+h4 ol ol,
+h5 ol ol,
+h6 ol ol,
+p ol ol,
+code ol ol,
+table ol ol {
+  margin: 0;
+}
+h1 ul,
+h2 ul,
+h3 ul,
+h4 ul,
+h5 ul,
+h6 ul,
+p ul,
+code ul,
+table ul {
+  list-style-type: disc;
+}
+h1 ol,
+h2 ol,
+h3 ol,
+h4 ol,
+h5 ol,
+h6 ol,
+p ol,
+code ol,
+table ol {
+  list-style-type: decimal;
+}
+h1 dl,
+h2 dl,
+h3 dl,
+h4 dl,
+h5 dl,
+h6 dl,
+p dl,
+code dl,
+table dl {
+  margin-bottom: 24px;
+}
+h1 dl.horizontal dt,
+h2 dl.horizontal dt,
+h3 dl.horizontal dt,
+h4 dl.horizontal dt,
+h5 dl.horizontal dt,
+h6 dl.horizontal dt,
+p dl.horizontal dt,
+code dl.horizontal dt,
+table dl.horizontal dt {
+  clear: left;
+  float: left;
+  width: 7em;
+}
+h1 dl.horizontal dd,
+h2 dl.horizontal dd,
+h3 dl.horizontal dd,
+h4 dl.horizontal dd,
+h5 dl.horizontal dd,
+h6 dl.horizontal dd,
+p dl.horizontal dd,
+code dl.horizontal dd,
+table dl.horizontal dd {
+  margin-left: 8em;
+  display: block;
+}
+h1 dd,
+h2 dd,
+h3 dd,
+h4 dd,
+h5 dd,
+h6 dd,
+p dd,
+code dd,
+table dd {
+  margin-left: 1.5em;
+}
+h1 article table,
+h2 article table,
+h3 article table,
+h4 article table,
+h5 article table,
+h6 article table,
+p article table,
+code article table,
+table article table,
+h1 .table,
+h2 .table,
+h3 .table,
+h4 .table,
+h5 .table,
+h6 .table,
+p .table,
+code .table,
+table .table,
+h1 .table1,
+h2 .table1,
+h3 .table1,
+h4 .table1,
+h5 .table1,
+h6 .table1,
+p .table1,
+code .table1,
+table .table1,
+h1 .table2,
+h2 .table2,
+h3 .table2,
+h4 .table2,
+h5 .table2,
+h6 .table2,
+p .table2,
+code .table2,
+table .table2 {
+  margin-bottom: 24px;
+}
+h1 table.full-width,
+h2 table.full-width,
+h3 table.full-width,
+h4 table.full-width,
+h5 table.full-width,
+h6 table.full-width,
+p table.full-width,
+code table.full-width,
+table table.full-width,
+h1 article .table,
+h2 article .table,
+h3 article .table,
+h4 article .table,
+h5 article .table,
+h6 article .table,
+p article .table,
+code article .table,
+table article .table,
+h1 .table,
+h2 .table,
+h3 .table,
+h4 .table,
+h5 .table,
+h6 .table,
+p .table,
+code .table,
+table .table,
+h1 .table2,
+h2 .table2,
+h3 .table2,
+h4 .table2,
+h5 .table2,
+h6 .table2,
+p .table2,
+code .table2,
+table .table2 {
+  width: 100%;
+}
+h1 article table,
+h2 article table,
+h3 article table,
+h4 article table,
+h5 article table,
+h6 article table,
+p article table,
+code article table,
+table article table,
+h1 .table,
+h2 .table,
+h3 .table,
+h4 .table,
+h5 .table,
+h6 .table,
+p .table,
+code .table,
+table .table,
+h1 .table2,
+h2 .table2,
+h3 .table2,
+h4 .table2,
+h5 .table2,
+h6 .table2,
+p .table2,
+code .table2,
+table .table2 {
+  border-collapse: collapse;
+  /*
+            tfoot {
+            }
+            */
+}
+h1 article table caption,
+h2 article table caption,
+h3 article table caption,
+h4 article table caption,
+h5 article table caption,
+h6 article table caption,
+p article table caption,
+code article table caption,
+table article table caption,
+h1 .table caption,
+h2 .table caption,
+h3 .table caption,
+h4 .table caption,
+h5 .table caption,
+h6 .table caption,
+p .table caption,
+code .table caption,
+table .table caption,
+h1 .table2 caption,
+h2 .table2 caption,
+h3 .table2 caption,
+h4 .table2 caption,
+h5 .table2 caption,
+h6 .table2 caption,
+p .table2 caption,
+code .table2 caption,
+table .table2 caption {
+  font-size: 0.875em;
+  line-height: 1.71428571;
+  text-align: left;
+  font-style: italic;
+}
+h1 article table thead,
+h2 article table thead,
+h3 article table thead,
+h4 article table thead,
+h5 article table thead,
+h6 article table thead,
+p article table thead,
+code article table thead,
+table article table thead,
+h1 .table thead,
+h2 .table thead,
+h3 .table thead,
+h4 .table thead,
+h5 .table thead,
+h6 .table thead,
+p .table thead,
+code .table thead,
+table .table thead,
+h1 .table2 thead,
+h2 .table2 thead,
+h3 .table2 thead,
+h4 .table2 thead,
+h5 .table2 thead,
+h6 .table2 thead,
+p .table2 thead,
+code .table2 thead,
+table .table2 thead {
+  box-shadow: 0 1px 0 #aaa;
+}
+h1 article table th,
+h2 article table th,
+h3 article table th,
+h4 article table th,
+h5 article table th,
+h6 article table th,
+p article table th,
+code article table th,
+table article table th,
+h1 .table th,
+h2 .table th,
+h3 .table th,
+h4 .table th,
+h5 .table th,
+h6 .table th,
+p .table th,
+code .table th,
+table .table th,
+h1 .table2 th,
+h2 .table2 th,
+h3 .table2 th,
+h4 .table2 th,
+h5 .table2 th,
+h6 .table2 th,
+p .table2 th,
+code .table2 th,
+table .table2 th {
+  vertical-align: bottom;
+  font-weight: bold;
+  text-align: left;
+}
+h1 article table th,
+h2 article table th,
+h3 article table th,
+h4 article table th,
+h5 article table th,
+h6 article table th,
+p article table th,
+code article table th,
+table article table th,
+h1 .table th,
+h2 .table th,
+h3 .table th,
+h4 .table th,
+h5 .table th,
+h6 .table th,
+p .table th,
+code .table th,
+table .table th,
+h1 .table2 th,
+h2 .table2 th,
+h3 .table2 th,
+h4 .table2 th,
+h5 .table2 th,
+h6 .table2 th,
+p .table2 th,
+code .table2 th,
+table .table2 th,
+h1 article table td,
+h2 article table td,
+h3 article table td,
+h4 article table td,
+h5 article table td,
+h6 article table td,
+p article table td,
+code article table td,
+table article table td,
+h1 .table td,
+h2 .table td,
+h3 .table td,
+h4 .table td,
+h5 .table td,
+h6 .table td,
+p .table td,
+code .table td,
+table .table td,
+h1 .table2 td,
+h2 .table2 td,
+h3 .table2 td,
+h4 .table2 td,
+h5 .table2 td,
+h6 .table2 td,
+p .table2 td,
+code .table2 td,
+table .table2 td {
+  padding: 6px;
+}
+h1 article table tr,
+h2 article table tr,
+h3 article table tr,
+h4 article table tr,
+h5 article table tr,
+h6 article table tr,
+p article table tr,
+code article table tr,
+table article table tr,
+h1 .table tr,
+h2 .table tr,
+h3 .table tr,
+h4 .table tr,
+h5 .table tr,
+h6 .table tr,
+p .table tr,
+code .table tr,
+table .table tr,
+h1 .table2 tr,
+h2 .table2 tr,
+h3 .table2 tr,
+h4 .table2 tr,
+h5 .table2 tr,
+h6 .table2 tr,
+p .table2 tr,
+code .table2 tr,
+table .table2 tr {
+  box-shadow: 0 1px 0 #ccc;
+}
+h1 article table tr:hover,
+h2 article table tr:hover,
+h3 article table tr:hover,
+h4 article table tr:hover,
+h5 article table tr:hover,
+h6 article table tr:hover,
+p article table tr:hover,
+code article table tr:hover,
+table article table tr:hover,
+h1 .table tr:hover,
+h2 .table tr:hover,
+h3 .table tr:hover,
+h4 .table tr:hover,
+h5 .table tr:hover,
+h6 .table tr:hover,
+p .table tr:hover,
+code .table tr:hover,
+table .table tr:hover,
+h1 .table2 tr:hover,
+h2 .table2 tr:hover,
+h3 .table2 tr:hover,
+h4 .table2 tr:hover,
+h5 .table2 tr:hover,
+h6 .table2 tr:hover,
+p .table2 tr:hover,
+code .table2 tr:hover,
+table .table2 tr:hover {
+  color: #000;
+  background-color: #f6f6f6;
+  box-shadow: 0 1px 0 #666;
+}
+h1 table.striped tbody tr:nth-child(even) td,
+h2 table.striped tbody tr:nth-child(even) td,
+h3 table.striped tbody tr:nth-child(even) td,
+h4 table.striped tbody tr:nth-child(even) td,
+h5 table.striped tbody tr:nth-child(even) td,
+h6 table.striped tbody tr:nth-child(even) td,
+p table.striped tbody tr:nth-child(even) td,
+code table.striped tbody tr:nth-child(even) td,
+table table.striped tbody tr:nth-child(even) td,
+h1 table.striped tbody tr.even td,
+h2 table.striped tbody tr.even td,
+h3 table.striped tbody tr.even td,
+h4 table.striped tbody tr.even td,
+h5 table.striped tbody tr.even td,
+h6 table.striped tbody tr.even td,
+p table.striped tbody tr.even td,
+code table.striped tbody tr.even td,
+table table.striped tbody tr.even td {
+  background-color: #fafafa;
+}
+h1 hr,
+h2 hr,
+h3 hr,
+h4 hr,
+h5 hr,
+h6 hr,
+p hr,
+code hr,
+table hr {
+  position: relative;
+  top: -2px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin-top: 35px;
+  margin-bottom: 36px;
+}
+h1 hr::after,
+h2 hr::after,
+h3 hr::after,
+h4 hr::after,
+h5 hr::after,
+h6 hr::after,
+p hr::after,
+code hr::after,
+table hr::after {
+  content: "§";
+  position: relative;
+  top: -0.7em;
+  left: 50%;
+  padding: 0 0.25em;
+  background-color: #fff;
+}
+.hgrip .wrap {
+  background-image: url("../../img/magic-numbert-24px.png");
+}
+/*.gtest {
+    background-color: lighten(#cf0, 20%);
+}*/
+/*
+.region {
+    height: 80px;
+
+}
+
+.row {
+    #desinax-vgrid.row();
+    background-color: #0f0;
+    margin-bottom: 12px;
+}
+
+.header1,
+.header2 {
+    #desinax-vgrid.column(@columns / 2);
+}
+
+.flash {
+    #desinax-vgrid.column(@columns - 4);
+    #desinax-vgrid.push(2);
+}
+
+.sidebar-left,
+.sidebar-right {
+    #desinax-vgrid.column(@columns / 4);
+}
+
+.main {
+    #desinax-vgrid.column(@columns / 2);
+}
+
+.footer {
+    #desinax-vgrid.column(@columns);
+}
+*/
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 700px) {
+  .flash {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .sidebar-left,
+  .sidebar-right {
+    display: inline;
+    float: left;
+    width: 48.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .main {
+    display: inline;
+    float: left;
+    width: 48.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sidebar-left,
+  .sidebar-right,
+  .main {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+/*  .rm-navbar-max {
+      display: none;
+  }
+}
+*/
+/**
+* navbar
+*/
+@media screen and (max-width: 960px) {
+  .rm-desktop a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  .wrap-all {
+    background-color: #0a0a9b;
+  }
+  .my-navbar {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .wrap-all {
+    background-color: #141e87;
+  }
+  .my-navbar {
+    font-size: 0.6em;
+  }
+  .region-header-col-1,
+  .region-header-col-3 {
+    width: 15%;
+  }
+  .region-header-col-2 {
+    width: 70%;
+    background-color: hsla(50, 33%, 25%, 0.75);
+  }
+  .region-flash {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .rm-desktop {
+    display: none;
+  }
+}

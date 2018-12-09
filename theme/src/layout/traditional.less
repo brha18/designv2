@@ -1,0 +1,32 @@
+// @import "modules/simple-normalize.less";
+@import "layout/simple-normalize.less";
+@import "layout/base.less";
+@import "layout/container.less";
+
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,700');
+
+// @import url('https://rsms.me/inter/inter-ui.css');
+//font-family: 'Inter UI', sans-serif;
+// Google fonts
+
+/**
+* Typsnittet är väldigt viktigt för känslan
+*/
+
+body {
+    font-family: 'EB garamond', serif;
+    font-weight: 400; // default-värde
+    color: #333;  // mörkgrå för att det inte ska vara så skarp kontrast
+}
+
+h1 {
+    font-weight: 700;
+//    word-spacing: 2em; // ger väldigt stort avstånd
+    word-spacing: normal;
+//  animation: word-spacing 1s ease-out;  //css animations eller using animation ccs3 animation
+}
+
+h1:hover {
+    transition: word-spacing 0.5s ease-out;
+    word-spacing: 0.6em;
+}

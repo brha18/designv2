@@ -1,0 +1,80 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 700px) {
+    .flash {
+        #desinax-vgrid.column(@columns);
+    }
+    .sidebar-left,
+    .sidebar-right {
+        #desinax-vgrid.column(@columns / 2);
+    }
+    .main {
+        #desinax-vgrid.column(@columns / 2);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar-left,
+    .sidebar-right,
+    .main {
+        #desinax-vgrid.column(@columns);
+    }}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+/*  .rm-navbar-max {
+      display: none;
+  }
+}
+*/
+/**
+* navbar
+*/
+@media screen and (max-width: 960px) {
+    .rm-desktop a {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+//        font-size: 1.2em;
+    }
+    .wrap-all {
+          background-color: rgb(10, 10, 155);
+    }
+    .my-navbar {
+        font-size: 0.8em;
+//      padding: 0.0em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrap-all {
+        background-color: rgb(20, 30, 135);
+  }
+    .my-navbar {
+        font-size: 0.6em;
+//      padding: 0.0em;
+  }
+    .region-header-col-1,
+    .region-header-col-3 {
+        width: 15%;
+//        font-size: 1.0em;
+//        padding: 0.1em;
+    }
+    .region-header-col-2 {
+        width: 70%;
+        background-color: hsla(50, 33%, 25%, 0.75);
+//        padding: 0.1em;
+    }
+    a.rm-button {
+//      padding: 0.1em;
+    }
+    .region-flash {
+      width: 100%;
+      height: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .rm-desktop { // stäng av den menyen vid max-width ovan
+        display: none;
+    }
+}

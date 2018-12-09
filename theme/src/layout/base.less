@@ -1,0 +1,33 @@
+@baseFontSize: 1.2em;
+@baseLineHeight: 1.4;
+@magicNumber: @baseFontSize * @baseLineHeight;
+
+html {
+    font-size: 100%
+}
+
+body {
+//    line-height: 1.4; // bör vara mellan 1,2 och 1,
+    line-height: @baseLineHeight;
+    margin-left: 3em;
+}
+
+h1 {
+    font-size: 3em;
+//    margin-bottom: 2.8em; // grundtypsnittet lineheight 1.4em * fontsize 1em * 2
+    margin-bottom: @magicNumber;
+}
+
+p {
+//    font-size: 1em;
+    font-size: @baseFontSize;
+//    margin-bottom: 1.4em;  // lineheight 1.4em * fontsize 1em . Variant av magic number
+    margin-bottom: @magicNumber;
+}
+
+@media (min-width: 60em) { // samma som ...
+  html {
+      font-size: 112.5%;
+  }
+}
+// http://typographyhandbook.com/ "Relative Units - Grundstil"

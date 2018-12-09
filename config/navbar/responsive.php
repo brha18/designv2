@@ -65,8 +65,18 @@ return [
                         "url" => "testa/testa_ikon_kol",
                         "title" => "Test ikon kolumner.",
                     ],
-                ],
+                    [
+                        "text" => "USAs deklaration",
+                        "url" => "testa/USA",
+                        "title" => "USAs deklaration.",
+                      ],
+                  ],
               ],
           ],
-    ],
-];
+          [
+              "text" => "Test av grid",
+              "url" => "gridtest/gridtest",
+              "title" => "Test av grid.",
+          ],
+      ],
+  ];
