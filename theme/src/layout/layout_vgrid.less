@@ -14,10 +14,11 @@
 }
 
 .vgrid .inner-wrap {
-    @gridImage: "./../../img/grid_24x30x10-nomargin.png";
-    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../img/grid_12x60x20-nomargin.png";
     #desinax-vgrid.showGrid(@gridImage, 1100px);
-    background-color: gold;
+
+    //background-color: gold;
     color: black;
 
     &.inner-wrap-header,
@@ -55,7 +56,9 @@
     #desinax-vgrid.column(@columns);
 }
 
-
+.footer-column {
+    #desinax-vgrid.column(@columns / 2);
+}
 .row {
     #desinax-vgrid.row();
     padding-top: 8px;

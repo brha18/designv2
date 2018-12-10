@@ -28,11 +28,11 @@ views:
                 route: block/om-tradgard
 
 ---
-Om detta kursmoment, 02, i designkursen
+Om detta kursmoment, 03, i designkursen
 =========================
 
 Detta innehåll är skrivet i markdown och innehållet finns i filen `content/om.md`.
 
-#### Krav i kmom02 (.jpg)####
+#### Krav i kmom03 (.jpg)  BILDEN ska uppdateras####
 
 [FIGURE src="image/Krav02Jpg.jpg?w=100%" class="left" alt="Uppfyllda krav i kmom01 (jpg)"]

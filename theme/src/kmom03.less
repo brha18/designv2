@@ -25,9 +25,29 @@
  * Base style to affect HTML elements on a general scale.
  */
 //@import "base/base_default.less";
-//                        @import "base/base.less";
+@import "base/base.less";
 
+/**
+ * Import the vertical grid.
+ */
+@import "/@desinax/vertical-grid/less/grid.less";
+//@import "layout/layout_kmom03.less";
 
+// Default grid, change to fit your requirements.
+@columnWidth:   30;
+@gutterWidth:   10;
+@columns:       24;
+@gridType:      "float"; // "flex"
+
+/*.row { // se layout_vgrid.less
+    #desinax-vgrid.row();
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+//    background-color: #0f0;
+    background-color: transparent;
+    margin-bottom: 12px;
+}*/
 
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -36,7 +56,7 @@
 //@import "layout/layout_default.less";
 //@import "layout/responsive_default.less";
 
-//                             @import "layout/regions.less";     // To add style for ?regions
+@import "layout/regions.less";     // To add style for ?regions
 
 //@import "layout/responsive.less";
 
@@ -50,8 +70,8 @@
 /**
  * A responsive menu.
  */
-//                        @import "@desinax/responsive-menu/less/responsive-menu.less";
-//@import "@desinax/responsive-menu/less/media-queries.less";
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
 
 /**
  * My own settings, not currently in their own module.
@@ -66,8 +86,9 @@
 //@import "layout/simple-normalize.less";
 //@import "layout/base.less";
 //@import "layout/container.less";
-@import "layout/layout_kmom03.less";
+//@import "layout/layout_kmom03.less";
+//@import "layout/layout.less";
 @import "layout/USA_layout_vgrid.less";
-@import "layout/layout_vgrid.less";
+@import "layout/layout_kmom03.less";
 @import "layout/layout_hgrid.less";
 @import "layout/responsive_kmom03.less";
