@@ -3,17 +3,24 @@
 @magicNumber: @baseFontSize * @baseLineHeight;
 
 html {
-    font-size: 100%
+    font-size: 100%;
 }
 
 body {
 //    line-height: 1.4; // bör vara mellan 1,2 och 1,
     line-height: @baseLineHeight;
-    margin-left: 3em;
+//    margin-left: 3em;
+// Activera "grid base font"
+    #desinax-hgrid.font(@fontSizeBody);
+
+    color: red;
 }
 
+// Aktivera grid på alla typografiska elements
+#desinax-hgrid.activateDefaultTypography();
+
 h1 {
-    font-size: 3em;
+//    font-size: 3em;
 //    margin-bottom: 2.8em; // grundtypsnittet lineheight 1.4em * fontsize 1em * 2
     margin-bottom: @magicNumber;
 }

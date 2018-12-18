@@ -1,38 +1,67 @@
+@baseFontSize: 1.2em;
+@baseLineHeight: 1.4;
+@magicNumber: @baseFontSize * @baseLineHeight;
+
 /**
- * Base style to affect HTML elements on a general scale.
+ * Import the typographic grid.
  */
-@bgColorHtml: #424242;
-@bgColorBody: #fff;
-@colorBody: #333;
-@fontFamilyBody: serif;
+@import "/@desinax/typographic-grid/less/typography-font-families.less";
+@import "/@desinax/typographic-grid/less/typography-defaults.less";
+
+/**
+ * Import the vertical grid.
+ */
+@import "/@desinax/vertical-grid/less/grid.less";
 
 html {
-    overflow-y: scroll;
-//    background-color: @bgColorHtml;
-    background-color: rgb(5 150 3);
+    font-size: 100%;
 }
 
 body {
-    margin: 0;
-//    padding: 0;
-//    background-color: @bgColorBody;
-    font: 100.01%/1 @fontFamilyBody;
-    background-color: rgba(109, 197, 119, 1);
-    color: #e9d7b3;
+//    line-height: 1.4; // bör vara mellan 1,2 och 1,
+    line-height: @baseLineHeight;
+//    margin-left: 3em;
+// Activera "grid base font"
+    #desinax-hgrid.font(@fontSizeBody);
+
+//    color: red;
+//    margin: 0;
+    //    padding: 0;
+    //    background-color: @bgColorBody;
+//    font: 100.01%/1 @fontFamilyBody;
+//    background-color: #9da;
+    background-color: #dcf8de;
+//    color: #e9d7b3;  134705
+    color: #071b02;
 }
 
+// Aktivera grid på alla typografiska elements
+#desinax-hgrid.activateDefaultTypography();
 
-article {
-    padding: 5px;
-    background-color: cornflowerblue;
+h1 {
+//    font-size: 3em;
+//    margin-bottom: 2.8em; // grundtypsnittet lineheight 1.4em * fontsize 1em * 2
+    margin-bottom: @magicNumber;
 }
-/*
-.flash {
-    max-width: 90%;
-    display: inline;
-    float: left;
+
+p {
+//    font-size: 1em;
+    font-size: @baseFontSize;
+//    margin-bottom: 1.4em;  // lineheight 1.4em * fontsize 1em . Variant av magic number
+    margin-bottom: @magicNumber;
 }
-*/
-.img {
-      max-width: 100%;
+
+.p2 {
+//    font-size: 1em;
+    font-size: @baseFontSize;
+    font-style: @fontFamilyCode;
+//    margin-bottom: 1.4em;  // lineheight 1.4em * fontsize 1em . Variant av magic number
+    margin-bottom: @magicNumber;
 }
+
+@media (min-width: 60em) { // samma som ...
+  html {
+      font-size: 112.5%;
+  }
+}
+// http://typographyhandbook.com/ "Relative Units - Grundstil"

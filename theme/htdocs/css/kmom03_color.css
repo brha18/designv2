@@ -331,82 +331,13 @@ template {
 /**
  * Base style to affect HTML elements on a general scale.
  */
-/**
- * Import the typographic grid.
- */
-/**
- * Typographic font families to choose from.
- */
-/**
- * Typographic defaults.
- */
-#desinax-hgrid {
-  /**
-     * Mixins used when setting default fonts
-     */
-  /**
-     * Settings for headings H1-H6
-     */
-  /**
-     * Text elements
-     */
-  /**
-     * Display source code.
-     */
-  /**
-     * Lists
-     */
-  /**
-     * Tables. Because of the need for padding on TH and TD, the vertical rhythm
-     * on table cells has to be 1.5*@magic-number.
-     */
-  /**
-     * More typography elements
-     */
-  /**
-     * Enable all default typographic elements.
-     */
-}
-/**
- * Import the vertical grid.
- */
-/**
- * Fluid and Responsive Vertical Grid
- */
-/**
- * Namespace what could be namespaced
- */
-#desinax-vgrid {
-  /**
-     * Wrap grid in a container.
-     */
-  /**
-     * Show grid.
-     */
-  /**
-     * All columns must be wrapped in a row.
-     */
-  /**
-     * Create a column spanning @col columns.
-     */
-  /**
-     * Push a column @offset columns.
-     */
-  /**
-     * Pull a column left @offset columns.
-     */
-  /**
-     * Pull a column right @offset columns.
-     */
-}
 html {
   font-size: 100%;
 }
 body {
   line-height: 1.4;
   font: 16px/1.375 Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #dcf8de;
-  color: #071b02;
+  color: red;
 }
 h1,
 h2,
@@ -697,11 +628,6 @@ h1 {
 }
 p {
   font-size: 1.2em;
-  margin-bottom: 22px;
-}
-.p2 {
-  font-size: 1.2em;
-  font-style: "Courier New", Courier, monospace;
   margin-bottom: 22px;
 }
 @media (min-width: 60em) {
@@ -5013,15 +4939,20 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 * USA
 */
 /**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
+ * Import the typographic grid.
  */
 /**
-  * Import the typographic grid.
-  */
-/**
-  * Import the vertical grid.
-  */
+ * Import the vertical grid.
+ */
+html {
+  font-size: 100%;
+}
+body {
+  line-height: 1.4;
+  font: 16px/1.375 Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #dcf8de;
+  color: #071b02;
+}
 h1,
 h2,
 h3,
@@ -5306,9 +5237,99 @@ hr::after {
   padding: 0 0.25em;
   background-color: #fff;
 }
+h1 {
+  margin-bottom: 22px;
+}
+p {
+  font-size: 1.2em;
+  margin-bottom: 22px;
+}
+.p2 {
+  font-size: 1.2em;
+  font-style: "Courier New", Courier, monospace;
+  margin-bottom: 22px;
+}
+@media (min-width: 60em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+  * Import the typographic grid.
+  */
+/**
+ * Typographic font families to choose from.
+ */
+/**
+ * Typographic defaults.
+ */
+#desinax-hgrid {
+  /**
+     * Mixins used when setting default fonts
+     */
+  /**
+     * Settings for headings H1-H6
+     */
+  /**
+     * Text elements
+     */
+  /**
+     * Display source code.
+     */
+  /**
+     * Lists
+     */
+  /**
+     * Tables. Because of the need for padding on TH and TD, the vertical rhythm
+     * on table cells has to be 1.5*@magic-number.
+     */
+  /**
+     * More typography elements
+     */
+  /**
+     * Enable all default typographic elements.
+     */
+}
+/**
+  * Import the vertical grid.
+  */
+/**
+ * Fluid and Responsive Vertical Grid
+ */
+/**
+ * Namespace what could be namespaced
+ */
+#desinax-vgrid {
+  /**
+     * Wrap grid in a container.
+     */
+  /**
+     * Show grid.
+     */
+  /**
+     * All columns must be wrapped in a row.
+     */
+  /**
+     * Create a column spanning @col columns.
+     */
+  /**
+     * Push a column @offset columns.
+     */
+  /**
+     * Pull a column left @offset columns.
+     */
+  /**
+     * Pull a column right @offset columns.
+     */
+}
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
   background-size: 100% auto;
+  color: black;
 }
 @media (min-width: 1100px) {
   .vgrid .inner-wrap {
@@ -5319,6 +5340,7 @@ hr::after {
 .vgrid .inner-wrap.inner-wrap-footer {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
   background-size: 100% auto;
+  color: blueviolet;
 }
 @media (min-width: 100%) {
   .vgrid .inner-wrap.inner-wrap-header,
@@ -5329,15 +5351,22 @@ hr::after {
 /**
  * General layout
  */
+.wrap-all {
+  background-color: #bf7c32;
+  border: red;
+  border-width: thick;
+  border-style: solid;
+}
 * {
   box-sizing: border-box;
 }
 .region {
+  background-color: #ffff33;
   margin-bottom: 22px;
 }
 .outer-wrap {
-  border-style: solid;
-  border-width: thin;
+  border-style: groove;
+  color: #e9d7b3;
 }
 .inner-wrap {
   margin-right: auto;
@@ -5368,12 +5397,12 @@ hr::after {
 .region-flash img {
   max-width: 100%;
   min-width: 100%;
-  padding-top: 0.7em;
 }
 .outer-wrap-header {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
+  background-color: #9f9;
 }
 .inner-wrap-header {
   margin-right: auto;
@@ -5405,45 +5434,132 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
+.region-header {
+  background-color: gold;
+}
 .region-header-col-1 {
   border-style: none;
   float: left;
-  width: 15.625%;
+  width: 19.79166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   display: inline;
+  background-color: lemonchiffon;
+  border: aliceblue;
   border-width: thick;
 }
 .region-header-col-2 {
   float: left;
-  width: 65.625%;
+  width: 57.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   text-align: center;
   height: inherit;
+  background-color: blueviolet;
   display: inline;
 }
 .region-header-col-3 {
-  display: inline;
   float: left;
-  width: 15.625%;
+  width: 19.79166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  display: inline;
+  background-color: lemonchiffon;
+  border: aliceblue;
   border-width: thick;
 }
+/*
 /* Hide submenu, leave this to kmom02 */
+/*a.rm-button{
+    background-color: blue;
+//    color: red;
+    border-style: inset;
+//    border-color: red;
+    padding: 0.5em;
+}* /
+
+.rm-navbar {
+//    border-style: inset;
+//    font-size: 1.4em;
+    color: inherit;
+//    display: inline-block;
+    position: relative;
+}
+
+.rm-small-wrapper {
+//    color: black;
+//    border-color: black;
+//    border-style: inset;
+//    padding: 0.5em;
+}
+
+.rm-max.rm-navbar {
+//    top: auto;
+//    right: 20px;
+}
+
+.rm-desktop li ul {
+    background-color: #fff;
+}
+
+.rm-default ul li {
+    box-shadow: 0 0 1px rgba(0,0,0,.4);
+}
+
 #rm-menu.rm-mobile {
-  height: 30em;
-  max-width: 14em;
-  font-size: medium;
-  max-height: 28em;
-  background-color: grey;
-  display: inline-grid;
-  color: #a0ff00;
+//        #desinax-vgrid.column(3);
+//        #desinax-vgrid.push(20);
+//    width: 14em;
+//    height: 30em;
+    max-width: 10em;
+    max-height: 25em;
+    font-size: medium;
+    background-color: gold;
+    display: inline-grid;
+    color: red;
 }
-#rm-menu.rm-mobile .rm-clicked {
-  color: #a0ff00;
+
+.rm-max .rm-mobile .rm-submenu-button {
+//        #desinax-vgrid.column(3);
+//        #desinax-vgrid.push(20);
+//    width: 14em;
+    line-height: 0.3em;
+    max-width: 0.5em;
+    font-size: medium;
+    background-color: blueviolet;
+    color: red;
+//    padding: 5 15;
 }
+.rm-max .rm-mobile .rm-submenu-button::after {
+//        #desinax-vgrid.column(3);
+//        #desinax-vgrid.push(20);
+//    width: 14em;
+    line-height: 0.3em;
+    max-width: 0.5em;
+    font-size: medium;
+    background-color: blueviolet;
+    color: red;
+//    padding: 5em 15em;
+    content="\21D3";
+}
+
+a.rm-button{
+    background-color: blue;
+//    color: red;
+    border-style: inset;
+//    border-color: red;
+    padding: 0.5em;
+}
+*/
+/*/.rm-max,
+.rm-rm-swipe-right {
+    width: 15em;
+    height: 30em;
+//    background-color: gold;
+//    display: inline-grid;
+//    color: red;
+}
+*/
 .region-sidebar-left,
 .region-sidebar-right {
   display: inline;
@@ -5550,23 +5666,13 @@ hr::after {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  padding: 5px;
-}
-.ol {
-  line-height: 1.5em;
-}
-pre code {
-  background-color: inherit;
-}
-main.hr::after,
-block.hr::after {
-  content: " .hr::after  ";
-  background-color: #e9d7b3;
 }
 .author-byline {
+  color: red;
+  background-color: gold;
+  border: yellow;
   border-width: thin;
   border-style: solid;
-  text-align: center;
 }
 /**
 * Footer Layout
@@ -5577,6 +5683,8 @@ block.hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   display: inline;
+  background-color: white;
+  color: red;
 }
 .footer-column {
   display: inline;
@@ -5586,7 +5694,18 @@ block.hr::after {
   margin-right: 0.52083333%;
 }
 .footer-column-x {
+  background-color: beige;
+  border: red;
+  border-style: dashed;
   text-align: left;
+}
+.footer-column-1 {
+  border: blue;
+  border-style: outset;
+}
+.footer-column-3 {
+  border: black;
+  border-style: inset;
 }
 .footer-column-wrapper::after {
   content: "";
@@ -5601,11 +5720,15 @@ block.hr::after {
   margin-right: 0.52083333%;
   border-top: solid;
   border-width: thin;
-  margin-top: 0.5em;
+  border-color: ;
   text-align: center;
+  background-color: #006400;
+}
+.route-testa row {
+  background-color: #ccc;
 }
 .fa-stroopwafel {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 .fa-stroopwafel.fas {
   background-color: tomato;

@@ -12,9 +12,11 @@
 */
 
 // "Magic number"
-@magicNumber: 24px;
+@magicNumber: 22px;
+//@magicNumber: 24px;
 @fontSizeBody: 16px;
 
+// Använ det typografiska gridet  till min stil
 // Monospace
 @fontFamilyCourier: "Courier New", Courier, monospace;
 
@@ -29,12 +31,15 @@
 @fontFamilyBody: @fontFamilyCalibri;
 @fontFamilyCode: @fontFamilyCourier;
 
+/*
 // Activera "grid base font"
 body {
     #desinax-hgrid.font(@fontSizeBody);
     color: red;
 }
-// Activera grid på alla typografiska elements
+*/
+/*
+
 
 h1,
 h2,
@@ -47,11 +52,12 @@ code,
 table {
     #desinax-hgrid.activateDefaultTypography();
 }
-
+*/
 
 // Visa griden
-.hgrip .wrap {
+.hgrid .inner-wrap {
     @gridImage: "./../img/magic-numbert-@{magicNumber}.png";
+    //@gridImage: "/../img/magic-numbert-@{magicNumber}.png";
     #desinax-hgrid.showGrid(@gridImage);
 
 
@@ -81,7 +87,7 @@ table {
 
 .flash {
     #desinax-vgrid.column(@columns - 4);
-    #desinax-vgrid.push(2);
+    #desinax-vgrid.push(2); // flytta (x) antal kol till höger
 }
 
 .sidebar-left,

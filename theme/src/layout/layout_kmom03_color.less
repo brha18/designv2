@@ -15,18 +15,20 @@
   */
  @import "/@desinax/vertical-grid/less/grid.less";
 
- // Aktivera grid på alla typografiska elements
- #desinax-hgrid.activateDefaultTypography();
 
  .vgrid .inner-wrap {
      @gridImage: "../img/grid_24x30x10-nomargin.png";
      //@gridImage: "../img/grid_12x60x20-nomargin.png";
      #desinax-vgrid.showGrid(@gridImage, 1100px);  // 1100px mappar inner-wrap
 
+     //background-color: gold;
+     color: black;
+
      &.inner-wrap-header,
      &.inner-wrap-footer {
          #desinax-vgrid.showGrid(@gridImage);
 
+         color: blueviolet;
      }
  }
 
@@ -36,11 +38,11 @@
 
  .wrap-all {
 //   background-color: #ccf;
-//   background-color: #bf7c32;
-//   border: red;
-//    border-width: thick;
-//    border-style: solid;
-}
+   background-color: #bf7c32;
+   border: red;
+   border-width: thick;
+   border-style: solid;
+ }
 
 * {
     box-sizing: border-box;
@@ -48,15 +50,15 @@
 
 .region {
 //    height: 80px;
-//    background-color: lighten(#cc0, 20%);
+    background-color: lighten(#cc0, 20%);
     margin-bottom:@magicNumber;
+
 }
 
  .outer-wrap {
-     border-style: solid;
-     border-width: thin;
-//     border-style: groove;
-//     color: #e9d7b3;
+ //    border-style: none;
+     border-style: groove;
+     color: #e9d7b3;
 //     max-width: 100%;
  }
 
@@ -83,21 +85,20 @@
 .region-flash img {
 //        #desinax-vgrid.column(@columns);
 
-    max-width: 100%;
-    min-width: 100%;
+        max-width: 100%;
+        min-width: 100%;
 //        #desinax-vgrid.push(0);
 
         //align-items: center;
         //justify-self: center;
-    padding-top: 0.7em;
+//        display: center;
 }
 
 .outer-wrap-header {
      #desinax-vgrid.grid(100%);
 
-//     background-color: #9f9;
+     background-color: #9f9;
  }
-
 
 .inner-wrap-header .row {
 //    max-width: 100%;
@@ -125,7 +126,6 @@
 .img {
 //    max-width: 100%;
     #desinax-vgrid.grid(100%);
-
     display: block;
 }
 
@@ -138,7 +138,6 @@
 
 .centered-and-cropped {
     object-fit: cover;
-
 }
 
 .site-logo {
@@ -151,64 +150,134 @@
 
 .region-header {
 //    height: 4rem;
-//    background-color: gold;
+    background-color: gold;
 }
 
 .region-header-col-1 {
     border-style: none;
-    #desinax-vgrid.column(4);
+    #desinax-vgrid.column(5);
 
     display: inline;
 //  float: left;
 //  width: 23%;
-//  background-color: lemonchiffon;
-//  border: aliceblue;
+  background-color: lemonchiffon;
+  border: aliceblue;
   border-width: thick;
 }
 
 .region-header-col-2 {
-    #desinax-vgrid.column(16);
+    #desinax-vgrid.column(14);
 
     text-align: center;
     height: inherit;
-//    background-color: blueviolet;
+    background-color: blueviolet;
     display: inline;
 }
 
 .region-header-col-3 {
-    #desinax-vgrid.column(4);
+    #desinax-vgrid.column(5);
 
-//    display: inline;
-//    background-color: lemonchiffon;
-//    border: aliceblue;
+    display: inline;
+    background-color: lemonchiffon;
+    border: aliceblue;
     border-width: thick;
 }
-
+/*
 /* Hide submenu, leave this to kmom02 */
 //.rm-desktop ul {
     //display: list-item;
 //}
 
+/*a.rm-button{
+    background-color: blue;
+//    color: red;
+    border-style: inset;
+//    border-color: red;
+    padding: 0.5em;
+}* /
 
+.rm-navbar {
+//    border-style: inset;
+//    font-size: 1.4em;
+    color: inherit;
+//    display: inline-block;
+    position: relative;
+}
+
+.rm-small-wrapper {
+//    color: black;
+//    border-color: black;
+//    border-style: inset;
+//    padding: 0.5em;
+}
+
+.rm-max.rm-navbar {
+//    top: auto;
+//    right: 20px;
+}
+
+.rm-desktop li ul {
+    background-color: #fff;
+}
+
+.rm-default ul li {
+    box-shadow: 0 0 1px rgba(0,0,0,.4);
+}
 
 #rm-menu.rm-mobile {
-//    #desinax-vgrid.column(3);
-//    #desinax-vgrid.push(20);
-//    width: 10em;
-    height: 30em;
-    max-width: 14em;
+//        #desinax-vgrid.column(3);
+//        #desinax-vgrid.push(20);
+//    width: 14em;
+//    height: 30em;
+    max-width: 10em;
+    max-height: 25em;
     font-size: medium;
-    max-height: 28em;
-//    background-color: cornflowerblue;
-//    background-color: #137d3d4d;
-    background-color: grey;
+    background-color: gold;
     display: inline-grid;
-    color: #a0ff00;
-
-    .rm-clicked {
-        color: #a0ff00;
-    }
+    color: red;
 }
+
+.rm-max .rm-mobile .rm-submenu-button {
+//        #desinax-vgrid.column(3);
+//        #desinax-vgrid.push(20);
+//    width: 14em;
+    line-height: 0.3em;
+    max-width: 0.5em;
+    font-size: medium;
+    background-color: blueviolet;
+    color: red;
+//    padding: 5 15;
+}
+.rm-max .rm-mobile .rm-submenu-button::after {
+//        #desinax-vgrid.column(3);
+//        #desinax-vgrid.push(20);
+//    width: 14em;
+    line-height: 0.3em;
+    max-width: 0.5em;
+    font-size: medium;
+    background-color: blueviolet;
+    color: red;
+//    padding: 5em 15em;
+    content="\21D3";
+}
+
+a.rm-button{
+    background-color: blue;
+//    color: red;
+    border-style: inset;
+//    border-color: red;
+    padding: 0.5em;
+}
+*/
+/*/.rm-max,
+.rm-rm-swipe-right {
+    width: 15em;
+    height: 30em;
+//    background-color: gold;
+//    display: inline-grid;
+//    color: red;
+}
+*/
 
 .wrap-sidebar {
 //    padding: 0.5em;
@@ -330,35 +399,19 @@
 }
 
 .article {
-    #desinax-vgrid.grid(100%);
-
+     #desinax-vgrid.grid(100%);
 //    padding: 0.5em;
 //    margin-top: 1em;
-    padding: 5px;
 }
 
-.ol {
-    line-height: 1.5em;
-}
-
-pre code {
-    background-color: inherit;
-}
-
-main.hr::after,
-block.hr::after {
-    content: " .hr::after  ";
-    background-color: #e9d7b3;
-}
 .author-byline {
-//    color: red;
+    color: red;
 //    float: inherit;
-//    background-color: gold;
+    background-color: gold;
 //    padding: 1em;
-//    border: yellow;
+    border: yellow;
     border-width: thin;
     border-style: solid;
-    text-align: center;
 }
 
 /**
@@ -369,8 +422,8 @@ block.hr::after {
     #desinax-vgrid.column(@columns);
 
     display: inline;
-//    background-color: white;
-//    color: red;
+    background-color: white;
+    color: red;
 }
 
 .footer-column-wrapper {
@@ -385,16 +438,16 @@ block.hr::after {
 
 .footer-column-x
     {
-//    background-color: beige;
-//    border: red;
-//    border-style: inset;
+    background-color: beige;
+    border: red;
+    border-style: dashed;
     text-align: left;
 }
 
 .footer-column-1
 {
-//  border: blue;
-//  border-style: outset;
+    border: blue;
+    border-style: outset;
 }
 
 .footer-column-2
@@ -403,8 +456,8 @@ block.hr::after {
 
 .footer-column-3
 {
-//  border: black;
-//  border-style: inset;
+    border: black;
+    border-style: inset;
 }
 
 .footer-column-wrapper::after {
@@ -416,18 +469,17 @@ block.hr::after {
 
     border-top: solid;
     border-width: thin;
-    margin-top: 0.5em;
-//    border-color: ;
+    border-color: ;
     text-align: center;
-//    background-color: rgb(0, 100, 0);
+    background-color: rgb(0, 100, 0);
 }
 
 .route-testa row {
-//    background-color: #ccc;
+    background-color: #ccc;
 }
 
 .fa-stroopwafel {
-    font-size: 2.5em;
+    font-size: 3em;
 
     &.fas {
           background-color: tomato;
@@ -442,26 +494,26 @@ block.hr::after {
  * Variables
  */
  // Default grid, change to fit your requirements.
- @columnWidth:   30;
- @gutterWidth:   10;
- @columns:       24;
- @gridType:      "float"; // "flex"
- // "Magic number"
- @magicNumber: 22px;
- //@magicNumber: 24px;
- @fontSizeBody: 16px;
+@columnWidth:   30;
+@gutterWidth:   10;
+@columns:       24;
+@gridType:      "float"; // "flex"
+// "Magic number"
+@magicNumber: 22px;
+//@magicNumber: 24px;
+@fontSizeBody: 16px;
 
- // Använ det typografiska gridet  till min stil
- // Monospace
- @fontFamilyCourier: "Courier New", Courier, monospace;
+// Använ det typografiska gridet  till min stil
+// Monospace
+@fontFamilyCourier: "Courier New", Courier, monospace;
 
- //Serif
- @fontFamiyCambria: Cambria, Georgia, Times, 'Times New Roman', serif;
+//Serif
+@fontFamiyCambria: Cambria, Georgia, Times, 'Times New Roman', serif;
 
- //Sans-serif
- @fontFamiyVerdana: Verdana, Geneva, sans-serif;
+//Sans-serif
+@fontFamiyVerdana: Verdana, Geneva, sans-serif;
 
- // Font families som används
- @fontFamilyHeadings: @fontFamilyCambria;
- @fontFamilyBody: @fontFamilyCalibri;
- @fontFamilyCode: @fontFamilyCourier;
+// Font families som används
+@fontFamilyHeadings: @fontFamilyCambria;
+@fontFamilyBody: @fontFamilyCalibri;
+@fontFamilyCode: @fontFamilyCourier;

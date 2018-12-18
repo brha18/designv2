@@ -1,5 +1,5 @@
 ---
-title: "Testa 3 kolumner"
+title: "Test av kolumner och ikoner"
 
 
 views:
@@ -48,14 +48,25 @@ Bilder
 [FIGURE src="image/design-kmom02-regioner.png?w=50%" class="right" caption="Regioner"]
 
 Ikoner
+------
+
+*fa-stroopwafel*
 
 <i class="fas fa-stroopwafel"></i>     <i class="fas fa-stroopwafel fa-spin"></i>
 
+*fa-spinner*
+
 <i class="fas fa-spinner fa-spin fa-3x"></i>
+
+*fa-hand-pointer*
 
 <i class="fas fa-hand-pointer fa-3x"></i>    <i class="fas fa-hand-pointer fa-3x fa-rotate-90"></i>
 
+*fa-font-awesome*
+
 <i class="fab fa-font-awesome fa-4x fa-rotate-90"></i>   <i class="fab fa-font-awesome fa-6x fa-rotate-2700"></i>
+
+*fa-ul*
 
 <ul class="fa-ul">
   <li><span class="fa-li" ><i class="fas fa-check-square"></i></span>List icons can</li>
@@ -65,6 +76,6 @@ Ikoner
 </ul>
 
 Denna webbplats är byggd i HTML, CSS och Markdown och är en del i kursen design.
-Detta innehåll är skrivet i **markdown** och du hittar innehållet i filen `content/testa_3kol.md.md`.
+Detta innehåll är skrivet i **markdown** och du hittar innehållet i filen `content/testa_ikon_kol.md`.
 
 ### Detta är skoj men vad visade de på TV igår?###

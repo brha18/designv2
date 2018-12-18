@@ -16,7 +16,7 @@
 .vgrid .inner-wrap {
     @gridImage: "../img/grid_24x30x10-nomargin.png";
     //@gridImage: "../img/grid_12x60x20-nomargin.png";
-    #desinax-vgrid.showGrid(@gridImage, 1100px);
+    #desinax-vgrid.showGrid(@gridImage, 1100px); // 1100px mappar inner-wrap
 
     //background-color: gold;
     color: black;
@@ -38,9 +38,16 @@
     #desinax-vgrid.column(@columns / 2);
 }
 
-.flash {
-    #desinax-vgrid.column(@columns - 4);
-    #desinax-vgrid.push(2);
+.region-flash {
+    #desinax-vgrid.column(@columns);
+
+    #desinax-vgrid.push(2);   // flytta (x) antal kol till höger
+
+//    justify-self: center;
+}
+
+.region-breadcrumb {
+    #desinax-vgrid.column(@columns);
 }
 
 .sidebar-left,
