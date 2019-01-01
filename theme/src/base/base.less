@@ -30,7 +30,8 @@ body {
     //    background-color: @bgColorBody;
 //    font: 100.01%/1 @fontFamilyBody;
 //    background-color: #9da;
-    background-color: #dcf8de;
+//    background-color: #dcf8de;
+    background-color: #acd18b4d;
 //    color: #e9d7b3;  134705
     color: #071b02;
 }
@@ -38,17 +39,30 @@ body {
 // Aktivera grid på alla typografiska elements
 #desinax-hgrid.activateDefaultTypography();
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.p2 {
+     font-size: 100%;
+     border-bottom: 0;
+     margin-bottom: @magicNumber;
+ }
+
 h1 {
 //    font-size: 3em;
 //    margin-bottom: 2.8em; // grundtypsnittet lineheight 1.4em * fontsize 1em * 2
-    margin-bottom: @magicNumber;
+//    margin-bottom: @magicNumber;
 }
 
 p {
 //    font-size: 1em;
     font-size: @baseFontSize;
 //    margin-bottom: 1.4em;  // lineheight 1.4em * fontsize 1em . Variant av magic number
-    margin-bottom: @magicNumber;
+//    margin-bottom: @magicNumber;
 }
 
 .p2 {
@@ -56,9 +70,24 @@ p {
     font-size: @baseFontSize;
     font-style: @fontFamilyCode;
 //    margin-bottom: 1.4em;  // lineheight 1.4em * fontsize 1em . Variant av magic number
-    margin-bottom: @magicNumber;
+//    margin-bottom: @magicNumber;
 }
 
+.space-left {
+        margin-left: 0.8em;
+}
+
+/*
+.table.fargschema {
+        border-spacing: 0.5em;
+        padding: 0.5em;
+        border-collapse: separate;
+        border-color: gray;
+        border-style: solid;
+        border-width: thin;
+        background-color: #b3c5b7;
+}
+*/
 @media (min-width: 60em) { // samma som ...
   html {
       font-size: 112.5%;

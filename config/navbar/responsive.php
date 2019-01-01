@@ -36,6 +36,35 @@ return [
                         "url" => "redovisning/kmom03",
                         "title" => "Redovisning för kmom03.",
                     ],
+                    [
+                        "text" => "Kmom04",
+                        "url" => "redovisning/kmom04",
+                        "title" => "Redovisning för kmom04.",
+                    ],
+                ],
+            ],
+        ],
+        [
+            "text" => "Rapporter",
+            "url" => "rapporter",
+            "title" => "Rapporter från kursmomenten.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Rapport kmom04 - Färgschema",
+                        "url" => "rapporter/rap_kmom04_farg",
+                        "title" => "Rapporter för kmom04 - Färgschema.",
+                    ],
+                    [
+                        "text" => "Rapport kmom05",
+                        "url" => "rapporter/rap_kmom05",
+                        "title" => "Rapporter för kmom05.",
+                    ],
+                    [
+                        "text" => "Rapport kmom06",
+                        "url" => "rapporter/rap_kmom06",
+                        "title" => "Rapporter för kmom06.",
+                    ],
                 ],
             ],
         ],
@@ -53,8 +82,13 @@ return [
                     [
                         "text" => "Om kmom03",
                         "url" => "om/omKmom03",
-                        "title" => "Om  kmom03.",
+                        "title" => "Om kmom03.",
                     ],
+                    [
+                        "text" => "Om kmom04",
+                        "url" => "om/omKmom04",
+                        "title" => "Om kmom04.",
+                    ],                    
                 ],
             ],
         ],
@@ -91,11 +125,6 @@ return [
                       ],
                   ],
               ],
-          ],
-          [
-              "text" => "Test av grid",
-              "url" => "gridtest/gridtest",
-              "title" => "Test av grid.",
           ],
       ],
   ];

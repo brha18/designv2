@@ -12,12 +12,25 @@ body {
 //    margin-left: 3em;
 // Activera "grid base font"
     #desinax-hgrid.font(@fontSizeBody);
-
-    color: red;
+    background-color: #bfe195; //#c1e794; //#0f1d06;
+    color: #b105a9;
 }
 
 // Aktivera grid på alla typografiska elements
 #desinax-hgrid.activateDefaultTypography();
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.p2 {
+     font-size: 100%;
+     border-bottom: 0;
+     margin-bottom: @magicNumber;
+ }
 
 h1 {
 //    font-size: 3em;
@@ -30,6 +43,29 @@ p {
     font-size: @baseFontSize;
 //    margin-bottom: 1.4em;  // lineheight 1.4em * fontsize 1em . Variant av magic number
     margin-bottom: @magicNumber;
+}
+/*
+.table.fargschema {
+        border-spacing: 0.5em;
+        padding: 0.5em;
+        border-collapse: separate;
+        border-color: gray;
+        border-style: solid;
+        border-width: thin;
+        background-color: #b3c5b7;
+}
+*/
+
+.p2 {
+//    font-size: 1em;
+    font-size: @baseFontSize;
+    font-style: @fontFamilyCode;
+//    margin-bottom: 1.4em;  // lineheight 1.4em * fontsize 1em . Variant av magic number
+    margin-bottom: @magicNumber;
+}
+
+.space-left {
+        margin-left: 0.8em;
 }
 
 @media (min-width: 60em) { // samma som ...

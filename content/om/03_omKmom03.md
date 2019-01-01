@@ -5,7 +5,7 @@
 Om detta kursmoment, 03, i designkursen
 =========================
 
-Detta innehåll är skrivet i markdown och innehållet finns i filen `content/om/omKmom03.md`.
+Detta innehåll är skrivet i markdown och innehållet finns i filen `content/om/03_omKmom03.md`.
 
 #### Krav i kmom03####
 

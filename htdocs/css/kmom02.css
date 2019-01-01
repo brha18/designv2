@@ -411,7 +411,7 @@ html {
 body {
   line-height: 1.4;
   font: 16px/1.5 "sans-serif";
-  background-color: #dcf8de;
+  background-color: #acd18b4d;
   color: #071b02;
 }
 h1,
@@ -698,18 +698,39 @@ hr::after {
   padding: 0 0.25em;
   background-color: #fff;
 }
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.p2 {
+  font-size: 100%;
+  border-bottom: 0;
   margin-bottom: 24px;
 }
 p {
   font-size: 1.2em;
-  margin-bottom: 24px;
 }
 .p2 {
   font-size: 1.2em;
   font-style: "monospace";
-  margin-bottom: 24px;
 }
+.space-left {
+  margin-left: 0.8em;
+}
+/*
+.table.fargschema {
+        border-spacing: 0.5em;
+        padding: 0.5em;
+        border-collapse: separate;
+        border-color: gray;
+        border-style: solid;
+        border-width: thin;
+        background-color: #b3c5b7;
+}
+*/
 @media (min-width: 60em) {
   html {
     font-size: 112.5%;

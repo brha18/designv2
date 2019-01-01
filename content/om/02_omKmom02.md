@@ -5,7 +5,7 @@
 Om detta kursmoment, 02, i designkursen
 =========================
 
-Detta innehåll är skrivet i markdown och innehållet finns i filen `content/om/omKmom02.md`.
+Detta innehåll är skrivet i markdown och innehållet finns i filen `content/om/02_omKmom02.md`.
 
 #### Krav i kmom02 (.jpg)  ####
 
