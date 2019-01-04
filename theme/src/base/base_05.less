@@ -1,0 +1,103 @@
+@baseFontSize: 1.2em;
+@baseLineHeight: 1.4;
+@magicNumber: @baseFontSize * @baseLineHeight;
+
+/**
+ * Import the typographic grid.
+ */
+@import "/@desinax/typographic-grid/less/typography-font-families.less";
+@import "/@desinax/typographic-grid/less/typography-defaults.less";
+
+/**
+ * Import the vertical grid.
+ */
+@import "/@desinax/vertical-grid/less/grid.less";
+
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+@import "/@desinax/figure/less/asciinema.less";
+@import "/@desinax/figure/less/codepen.less";
+@import "/@desinax/figure/less/figure.less";
+
+html {
+    font-size: 100%;
+}
+
+body {
+//    line-height: 1.4; // bör vara mellan 1,2 och 1,
+    line-height: @baseLineHeight;
+//    margin-left: 3em;
+// Activera "grid base font"
+    #desinax-hgrid.font(@fontSizeBody);
+
+//    color: red;
+//    margin: 0;
+    //    padding: 0;
+    //    background-color: @bgColorBody;
+//    font: 100.01%/1 @fontFamilyBody;
+//    background-color: #9da;
+//    background-color: #dcf8de;
+    background-color: #acd18b4d;
+//    color: #e9d7b3;  134705
+    color: #071b02;
+}
+
+// Aktivera grid på alla typografiska elements
+#desinax-hgrid.activateDefaultTypography();
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.p2 {
+     font-size: 100%;
+     border-bottom: 0;
+     margin-bottom: @magicNumber;
+ }
+
+h1 {
+//    font-size: 3em;
+//    margin-bottom: 2.8em; // grundtypsnittet lineheight 1.4em * fontsize 1em * 2
+//    margin-bottom: @magicNumber;
+}
+
+p {
+//    font-size: 1em;
+    font-size: @baseFontSize;
+//    margin-bottom: 1.4em;  // lineheight 1.4em * fontsize 1em . Variant av magic number
+//    margin-bottom: @magicNumber;
+}
+
+.p2 {
+//    font-size: 1em;
+    font-size: @baseFontSize;
+    font-style: @fontFamilyCode;
+//    margin-bottom: 1.4em;  // lineheight 1.4em * fontsize 1em . Variant av magic number
+//    margin-bottom: @magicNumber;
+}
+
+.space-left {
+        margin-left: 0.8em;
+}
+
+/*
+.table.fargschema {
+        border-spacing: 0.5em;
+        padding: 0.5em;
+        border-collapse: separate;
+        border-color: gray;
+        border-style: solid;
+        border-width: thin;
+        background-color: #b3c5b7;
+}
+*/
+@media (min-width: 60em) { // samma som ...
+  html {
+      font-size: 112.5%;
+  }
+}
+// http://typographyhandbook.com/ "Relative Units - Grundstil"
