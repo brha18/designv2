@@ -446,6 +446,18 @@ template {
      * Pull a column right @offset columns.
      */
 }
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
 html {
   font-size: 100%;
 }

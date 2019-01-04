@@ -4976,6 +4976,18 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * Import the vertical grid.
  */
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
 html {
   font-size: 100%;
 }
