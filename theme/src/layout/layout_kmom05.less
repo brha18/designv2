@@ -45,7 +45,7 @@
      &:extend(figure.figure);
      #desinax-figure.codepen();
  }
- 
+
 /**
  * General layout
  */
@@ -96,9 +96,10 @@
 //
 // }
 //
-// .region-flash img {
+.region-flash img {
 // //        #desinax-vgrid.column(@columns);
-//
+//    border-style: dotted;
+//    border-color: goldenrod;
 //     max-width: 100%;
 //     min-width: 100%;
 // //        #desinax-vgrid.push(0);
@@ -106,7 +107,7 @@
 //         //align-items: center;
 //         //justify-self: center;
 //     padding-top: 0.7em;
-// }
+}
 //
 // .outer-wrap-header {
 //      #desinax-vgrid.grid(100%);
@@ -148,13 +149,11 @@
 .figure.figure img {
 //    max-width:100%;
     #desinax-vgrid.grid(100%);
-
     display:block
 }
 
 .centered-and-cropped {
     object-fit: cover;
-
 }
 
 .site-logo {
@@ -328,7 +327,9 @@ pre code {
     background-color: #e9d7b3;
 }
 
-.fargschema {
+.fargschema,
+.laddningstid,
+.partier  {
         border-spacing: 0.2em;
         padding: 0.5em;
         border-collapse: separate;
@@ -336,9 +337,17 @@ pre code {
         border-style: solid;
         border-width: thin;
         background-color: #b3c5b7;
+//        background-color: cornflowerblue;
         max-width: 90%;
 //        color: #0f1d06;
 }
+
+
+.partier {
+    border-style: none;
+    background-color: inherit;
+}
+
 
 .route-testa row {
 //    background-color: #ccc;

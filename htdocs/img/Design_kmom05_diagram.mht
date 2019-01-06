@@ -1,0 +1,2859 @@
+MIME-Version: 1.0
+X-Document-Type: Workbook
+Content-Type: multipart/related; boundary="----=_NextPart_01D4A5BC.1F6E3D20"
+
+Dokumentet är en enkel webbsidefil (kallas även för webbarkivfil). Om du ser det här meddelandet stöder inte webbläsaren eller redigeraren webbarkivfiler. Hämta en webbläsare som stöder webbarkiv, till exempel Windows® Internet Explorer®.
+
+------=_NextPart_01D4A5BC.1F6E3D20
+Content-Location: file:///C:/D845548D/Design_kmom05_diagram.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1252"
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml"
+xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta name=3D"Excel Workbook Frameset">
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 14">
+<link rel=3DFile-List href=3D"Design_kmom05_diagram-filer/filelist.xml">
+<![if !supportTabStrip]>
+<link id=3D"shLink" href=3D"Design_kmom05_diagram-filer/chart001.htm">
+<link id=3D"shLink" href=3D"Design_kmom05_diagram-filer/sheet001.htm">
+<link id=3D"shLink" href=3D"Design_kmom05_diagram-filer/sheet002.htm">
+
+<link id=3D"shLink">
+
+<script language=3D"JavaScript">
+<!--
+ var c_lTabs=3D3;
+
+ var c_rgszSh=3Dnew Array(c_lTabs);
+ c_rgszSh[0] =3D "Diagram1";
+ c_rgszSh[1] =3D "Mätn2";
+ c_rgszSh[2] =3D "Blad2";
+
+
+
+ var c_rgszClr=3Dnew Array(8);
+ c_rgszClr[0]=3D"window";
+ c_rgszClr[1]=3D"buttonface";
+ c_rgszClr[2]=3D"windowframe";
+ c_rgszClr[3]=3D"windowtext";
+ c_rgszClr[4]=3D"threedlightshadow";
+ c_rgszClr[5]=3D"threedhighlight";
+ c_rgszClr[6]=3D"threeddarkshadow";
+ c_rgszClr[7]=3D"threedshadow";
+
+ var g_iShCur;
+ var g_rglTabX=3Dnew Array(c_lTabs);
+
+function fnGetIEVer()
+{
+ var ua=3Dwindow.navigator.userAgent
+ var msie=3Dua.indexOf("MSIE")
+ if (msie>0 && window.navigator.platform=3D=3D"Win32")
+  return parseInt(ua.substring(msie+5,ua.indexOf(".", msie)));
+ else
+  return 0;
+}
+
+function fnBuildFrameset()
+{
+ var szHTML=3D"<frameset rows=3D\"*,18\" border=3D0 width=3D0 frameborder=
+=3Dno framespacing=3D0>"+
+  "<frame src=3D\""+document.all.item("shLink")[0].href+"\" name=3D\"frShee=
+t\" noresize>"+
+  "<frameset cols=3D\"54,*\" border=3D0 width=3D0 frameborder=3Dno framespa=
+cing=3D0>"+
+  "<frame src=3D\"\" name=3D\"frScroll\" marginwidth=3D0 marginheight=3D0 s=
+crolling=3Dno>"+
+  "<frame src=3D\"\" name=3D\"frTabs\" marginwidth=3D0 marginheight=3D0 scr=
+olling=3Dno>"+
+  "</frameset></frameset><plaintext>";
+
+ with (document) {
+  open("text/html","replace");
+  write(szHTML);
+  close();
+ }
+
+ fnBuildTabStrip();
+}
+
+function fnBuildTabStrip()
+{
+ var szHTML=3D
+  "<html><head><style>.clScroll {font:8pt Courier New;color:"+c_rgszClr[6]+=
+";cursor:default;line-height:10pt;}"+
+  ".clScroll2 {font:10pt Arial;color:"+c_rgszClr[6]+";cursor:default;line-h=
+eight:11pt;}</style></head>"+
+  "<body onclick=3D\"event.returnValue=3Dfalse;\" ondragstart=3D\"event.ret=
+urnValue=3Dfalse;\" onselectstart=3D\"event.returnValue=3Dfalse;\" bgcolor=
+=3D"+c_rgszClr[4]+" topmargin=3D0 leftmargin=3D0><table cellpadding=3D0 cel=
+lspacing=3D0 width=3D100%>"+
+  "<tr><td colspan=3D6 height=3D1 bgcolor=3D"+c_rgszClr[2]+"></td></tr>"+
+  "<tr><td style=3D\"font:1pt\">&nbsp;<td>"+
+  "<td valign=3Dtop id=3DtdScroll class=3D\"clScroll\" onclick=3D\"parent.f=
+nFastScrollTabs(0);\" onmouseover=3D\"parent.fnMouseOverScroll(0);\" onmous=
+eout=3D\"parent.fnMouseOutScroll(0);\"><a>&#171;</a></td>"+
+  "<td valign=3Dtop id=3DtdScroll class=3D\"clScroll2\" onclick=3D\"parent.=
+fnScrollTabs(0);\" ondblclick=3D\"parent.fnScrollTabs(0);\" onmouseover=3D\=
+"parent.fnMouseOverScroll(1);\" onmouseout=3D\"parent.fnMouseOutScroll(1);\=
+"><a>&lt</a></td>"+
+  "<td valign=3Dtop id=3DtdScroll class=3D\"clScroll2\" onclick=3D\"parent.=
+fnScrollTabs(1);\" ondblclick=3D\"parent.fnScrollTabs(1);\" onmouseover=3D\=
+"parent.fnMouseOverScroll(2);\" onmouseout=3D\"parent.fnMouseOutScroll(2);\=
+"><a>&gt</a></td>"+
+  "<td valign=3Dtop id=3DtdScroll class=3D\"clScroll\" onclick=3D\"parent.f=
+nFastScrollTabs(1);\" onmouseover=3D\"parent.fnMouseOverScroll(3);\" onmous=
+eout=3D\"parent.fnMouseOutScroll(3);\"><a>&#187;</a></td>"+
+  "<td style=3D\"font:1pt\">&nbsp;<td></tr></table></body></html>";
+
+ with (frames['frScroll'].document) {
+  open("text/html","replace");
+  write(szHTML);
+  close();
+ }
+
+ szHTML =3D
+  "<html><head>"+
+  "<style>A:link,A:visited,A:active {text-decoration:none;"+"color:"+c_rgsz=
+Clr[3]+";}"+
+  ".clTab {cursor:hand;background:"+c_rgszClr[1]+";font:9pt Arial;padding-l=
+eft:3px;padding-right:3px;text-align:center;}"+
+  ".clBorder {background:"+c_rgszClr[2]+";font:1pt;}"+
+  "</style></head><body onload=3D\"parent.fnInit();\" onselectstart=3D\"eve=
+nt.returnValue=3Dfalse;\" ondragstart=3D\"event.returnValue=3Dfalse;\" bgco=
+lor=3D"+c_rgszClr[4]+
+  " topmargin=3D0 leftmargin=3D0><table id=3DtbTabs cellpadding=3D0 cellspa=
+cing=3D0>";
+
+ var iCellCount=3D(c_lTabs+1)*2;
+
+ var i;
+ for (i=3D0;i<iCellCount;i+=3D2)
+  szHTML+=3D"<col width=3D1><col>";
+
+ var iRow;
+ for (iRow=3D0;iRow<6;iRow++) {
+
+  szHTML+=3D"<tr>";
+
+  if (iRow=3D=3D5)
+   szHTML+=3D"<td colspan=3D"+iCellCount+"></td>";
+  else {
+   if (iRow=3D=3D0) {
+    for(i=3D0;i<iCellCount;i++)
+     szHTML+=3D"<td height=3D1 class=3D\"clBorder\"></td>";
+   } else if (iRow=3D=3D1) {
+    for(i=3D0;i<c_lTabs;i++) {
+     szHTML+=3D"<td height=3D1 nowrap class=3D\"clBorder\">&nbsp;</td>";
+     szHTML+=3D
+      "<td id=3DtdTab height=3D1 nowrap class=3D\"clTab\" onmouseover=3D\"p=
+arent.fnMouseOverTab("+i+");\" onmouseout=3D\"parent.fnMouseOutTab("+i+");\=
+">"+
+      "<a href=3D\""+document.all.item("shLink")[i].href+"\" target=3D\"frS=
+heet\" id=3DaTab>&nbsp;"+c_rgszSh[i]+"&nbsp;</a></td>";
+    }
+    szHTML+=3D"<td id=3DtdTab height=3D1 nowrap class=3D\"clBorder\"><a id=
+=3DaTab>&nbsp;</a></td><td width=3D100%></td>";
+   } else if (iRow=3D=3D2) {
+    for (i=3D0;i<c_lTabs;i++)
+     szHTML+=3D"<td height=3D1></td><td height=3D1 class=3D\"clBorder\"></t=
+d>";
+    szHTML+=3D"<td height=3D1></td><td height=3D1></td>";
+   } else if (iRow=3D=3D3) {
+    for (i=3D0;i<iCellCount;i++)
+     szHTML+=3D"<td height=3D1></td>";
+   } else if (iRow=3D=3D4) {
+    for (i=3D0;i<c_lTabs;i++)
+     szHTML+=3D"<td height=3D1 width=3D1></td><td height=3D1></td>";
+    szHTML+=3D"<td height=3D1 width=3D1></td><td></td>";
+   }
+  }
+  szHTML+=3D"</tr>";
+ }
+
+ szHTML+=3D"</table></body></html>";
+ with (frames['frTabs'].document) {
+  open("text/html","replace");
+  charset=3Ddocument.charset;
+  write(szHTML);
+  close();
+ }
+}
+
+function fnInit()
+{
+ g_rglTabX[0]=3D0;
+ var i;
+ for (i=3D1;i<=3Dc_lTabs;i++)
+  with (frames['frTabs'].document.all.tbTabs.rows[1].cells[fnTabToCol(i-1)])
+   g_rglTabX[i]=3DoffsetLeft+offsetWidth-6;
+}
+
+function fnTabToCol(iTab)
+{
+ return 2*iTab+1;
+}
+
+function fnNextTab(fDir)
+{
+ var iNextTab=3D-1;
+ var i;
+
+ with (frames['frTabs'].document.body) {
+  if (fDir=3D=3D0) {
+   if (scrollLeft>0) {
+    for (i=3D0;i<c_lTabs&&g_rglTabX[i]<scrollLeft;i++);
+    if (i<c_lTabs)
+     iNextTab=3Di-1;
+   }
+  } else {
+   if (g_rglTabX[c_lTabs]+6>offsetWidth+scrollLeft) {
+    for (i=3D0;i<c_lTabs&&g_rglTabX[i]<=3DscrollLeft;i++);
+    if (i<c_lTabs)
+     iNextTab=3Di;
+   }
+  }
+ }
+ return iNextTab;
+}
+
+function fnScrollTabs(fDir)
+{
+ var iNextTab=3DfnNextTab(fDir);
+
+ if (iNextTab>=3D0) {
+  frames['frTabs'].scroll(g_rglTabX[iNextTab],0);
+  return true;
+ } else
+  return false;
+}
+
+function fnFastScrollTabs(fDir)
+{
+ if (c_lTabs>16)
+  frames['frTabs'].scroll(g_rglTabX[fDir?c_lTabs-1:0],0);
+ else
+  if (fnScrollTabs(fDir)>0) window.setTimeout("fnFastScrollTabs("+fDir+");"=
+,5);
+}
+
+function fnSetTabProps(iTab,fActive)
+{
+ var iCol=3DfnTabToCol(iTab);
+ var i;
+
+ if (iTab>=3D0) {
+  with (frames['frTabs'].document.all) {
+   with (tbTabs) {
+    for (i=3D0;i<=3D4;i++) {
+     with (rows[i]) {
+      if (i=3D=3D0)
+       cells[iCol].style.background=3Dc_rgszClr[fActive?0:2];
+      else if (i>0 && i<4) {
+       if (fActive) {
+        cells[iCol-1].style.background=3Dc_rgszClr[2];
+        cells[iCol].style.background=3Dc_rgszClr[0];
+        cells[iCol+1].style.background=3Dc_rgszClr[2];
+       } else {
+        if (i=3D=3D1) {
+         cells[iCol-1].style.background=3Dc_rgszClr[2];
+         cells[iCol].style.background=3Dc_rgszClr[1];
+         cells[iCol+1].style.background=3Dc_rgszClr[2];
+        } else {
+         cells[iCol-1].style.background=3Dc_rgszClr[4];
+         cells[iCol].style.background=3Dc_rgszClr[(i=3D=3D2)?2:4];
+         cells[iCol+1].style.background=3Dc_rgszClr[4];
+        }
+       }
+      } else
+       cells[iCol].style.background=3Dc_rgszClr[fActive?2:4];
+     }
+    }
+   }
+   with (aTab[iTab].style) {
+    cursor=3D(fActive?"default":"hand");
+    color=3Dc_rgszClr[3];
+   }
+  }
+ }
+}
+
+function fnMouseOverScroll(iCtl)
+{
+ frames['frScroll'].document.all.tdScroll[iCtl].style.color=3Dc_rgszClr[7];
+}
+
+function fnMouseOutScroll(iCtl)
+{
+ frames['frScroll'].document.all.tdScroll[iCtl].style.color=3Dc_rgszClr[6];
+}
+
+function fnMouseOverTab(iTab)
+{
+ if (iTab!=3Dg_iShCur) {
+  var iCol=3DfnTabToCol(iTab);
+  with (frames['frTabs'].document.all) {
+   tdTab[iTab].style.background=3Dc_rgszClr[5];
+  }
+ }
+}
+
+function fnMouseOutTab(iTab)
+{
+ if (iTab>=3D0) {
+  var elFrom=3Dframes['frTabs'].event.srcElement;
+  var elTo=3Dframes['frTabs'].event.toElement;
+
+  if ((!elTo) ||
+   (elFrom.tagName=3D=3DelTo.tagName) ||
+   (elTo.tagName=3D=3D"A" && elTo.parentElement!=3DelFrom) ||
+   (elFrom.tagName=3D=3D"A" && elFrom.parentElement!=3DelTo)) {
+
+   if (iTab!=3Dg_iShCur) {
+    with (frames['frTabs'].document.all) {
+     tdTab[iTab].style.background=3Dc_rgszClr[1];
+    }
+   }
+  }
+ }
+}
+
+function fnSetActiveSheet(iSh)
+{
+ if (iSh!=3Dg_iShCur) {
+  fnSetTabProps(g_iShCur,false);
+  fnSetTabProps(iSh,true);
+  g_iShCur=3DiSh;
+ }
+}
+
+ window.g_iIEVer=3DfnGetIEVer();
+ if (window.g_iIEVer>=3D4)
+  fnBuildFrameset();
+//-->
+</script>
+<![endif]><!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Diagram1</x:Name>
+    <x:WorksheetSource HRef=3D"Design_kmom05_diagram-filer/chart001.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Mätn2</x:Name>
+    <x:WorksheetSource HRef=3D"Design_kmom05_diagram-filer/sheet001.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Blad2</x:Name>
+    <x:WorksheetSource HRef=3D"Design_kmom05_diagram-filer/sheet002.htm"/>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:Stylesheet HRef=3D"Design_kmom05_diagram-filer/stylesheet.css"/>
+  <x:WindowHeight>8740</x:WindowHeight>
+  <x:WindowWidth>18880</x:WindowWidth>
+  <x:WindowTopX>130</x:WindowTopX>
+  <x:WindowTopY>550</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+
+<frameset rows=3D"*,39" border=3D0 width=3D0 frameborder=3Dno framespacing=
+=3D0>
+ <frame src=3D"Design_kmom05_diagram-filer/chart001.htm" name=3D"frSheet">
+ <frame src=3D"Design_kmom05_diagram-filer/tabstrip.htm" name=3D"frTabs" ma=
+rginwidth=3D0 marginheight=3D0>
+ <noframes>
+  <body>
+   <p>Den här sidan använder ramar, men de stöds inte av webbläsaren.</p>
+  </body>
+ </noframes>
+</frameset>
+</html>
+
+------=_NextPart_01D4A5BC.1F6E3D20
+Content-Location: file:///C:/D845548D/Design_kmom05_diagram-filer/stylesheet.css
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/css; charset="windows-1252"
+
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding:0px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl65
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl66
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl67
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	background:white;
+	mso-pattern:white none;}
+.xl68
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	background:white;
+	mso-pattern:white none;}
+.xl69
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl70
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl71
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	background:white;
+	mso-pattern:white none;}
+.xl72
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	background:white;
+	mso-pattern:white none;}
+.xl73
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl74
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl75
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	background:white;
+	mso-pattern:white none;}
+.xl76
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl77
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl78
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	background:white;
+	mso-pattern:white none;}
+.xl79
+	{mso-style-parent:style0;
+	mso-number-format:Fixed;}
+.xl80
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:left;}
+.xl81
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:center;
+	background:white;
+	mso-pattern:white none;}
+.xl82
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:center;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl83
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:center;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl84
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:left;}
+.xl85
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:center;
+	background:white;
+	mso-pattern:white none;}
+.xl86
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;
+	white-space:normal;}
+.xl87
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;
+	white-space:normal;}
+.xl88
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	background:white;
+	mso-pattern:white none;
+	white-space:normal;}
+.xl89
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	background:white;
+	mso-pattern:white none;
+	white-space:normal;}
+.xl90
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;
+	white-space:normal;}
+.xl91
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:center;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;
+	white-space:normal;}
+.xl92
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	background:#F2F2F2;
+	mso-pattern:white none;}
+.xl93
+	{mso-style-parent:style0;
+	text-align:center;}
+.xl94
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	background:white;
+	mso-pattern:white none;}
+.xl95
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:right;
+	background:white;
+	mso-pattern:white none;}
+.xl96
+	{mso-style-parent:style0;
+	text-align:right;}
+.xl97
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl98
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:right;
+	background:#F2F2F2;
+	mso-pattern:white none;}
+.xl99
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:right;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl100
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:right;
+	background:white;
+	mso-pattern:white none;}
+.xl101
+	{mso-style-parent:style0;
+	white-space:normal;}
+.xl102
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl103
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl104
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl105
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:left;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl106
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl107
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:white;
+	mso-pattern:white none;}
+.xl108
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl109
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:white;
+	mso-pattern:white none;}
+.xl110
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;
+	white-space:normal;}
+.xl111
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl112
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:white;
+	mso-pattern:white none;}
+.xl113
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:left;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl114
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl115
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:white;
+	mso-pattern:white none;}
+.xl116
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl117
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:white;
+	mso-pattern:white none;}
+.xl118
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl119
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl120
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;
+	white-space:normal;}
+.xl121
+	{mso-style-parent:style0;
+	color:windowtext;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl122
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl123
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:white;
+	mso-pattern:white none;}
+.xl124
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl125
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:white;
+	mso-pattern:white none;}
+.xl126
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:right;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:white;
+	mso-pattern:white none;}
+.xl127
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:white none;}
+.xl128
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:right;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:white none;}
+.xl129
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;
+	white-space:normal;}
+.xl130
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:white;
+	mso-pattern:white none;}
+.xl131
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl132
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl133
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl134
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:white;
+	mso-pattern:white none;}
+.xl135
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl136
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:white;
+	mso-pattern:white none;}
+.xl137
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:white;
+	mso-pattern:white none;}
+.xl138
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl139
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl140
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;
+	white-space:normal;}
+.xl141
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:white;
+	mso-pattern:white none;}
+.xl142
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl143
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl144
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl145
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	background:white;
+	mso-pattern:white none;}
+.xl146
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl147
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl148
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl149
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:white;
+	mso-pattern:white none;}
+.xl150
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl151
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:white;
+	mso-pattern:white none;}
+.xl152
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl153
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:right;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:white;
+	mso-pattern:white none;}
+.xl154
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:white none;}
+.xl155
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:right;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F2F2F2;
+	mso-pattern:white none;}
+.xl156
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;
+	white-space:normal;}
+.xl157
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:white;
+	mso-pattern:white none;}
+.xl158
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#F3F3F3;
+	mso-pattern:#F3F3F3 none;}
+.xl159
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+
+------=_NextPart_01D4A5BC.1F6E3D20
+Content-Location: file:///C:/D845548D/Design_kmom05_diagram-filer/tabstrip.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1252"
+
+<html>
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 14">
+<link id=3DMain-File rel=3DMain-File href=3D"../Design_kmom05_diagram.htm">
+<![if IE]>
+<base href=3D"file:///C:\D845548D\Design_kmom05_diagram-filer\tabstrip.htm"
+id=3D"webarch_temp_base_tag">
+<![endif]>
+<script language=3D"JavaScript">
+<!--
+if (window.name!=3D"frTabs")
+ window.location.replace(document.all.item("Main-File").href);
+//-->
+</script>
+<style>
+<!--
+A {
+    text-decoration:none;
+    color:#000000;
+    font-size:9pt;
+}
+-->
+</style>
+</head>
+<body topmargin=3D0 leftmargin=3D0 bgcolor=3D"#808080">
+<table border=3D0 cellspacing=3D1>
+ <tr>
+ <td bgcolor=3D"#FFFFFF" nowrap><b><small><small>&nbsp;<a href=3D"chart001.=
+htm" target=3D"frSheet"><font face=3D"Arial" color=3D"#000000">Diagram1</fo=
+nt></a>&nbsp;</small></small></b></td>
+ <td bgcolor=3D"#FFFFFF" nowrap><b><small><small>&nbsp;<a href=3D"sheet001.=
+htm" target=3D"frSheet"><font face=3D"Arial" color=3D"#000000">Mätn2</font>=
+</a>&nbsp;</small></small></b></td>
+ <td bgcolor=3D"#FFFFFF" nowrap><b><small><small>&nbsp;<a href=3D"sheet002.=
+htm" target=3D"frSheet"><font face=3D"Arial" color=3D"#000000">Blad2</font>=
+</a>&nbsp;</small></small></b></td>
+
+ </tr>
+</table>
+</body>
+</html>
+
+------=_NextPart_01D4A5BC.1F6E3D20
+Content-Location: file:///C:/D845548D/Design_kmom05_diagram-filer/chart001.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1252"
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml"
+xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 14">
+<link id=3DMain-File rel=3DMain-File href=3D"../Design_kmom05_diagram.htm">
+<link rel=3DFile-List href=3Dfilelist.xml>
+<link rel=3DEdit-Time-Data href=3Deditdata.mso>
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+x\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><![if IE]>
+<base href=3D"file:///C:\D845548D\Design_kmom05_diagram-filer\chart001.htm"
+id=3D"webarch_temp_base_tag">
+<![endif]>
+<link rel=3DStylesheet href=3Dstylesheet.css>
+<style>
+<!--@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;
+	mso-page-orientation:landscape;}
+-->
+</style>
+<![if !supportTabStrip]><script language=3D"JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=3D4) {
+   if (parent.document.readyState=3D=3D"complete"
+    && parent.frames['frTabs'].document.readyState=3D=3D"complete")
+   parent.fnSetActiveSheet(0);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!=3D"frSheet")
+ window.location.replace("../Design_kmom05_diagram.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body>
+<img src=3Dimage001.png alt=3DDiagram1>
+</body>
+
+</html>
+
+------=_NextPart_01D4A5BC.1F6E3D20
+Content-Location: file:///C:/D845548D/Design_kmom05_diagram-filer/image001.png
+Content-Transfer-Encoding: base64
+Content-Type: image/png
+
+iVBORw0KGgoAAAANSUhEUgAABcgAAAPNCAMAAACK9HnAAAAAAXNSR0ICQMB9xQAAALpQTFRFAAAA
+AAAAAAA6AABmADqQAGa2OgAAOgBmOjoAJUBhOpCQOpDbTU1NQW+mVY7VZgAAZmY6aGhofHx8ZmZm
+ZpCQZrbbZrb/kDoAkGYAkJBmhoaGjIyMmpqahqRKiaVOjqXLkNu2kNvbkNv/qEI/tmYAvb29srKy
+p6entv+2tv/btv//wFBN25A6zo6N2ZaU27Zm29uQ0NDQ2dnZx8fH2/+22////7Zm/9uQ//+2///b
+4eHh6enp8PDw////A/kvegAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAZdEVY
+dFNvZnR3YXJlAE1pY3Jvc29mdCBPZmZpY2V/7TVxAABOfElEQVR42u3dDXvbVpbl+1YSubtaVnyd
+npF7xnHVzC066c7QmeukS3bs6Pt/rSvi9QCkZBM4eNnQbz9PV5OUI/y11t6L4AEI/NM/KaWUUkop
+pZRSSimllFJKKaWUUkoppZRSSg2q/6mUUipaCXKllApe/SC/U0opFakEuVJKBS9BrpRSwUuQK6VU
+8BLkSikVvAS5UkoFL0GulFLBS5ArpVTwEuRKKRW8BLlSSgUvQa6UUsFLkCulVPAS5EopFbwEuVJK
+BS9BrpRSwUuQK6VU8BLkSikVvAS5UkoFL0GulFLBS5ArpVTwEuRKKRW8BLlSSgUvQa6UUsFLkKvV
+1qe3bz9/+aW1ISo1fwlytdb6dHFfX3ypqfevX7/+Lde2f/vx9e/3/+/31z/+diaiUguUIFez1m/3
+cfvj1/3TM4P88KOXmSj/PPyyz3efv5TTglytowS5mrXeHqLv01f90wFBnitUP5WUnwS5ilGCXM1a
+0wZ51j3yP4s98udnIiq1QAlyNWtNF+S/vX79Y7YDj7+9fXtYHH//09tPZyIqtUAJcjVrTRfkS5Qg
+V+soQa5mrVNB/unTp+6u9J+fPv3ZS8kTL1X/6YOb6v+s+A3dn//5COkRVedXnOL58xTNY4RKZSpB
+rmatfpD/+dPL4ijlRbss8un14fnrz0lKHr30c7Ee/vb5YRH7p+Y3P3/7wM/u7n6vNnN48RDGn38s
+Hr+8/y/eH351gvf2BFXxOz+/LM5lOY1497b8T15/Sv6LPoVS05QgV7NWL8h/v2irOmP7ff385yYl
+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
+UmpI/f8vrfG7pyMqLAAAAABJRU5ErkJggk==
+
+------=_NextPart_01D4A5BC.1F6E3D20
+Content-Location: file:///C:/D845548D/Design_kmom05_diagram-filer/sheet001.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1252"
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml"
+xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 14">
+<link id=3DMain-File rel=3DMain-File href=3D"../Design_kmom05_diagram.htm">
+<link rel=3DFile-List href=3Dfilelist.xml>
+<![if IE]>
+<base href=3D"file:///C:\D845548D\Design_kmom05_diagram-filer\sheet001.htm"
+id=3D"webarch_temp_base_tag">
+<![endif]>
+<link rel=3DStylesheet href=3Dstylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\,";
+	mso-displayed-thousand-separator:" ";}
+@page
+	{margin:.75in .71in .75in .71in;
+	mso-header-margin:.31in;
+	mso-footer-margin:.31in;
+	mso-page-orientation:landscape;}
+-->
+</style>
+<![if !supportTabStrip]><script language=3D"JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=3D4) {
+   if (parent.document.readyState=3D=3D"complete"
+    && parent.frames['frTabs'].document.readyState=3D=3D"complete")
+   parent.fnSetActiveSheet(1);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!=3D"frSheet")
+ window.location.replace("../Design_kmom05_diagram.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link=3Dblue vlink=3Dpurple>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D1141 style=3D'bor=
+der-collapse:
+ collapse;table-layout:fixed;width:859pt'>
+ <col width=3D144 style=3D'mso-width-source:userset;mso-width-alt:5026;widt=
+h:108pt'>
+ <col class=3Dxl143 width=3D61 style=3D'mso-width-source:userset;mso-width-=
+alt:2117;
+ width:46pt'>
+ <col width=3D61 style=3D'mso-width-source:userset;mso-width-alt:2117;width=
+:46pt'>
+ <col class=3Dxl131 width=3D101 style=3D'mso-width-source:userset;mso-width=
+-alt:3514;
+ width:76pt'>
+ <col class=3Dxl159 width=3D101 style=3D'mso-width-source:userset;mso-width=
+-alt:3514;
+ width:76pt'>
+ <col class=3Dxl93 width=3D81 style=3D'mso-width-source:userset;mso-width-a=
+lt:2839;
+ width:61pt'>
+ <col class=3Dxl122 width=3D106 style=3D'width:80pt'>
+ <col class=3Dxl79 width=3D88 style=3D'mso-width-source:userset;mso-width-a=
+lt:3072;
+ width:66pt'>
+ <col class=3Dxl79 width=3D79 style=3D'mso-width-source:userset;mso-width-a=
+lt:2746;
+ width:59pt'>
+ <col class=3Dxl79 width=3D75 style=3D'mso-width-source:userset;mso-width-a=
+lt:2629;
+ width:57pt'>
+ <col width=3D106 style=3D'width:80pt'>
+ <col width=3D61 style=3D'mso-width-source:userset;mso-width-alt:2141;width=
+:46pt'>
+ <col width=3D77 style=3D'mso-width-source:userset;mso-width-alt:2699;width=
+:58pt'>
+ <tr height=3D17 style=3D'height:12.5pt'>
+  <td height=3D17 width=3D144 style=3D'height:12.5pt;width:108pt'>Column1</=
+td>
+  <td width=3D61 style=3D'width:46pt'>Column2</td>
+  <td width=3D61 style=3D'width:46pt'>Kolumn2</td>
+  <td width=3D101 style=3D'width:76pt'>Column3</td>
+  <td width=3D101 style=3D'width:76pt'>Kolumn3</td>
+  <td width=3D81 style=3D'width:61pt'>Column4</td>
+  <td width=3D106 style=3D'width:80pt'>Kolumn1</td>
+  <td width=3D88 style=3D'width:66pt'>Column5</td>
+  <td width=3D79 style=3D'width:59pt'>Column6</td>
+  <td width=3D75 style=3D'width:57pt'>Column7</td>
+  <td width=3D106 style=3D'width:80pt'>Column9</td>
+  <td width=3D61 style=3D'width:46pt'>Column10</td>
+  <td width=3D77 style=3D'width:58pt'>Column11</td>
+ </tr>
+ <tr class=3Dxl101 height=3D35 style=3D'height:26.0pt'>
+  <td height=3D35 class=3Dxl65 style=3D'height:26.0pt;font-size:10.0pt;colo=
+r:black;
+  font-weight:400;text-decoration:none;text-underline-style:none;text-line-=
+through:
+  none;font-family:Arial;background:white;mso-pattern:white none'><a
+  name=3D"Print_Area"></a></td>
+  <td class=3Dxl132 style=3D'font-size:10.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border-top:none;border-right:.5pt solid windowtext;
+  border-bottom:none;border-left:none;background:white;mso-pattern:white no=
+ne'>&nbsp;</td>
+  <td class=3Dxl66 style=3D'font-size:10.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border:none;background:white;mso-pattern:white none'></=
+td>
+  <td class=3Dxl144 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+700;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border-top:none;border-right:none;border-bottom:none;
+  border-left:.5pt solid windowtext;background:white;mso-pattern:white none=
+'>Pagespeed</td>
+  <td class=3Dxl147 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+700;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border-top:none;border-right:.5pt solid windowtext;
+  border-bottom:none;border-left:.5pt solid windowtext;background:white;
+  mso-pattern:white none'>&nbsp;</td>
+  <td class=3Dxl66 style=3D'font-size:10.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;background:white;mso-pattern:white none'></td>
+  <td class=3Dxl113 width=3D106 style=3D'width:80pt;font-size:10.0pt;color:=
+windowtext;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-=
+through:
+  none;font-family:Arial;border-top:none;border-right:none;border-bottom:no=
+ne;
+  border-left:.5pt solid windowtext;background:white;mso-pattern:white none=
+'>Firefox
+  DevTools</td>
+  <td class=3Dxl80 style=3D'font-size:10.0pt;color:windowtext;font-weight:7=
+00;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;background:white;mso-pattern:white none'>Total</td>
+  <td class=3Dxl84 style=3D'font-size:10.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;background:white;mso-pattern:white none'></td>
+  <td class=3Dxl84 style=3D'font-size:10.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;background:white;mso-pattern:white none'></td>
+  <td class=3Dxl105 style=3D'font-size:10.0pt;color:black;font-weight:700;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border-top:none;border-right:none;border-bottom:none;
+  border-left:.5pt solid windowtext;background:white;mso-pattern:white none=
+'>Bilder</td>
+  <td class=3Dxl66 style=3D'font-size:10.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;background:white;mso-pattern:white none'></td>
+  <td class=3Dxl66 style=3D'font-size:10.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;background:white;mso-pattern:white none'></td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl102 width=3D144 style=3D'width:108pt'>Parti/sida</td>
+  <td class=3Dxl133 width=3D61 style=3D'width:46pt'>Mätning nr</td>
+  <td class=3Dxl103 width=3D61 style=3D'width:46pt'>&nbsp;</td>
+  <td class=3Dxl106 width=3D101 style=3D'width:76pt'>Mobil</td>
+  <td class=3Dxl148 width=3D101 style=3D'width:76pt'>&nbsp;</td>
+  <td class=3Dxl103 width=3D81 style=3D'width:61pt'>Dator</td>
+  <td class=3Dxl114 width=3D106 style=3D'width:80pt'>&nbsp;</td>
+  <td class=3Dxl104 width=3D88 style=3D'width:66pt'>Laddningstid sek</td>
+  <td class=3Dxl104 width=3D79 style=3D'width:59pt'>Antal resurser</td>
+  <td class=3Dxl104 width=3D75 style=3D'width:57pt'>Storlek kb</td>
+  <td class=3Dxl106 width=3D106 style=3D'width:80pt'>Laddningstid sek</td>
+  <td class=3Dxl103 width=3D61 style=3D'width:46pt'>Antal resurser</td>
+  <td class=3Dxl103 width=3D77 style=3D'width:58pt'>Storlek kb</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl67>S</td>
+  <td class=3Dxl134>&nbsp;</td>
+  <td class=3Dxl68>&nbsp;</td>
+  <td class=3Dxl123>&nbsp;</td>
+  <td class=3Dxl149>&nbsp;</td>
+  <td class=3Dxl68>&nbsp;</td>
+  <td class=3Dxl115>&nbsp;</td>
+  <td class=3Dxl81>&nbsp;</td>
+  <td class=3Dxl81>&nbsp;</td>
+  <td class=3Dxl81>&nbsp;</td>
+  <td class=3Dxl107>&nbsp;</td>
+  <td class=3Dxl66></td>
+  <td class=3Dxl66></td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl86 width=3D144 style=3D'width:108pt'>1:a sida
+  (https://www.socialdemokraterna.se/)</td>
+  <td class=3Dxl135>1</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl124>42</td>
+  <td class=3Dxl150>&nbsp;</td>
+  <td class=3Dxl77>91</td>
+  <td class=3Dxl116>&nbsp;</td>
+  <td class=3Dxl82>7,44</td>
+  <td class=3Dxl82>48,00</td>
+  <td class=3Dxl82>183,31</td>
+  <td class=3Dxl108>7,39</td>
+  <td class=3Dxl70>19</td>
+  <td class=3Dxl70>1341,44</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl71>1:a sida</td>
+  <td class=3Dxl136>2</td>
+  <td class=3Dxl72>&nbsp;</td>
+  <td class=3Dxl125>47</td>
+  <td class=3Dxl151>&nbsp;</td>
+  <td class=3Dxl72>88</td>
+  <td class=3Dxl117>&nbsp;</td>
+  <td class=3Dxl81>7,21</td>
+  <td class=3Dxl81>48,00</td>
+  <td class=3Dxl81>167,42</td>
+  <td class=3Dxl107>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl96 height=3D0 style=3D'display:none'>
+  <td class=3Dxl69>1:a sida</td>
+  <td class=3Dxl135>3</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl111>44</td>
+  <td class=3Dxl152>&nbsp;</td>
+  <td class=3Dxl70>94</td>
+  <td class=3Dxl118>&nbsp;</td>
+  <td class=3Dxl82>7,25</td>
+  <td class=3Dxl82>47,00</td>
+  <td class=3Dxl82>166,96</td>
+  <td class=3Dxl108>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+ </tr>
+ <tr height=3D19 style=3D'height:14.0pt'>
+  <td height=3D19 class=3Dxl94 style=3D'height:14.0pt'>S1</td>
+  <td class=3Dxl137 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border-top:none;border-right:.5pt solid windowtext;
+  border-bottom:none;border-left:none;background:white;mso-pattern:white no=
+ne'>&nbsp;</td>
+  <td class=3Dxl145 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border:none;background:white;mso-pattern:white none'>&n=
+bsp;</td>
+  <td class=3Dxl126>44,33</td>
+  <td class=3Dxl153>&nbsp;</td>
+  <td class=3Dxl95>91,00</td>
+  <td class=3Dxl112>Snitt</td>
+  <td class=3Dxl95>7,30</td>
+  <td class=3Dxl95>47,67</td>
+  <td class=3Dxl95>172,56</td>
+  <td class=3Dxl95>7,39</td>
+  <td class=3Dxl95>19,00</td>
+  <td class=3Dxl95>1341,44</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl87 width=3D144 style=3D'width:108pt'>Vår politik
+  (https://www.socialdemokraterna.se/var-politik/)</td>
+  <td class=3Dxl135>1</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl111>48</td>
+  <td class=3Dxl152>&nbsp;</td>
+  <td class=3Dxl70>95</td>
+  <td class=3Dxl118>&nbsp;</td>
+  <td class=3Dxl82>7,22</td>
+  <td class=3Dxl82>84,00</td>
+  <td class=3Dxl82>296,92</td>
+  <td class=3Dxl108>6,27</td>
+  <td class=3Dxl70>4</td>
+  <td class=3Dxl70>0,114</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl75>Vår politik</td>
+  <td class=3Dxl136>2</td>
+  <td class=3Dxl72>&nbsp;</td>
+  <td class=3Dxl125>46</td>
+  <td class=3Dxl151>&nbsp;</td>
+  <td class=3Dxl72>96</td>
+  <td class=3Dxl117>&nbsp;</td>
+  <td class=3Dxl81>7,35</td>
+  <td class=3Dxl81>84,00</td>
+  <td class=3Dxl81>735,83</td>
+  <td class=3Dxl107>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl96 height=3D0 style=3D'display:none'>
+  <td class=3Dxl74>Vår politik</td>
+  <td class=3Dxl135>3</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl111>49</td>
+  <td class=3Dxl152>&nbsp;</td>
+  <td class=3Dxl70>97</td>
+  <td class=3Dxl118>&nbsp;</td>
+  <td class=3Dxl82>6,80</td>
+  <td class=3Dxl82>83,00</td>
+  <td class=3Dxl82>170,03</td>
+  <td class=3Dxl108>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+ </tr>
+ <tr height=3D19 style=3D'height:14.0pt'>
+  <td height=3D19 class=3Dxl145 style=3D'height:14.0pt'>S2</td>
+  <td class=3Dxl137 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border-top:none;border-right:.5pt solid windowtext;
+  border-bottom:none;border-left:none;background:white;mso-pattern:white no=
+ne'>&nbsp;</td>
+  <td class=3Dxl145 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border:none;background:white;mso-pattern:white none'>&n=
+bsp;</td>
+  <td class=3Dxl126>47,67</td>
+  <td class=3Dxl153>&nbsp;</td>
+  <td class=3Dxl95>96,00</td>
+  <td class=3Dxl112>Snitt</td>
+  <td class=3Dxl95>7,12</td>
+  <td class=3Dxl95>83,67</td>
+  <td class=3Dxl95>400,93</td>
+  <td class=3Dxl95>6,27</td>
+  <td class=3Dxl95>4,00</td>
+  <td class=3Dxl95>0,11</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl87 width=3D144 style=3D'width:108pt'>Bli medlem
+  (https://www.socialdemokraterna.se/bli-medlem/)</td>
+  <td class=3Dxl135>1</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl111>67</td>
+  <td class=3Dxl152>&nbsp;</td>
+  <td class=3Dxl70>100</td>
+  <td class=3Dxl118>&nbsp;</td>
+  <td class=3Dxl82>7,05</td>
+  <td class=3Dxl82>43,00</td>
+  <td class=3Dxl82>848,87</td>
+  <td class=3Dxl108>6,21</td>
+  <td class=3Dxl70>14</td>
+  <td class=3Dxl70>2,96</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl88 width=3D144 style=3D'width:108pt'>Bli medlem</td>
+  <td class=3Dxl136>2</td>
+  <td class=3Dxl72>&nbsp;</td>
+  <td class=3Dxl125>68</td>
+  <td class=3Dxl151>&nbsp;</td>
+  <td class=3Dxl72>100</td>
+  <td class=3Dxl117>&nbsp;</td>
+  <td class=3Dxl81>8,48</td>
+  <td class=3Dxl81>44,00</td>
+  <td class=3Dxl81>849,53</td>
+  <td class=3Dxl107>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl96 height=3D0 style=3D'display:none'>
+  <td class=3Dxl74>Bli medlem</td>
+  <td class=3Dxl135>3</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl111>67</td>
+  <td class=3Dxl152>&nbsp;</td>
+  <td class=3Dxl70>100</td>
+  <td class=3Dxl118>&nbsp;</td>
+  <td class=3Dxl82>6,77</td>
+  <td class=3Dxl82>43,00</td>
+  <td class=3Dxl82>848,87</td>
+  <td class=3Dxl108>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+ </tr>
+ <tr height=3D19 style=3D'height:14.0pt'>
+  <td height=3D19 class=3Dxl145 style=3D'height:14.0pt'>S3</td>
+  <td class=3Dxl137 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border-top:none;border-right:.5pt solid windowtext;
+  border-bottom:none;border-left:none;background:white;mso-pattern:white no=
+ne'>&nbsp;</td>
+  <td class=3Dxl145 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border:none;background:white;mso-pattern:white none'>&n=
+bsp;</td>
+  <td class=3Dxl126>67,33</td>
+  <td class=3Dxl153>&nbsp;</td>
+  <td class=3Dxl95>100,00</td>
+  <td class=3Dxl112>Snitt</td>
+  <td class=3Dxl95>7,43</td>
+  <td class=3Dxl95>43,33</td>
+  <td class=3Dxl95>849,09</td>
+  <td class=3Dxl95>6,21</td>
+  <td class=3Dxl95>14,00</td>
+  <td class=3Dxl95>2,96</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl76>V</td>
+  <td class=3Dxl138>&nbsp;</td>
+  <td class=3Dxl77>&nbsp;</td>
+  <td class=3Dxl111>&nbsp;</td>
+  <td class=3Dxl152>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl118>&nbsp;</td>
+  <td class=3Dxl82>&nbsp;</td>
+  <td class=3Dxl82>&nbsp;</td>
+  <td class=3Dxl82>&nbsp;</td>
+  <td class=3Dxl108>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl89 width=3D144 style=3D'width:108pt'>1:a sida
+  (https://www.vansterpartiet.se/)</td>
+  <td class=3Dxl136>1</td>
+  <td class=3Dxl72>&nbsp;</td>
+  <td class=3Dxl125>52</td>
+  <td class=3Dxl151>&nbsp;</td>
+  <td class=3Dxl72>100</td>
+  <td class=3Dxl117>&nbsp;</td>
+  <td class=3Dxl81>6,70</td>
+  <td class=3Dxl81>70,00</td>
+  <td class=3Dxl81>165,58</td>
+  <td class=3Dxl107>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl86 width=3D144 style=3D'width:108pt'>1:a sida</td>
+  <td class=3Dxl135>2</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl127>57</td>
+  <td class=3Dxl154>&nbsp;</td>
+  <td class=3Dxl92>100</td>
+  <td class=3Dxl118>&nbsp;</td>
+  <td class=3Dxl82>5,89</td>
+  <td class=3Dxl82>72,00</td>
+  <td class=3Dxl82>164,40</td>
+  <td class=3Dxl108>&nbsp;</td>
+  <td class=3Dxl70>25</td>
+  <td class=3Dxl70>1,02</td>
+ </tr>
+ <tr class=3Dxl96 height=3D0 style=3D'display:none'>
+  <td class=3Dxl71>1:a sida</td>
+  <td class=3Dxl136>3</td>
+  <td class=3Dxl72>&nbsp;</td>
+  <td class=3Dxl125>60</td>
+  <td class=3Dxl151>&nbsp;</td>
+  <td class=3Dxl72>100</td>
+  <td class=3Dxl117>&nbsp;</td>
+  <td class=3Dxl81>7,27</td>
+  <td class=3Dxl81>70,00</td>
+  <td class=3Dxl81>158,58</td>
+  <td class=3Dxl107>6,42</td>
+  <td class=3Dxl78>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+ </tr>
+ <tr height=3D19 style=3D'height:14.0pt'>
+  <td height=3D19 class=3Dxl97 style=3D'height:14.0pt'>V1</td>
+  <td class=3Dxl139 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border-top:none;border-right:.5pt solid windowtext;
+  border-bottom:none;border-left:none;background:#F3F3F3;mso-pattern:#F3F3F=
+3 none'>&nbsp;</td>
+  <td class=3Dxl146 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border:none;background:#F3F3F3;mso-pattern:#F3F3F3 none=
+'>&nbsp;</td>
+  <td class=3Dxl128>56,33</td>
+  <td class=3Dxl155>&nbsp;</td>
+  <td class=3Dxl98>100,00</td>
+  <td class=3Dxl119>Snitt</td>
+  <td class=3Dxl99>6,62</td>
+  <td class=3Dxl99>70,67</td>
+  <td class=3Dxl99>162,85</td>
+  <td class=3Dxl95>6,42</td>
+  <td class=3Dxl95>25,00</td>
+  <td class=3Dxl95>1,02</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl88 width=3D144 style=3D'width:108pt'>Vår politik
+  (https://www.vansterpartiet.se/var-politik/)</td>
+  <td class=3Dxl136>1</td>
+  <td class=3Dxl72>&nbsp;</td>
+  <td class=3Dxl125>63</td>
+  <td class=3Dxl151>&nbsp;</td>
+  <td class=3Dxl72>100</td>
+  <td class=3Dxl117>&nbsp;</td>
+  <td class=3Dxl81>4,01</td>
+  <td class=3Dxl81>60,00</td>
+  <td class=3Dxl81>797,26</td>
+  <td class=3Dxl107>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl74>Vår politik</td>
+  <td class=3Dxl135>2</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl111>67</td>
+  <td class=3Dxl152>&nbsp;</td>
+  <td class=3Dxl70>100</td>
+  <td class=3Dxl118>&nbsp;</td>
+  <td class=3Dxl82>4,38</td>
+  <td class=3Dxl82>61,00</td>
+  <td class=3Dxl82>801,73</td>
+  <td class=3Dxl108>&nbsp;</td>
+  <td class=3Dxl70>19</td>
+  <td class=3Dxl70>1,02</td>
+ </tr>
+ <tr class=3Dxl96 height=3D0 style=3D'display:none'>
+  <td class=3Dxl75>Vår politik</td>
+  <td class=3Dxl136>3</td>
+  <td class=3Dxl72>&nbsp;</td>
+  <td class=3Dxl125>67</td>
+  <td class=3Dxl151>&nbsp;</td>
+  <td class=3Dxl72>88</td>
+  <td class=3Dxl117>&nbsp;</td>
+  <td class=3Dxl81>3,05</td>
+  <td class=3Dxl81>57,00</td>
+  <td class=3Dxl81>115,49</td>
+  <td class=3Dxl107>4,66</td>
+  <td class=3Dxl78>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+ </tr>
+ <tr height=3D19 style=3D'height:14.0pt'>
+  <td height=3D19 class=3Dxl146 style=3D'height:14.0pt'>V2</td>
+  <td class=3Dxl139 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border-top:none;border-right:.5pt solid windowtext;
+  border-bottom:none;border-left:none;background:#F3F3F3;mso-pattern:#F3F3F=
+3 none'>&nbsp;</td>
+  <td class=3Dxl146 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border:none;background:#F3F3F3;mso-pattern:#F3F3F3 none=
+'>&nbsp;</td>
+  <td class=3Dxl128>65,67</td>
+  <td class=3Dxl155>&nbsp;</td>
+  <td class=3Dxl98>96,00</td>
+  <td class=3Dxl119>Snitt</td>
+  <td class=3Dxl99>3,81</td>
+  <td class=3Dxl99>59,33</td>
+  <td class=3Dxl99>571,49</td>
+  <td class=3Dxl95>4,66</td>
+  <td class=3Dxl95>19,00</td>
+  <td class=3Dxl95>1,02</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl88 width=3D144 style=3D'width:108pt'>Bli medlem
+  (https://www.vansterpartiet.se/engagera-dig/)</td>
+  <td class=3Dxl136>1</td>
+  <td class=3Dxl72>&nbsp;</td>
+  <td class=3Dxl125>37</td>
+  <td class=3Dxl151>&nbsp;</td>
+  <td class=3Dxl72>96</td>
+  <td class=3Dxl117>&nbsp;</td>
+  <td class=3Dxl81>3,90</td>
+  <td class=3Dxl81>57,00</td>
+  <td class=3Dxl81>508,77</td>
+  <td class=3Dxl107>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl74>Bli medlem</td>
+  <td class=3Dxl135>2</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl111>34</td>
+  <td class=3Dxl152>&nbsp;</td>
+  <td class=3Dxl70>96</td>
+  <td class=3Dxl118>&nbsp;</td>
+  <td class=3Dxl82>2,67</td>
+  <td class=3Dxl82>57,00</td>
+  <td class=3Dxl82>499,09</td>
+  <td class=3Dxl108>&nbsp;</td>
+  <td class=3Dxl70>6</td>
+  <td class=3Dxl70>437,39</td>
+ </tr>
+ <tr class=3Dxl96 height=3D0 style=3D'display:none'>
+  <td class=3Dxl75>Bli medlem</td>
+  <td class=3Dxl136>3</td>
+  <td class=3Dxl72>&nbsp;</td>
+  <td class=3Dxl125>42</td>
+  <td class=3Dxl151>&nbsp;</td>
+  <td class=3Dxl72>98</td>
+  <td class=3Dxl117>&nbsp;</td>
+  <td class=3Dxl81>2,33</td>
+  <td class=3Dxl81>58,00</td>
+  <td class=3Dxl81>488,90</td>
+  <td class=3Dxl107>2,84</td>
+  <td class=3Dxl78>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+ </tr>
+ <tr height=3D19 style=3D'height:14.0pt'>
+  <td height=3D19 class=3Dxl146 style=3D'height:14.0pt'>V3</td>
+  <td class=3Dxl139 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border-top:none;border-right:.5pt solid windowtext;
+  border-bottom:none;border-left:none;background:#F3F3F3;mso-pattern:#F3F3F=
+3 none'>&nbsp;</td>
+  <td class=3Dxl146 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border:none;background:#F3F3F3;mso-pattern:#F3F3F3 none=
+'>&nbsp;</td>
+  <td class=3Dxl128>37,67</td>
+  <td class=3Dxl155>&nbsp;</td>
+  <td class=3Dxl98>96,67</td>
+  <td class=3Dxl119>Snitt</td>
+  <td class=3Dxl99>2,97</td>
+  <td class=3Dxl99>57,33</td>
+  <td class=3Dxl99>498,92</td>
+  <td class=3Dxl95>2,84</td>
+  <td class=3Dxl95>6,00</td>
+  <td class=3Dxl95>437,39</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl67>MP</td>
+  <td class=3Dxl134>&nbsp;</td>
+  <td class=3Dxl68>&nbsp;</td>
+  <td class=3Dxl125>&nbsp;</td>
+  <td class=3Dxl151>&nbsp;</td>
+  <td class=3Dxl72>&nbsp;</td>
+  <td class=3Dxl117>&nbsp;</td>
+  <td class=3Dxl81>&nbsp;</td>
+  <td class=3Dxl81>&nbsp;</td>
+  <td class=3Dxl81>&nbsp;</td>
+  <td class=3Dxl107>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+  <td class=3Dxl78>&nbsp;</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl86 width=3D144 style=3D'width:108pt'>1:a sida (https://www.=
+mp.se/)</td>
+  <td class=3Dxl135>1</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl111>37</td>
+  <td class=3Dxl152>&nbsp;</td>
+  <td class=3Dxl70>95</td>
+  <td class=3Dxl118>&nbsp;</td>
+  <td class=3Dxl82>12,46</td>
+  <td class=3Dxl82>63,00</td>
+  <td class=3Dxl82>526,21</td>
+  <td class=3Dxl108>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl71>1:a sida</td>
+  <td class=3Dxl136>2</td>
+  <td class=3Dxl72>&nbsp;</td>
+  <td class=3Dxl125>37</td>
+  <td class=3Dxl151>&nbsp;</td>
+  <td class=3Dxl72>97</td>
+  <td class=3Dxl117>&nbsp;</td>
+  <td class=3Dxl81>12,54</td>
+  <td class=3Dxl81>63,00</td>
+  <td class=3Dxl81>263,00</td>
+  <td class=3Dxl107>&nbsp;</td>
+  <td class=3Dxl78>27</td>
+  <td class=3Dxl78>198,09</td>
+ </tr>
+ <tr class=3Dxl96 height=3D0 style=3D'display:none'>
+  <td class=3Dxl69>1:a sida</td>
+  <td class=3Dxl135>3</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl111>41</td>
+  <td class=3Dxl152>&nbsp;</td>
+  <td class=3Dxl70>97</td>
+  <td class=3Dxl118>&nbsp;</td>
+  <td class=3Dxl82>12,71</td>
+  <td class=3Dxl82>62,00</td>
+  <td class=3Dxl82>151,37</td>
+  <td class=3Dxl108>12,07</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+ </tr>
+ <tr height=3D19 style=3D'height:14.0pt'>
+  <td height=3D19 class=3Dxl94 style=3D'height:14.0pt'>MP1</td>
+  <td class=3Dxl137 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border-top:none;border-right:.5pt solid windowtext;
+  border-bottom:none;border-left:none;background:white;mso-pattern:white no=
+ne'>&nbsp;</td>
+  <td class=3Dxl145 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border:none;background:white;mso-pattern:white none'>&n=
+bsp;</td>
+  <td class=3Dxl126>38,33</td>
+  <td class=3Dxl153>&nbsp;</td>
+  <td class=3Dxl95>96,33</td>
+  <td class=3Dxl112>Snitt</td>
+  <td class=3Dxl95>12,57</td>
+  <td class=3Dxl95>62,67</td>
+  <td class=3Dxl95>313,53</td>
+  <td class=3Dxl95>12,07</td>
+  <td class=3Dxl95>27,00</td>
+  <td class=3Dxl95>198,09</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl87 width=3D144 style=3D'width:108pt'>Vår politik
+  (https://www.mp.se/politik9</td>
+  <td class=3Dxl140 width=3D61 style=3D'width:46pt'>1</td>
+  <td class=3Dxl90 width=3D61 style=3D'width:46pt'>&nbsp;</td>
+  <td class=3Dxl129 width=3D101 style=3D'width:76pt'>50</td>
+  <td class=3Dxl156 width=3D101 style=3D'width:76pt'>&nbsp;</td>
+  <td class=3Dxl90 width=3D81 style=3D'width:61pt'>100</td>
+  <td class=3Dxl120 width=3D106 style=3D'width:80pt'>&nbsp;</td>
+  <td class=3Dxl91 width=3D88 style=3D'width:66pt'>12,32</td>
+  <td class=3Dxl91 width=3D79 style=3D'width:59pt'>44,00</td>
+  <td class=3Dxl91 width=3D75 style=3D'width:57pt'>123,30</td>
+  <td class=3Dxl110 width=3D106 style=3D'width:80pt'>&nbsp;</td>
+  <td class=3Dxl90 width=3D61 style=3D'width:46pt'>&nbsp;</td>
+  <td class=3Dxl90 width=3D77 style=3D'width:58pt'>&nbsp;</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl75>Vår politik</td>
+  <td class=3Dxl136>2</td>
+  <td class=3Dxl72>&nbsp;</td>
+  <td class=3Dxl125>54</td>
+  <td class=3Dxl151>&nbsp;</td>
+  <td class=3Dxl72>100</td>
+  <td class=3Dxl117>&nbsp;</td>
+  <td class=3Dxl81>12,43</td>
+  <td class=3Dxl81>43,00</td>
+  <td class=3Dxl81>239,14</td>
+  <td class=3Dxl107>&nbsp;</td>
+  <td class=3Dxl78>20</td>
+  <td class=3Dxl78>236,31</td>
+ </tr>
+ <tr class=3Dxl96 height=3D0 style=3D'display:none'>
+  <td class=3Dxl74>Vår politik</td>
+  <td class=3Dxl135>3</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl111>51</td>
+  <td class=3Dxl152>&nbsp;</td>
+  <td class=3Dxl70>100</td>
+  <td class=3Dxl118>&nbsp;</td>
+  <td class=3Dxl83>12,03</td>
+  <td class=3Dxl83>47,00</td>
+  <td class=3Dxl83>72,36</td>
+  <td class=3Dxl111>13,33</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+ </tr>
+ <tr height=3D19 style=3D'height:14.0pt'>
+  <td height=3D19 class=3Dxl145 style=3D'height:14.0pt'>MP2</td>
+  <td class=3Dxl137 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border-top:none;border-right:.5pt solid windowtext;
+  border-bottom:none;border-left:none;background:white;mso-pattern:white no=
+ne'>&nbsp;</td>
+  <td class=3Dxl145 style=3D'font-size:10.0pt;color:windowtext;font-weight:=
+400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Arial;border:none;background:white;mso-pattern:white none'>&n=
+bsp;</td>
+  <td class=3Dxl126>51,67</td>
+  <td class=3Dxl153>&nbsp;</td>
+  <td class=3Dxl95>100,00</td>
+  <td class=3Dxl112>Snitt</td>
+  <td class=3Dxl100>12,26</td>
+  <td class=3Dxl100>44,67</td>
+  <td class=3Dxl100>144,93</td>
+  <td class=3Dxl95>13,33</td>
+  <td class=3Dxl95>20,00</td>
+  <td class=3Dxl95>236,31</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl87 width=3D144 style=3D'width:108pt'>Engagera dig
+  (https://www.mp.se/engagera-dig)</td>
+  <td class=3Dxl135>1</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl111>89</td>
+  <td class=3Dxl152>&nbsp;</td>
+  <td class=3Dxl70>100</td>
+  <td class=3Dxl118>&nbsp;</td>
+  <td class=3Dxl82>6,25</td>
+  <td class=3Dxl82>31,00</td>
+  <td class=3Dxl82>833,31</td>
+  <td class=3Dxl108>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl75>Engagera dig</td>
+  <td class=3Dxl136>2</td>
+  <td class=3Dxl72>&nbsp;</td>
+  <td class=3Dxl125>88</td>
+  <td class=3Dxl151>&nbsp;</td>
+  <td class=3Dxl72>100</td>
+  <td class=3Dxl117>&nbsp;</td>
+  <td class=3Dxl81>6,51</td>
+  <td class=3Dxl81>31,00</td>
+  <td class=3Dxl81>833,31</td>
+  <td class=3Dxl107>&nbsp;</td>
+  <td class=3Dxl78>12</td>
+  <td class=3Dxl78>56,04</td>
+ </tr>
+ <tr class=3Dxl96 height=3D0 style=3D'display:none'>
+  <td class=3Dxl74>Engagera dig</td>
+  <td class=3Dxl135>3</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl111>88</td>
+  <td class=3Dxl152>&nbsp;</td>
+  <td class=3Dxl70>100</td>
+  <td class=3Dxl118>&nbsp;</td>
+  <td class=3Dxl82>6,40</td>
+  <td class=3Dxl82>31,00</td>
+  <td class=3Dxl82>833,32</td>
+  <td class=3Dxl108>10,27</td>
+  <td class=3Dxl70>&nbsp;</td>
+  <td class=3Dxl70>&nbsp;</td>
+ </tr>
+ <tr height=3D19 style=3D'height:14.0pt'>
+  <td height=3D19 class=3Dxl94 style=3D'height:14.0pt'>MP3</td>
+  <td class=3Dxl141>&nbsp;</td>
+  <td class=3Dxl94>&nbsp;</td>
+  <td class=3Dxl126>88,33</td>
+  <td class=3Dxl153>&nbsp;</td>
+  <td class=3Dxl95>100,00</td>
+  <td class=3Dxl112>Snitt</td>
+  <td class=3Dxl100>6,39</td>
+  <td class=3Dxl100>31,00</td>
+  <td class=3Dxl100>833,31</td>
+  <td class=3Dxl95>10,27</td>
+  <td class=3Dxl95>12,00</td>
+  <td class=3Dxl95>56,04</td>
+ </tr>
+ <tr height=3D0 style=3D'display:none'>
+  <td class=3Dxl94>&nbsp;</td>
+  <td class=3Dxl141>&nbsp;</td>
+  <td class=3Dxl94>&nbsp;</td>
+  <td class=3Dxl130>&nbsp;</td>
+  <td class=3Dxl157>&nbsp;</td>
+  <td class=3Dxl85>&nbsp;</td>
+  <td class=3Dxl121>&nbsp;</td>
+  <td class=3Dxl100>&nbsp;</td>
+  <td class=3Dxl100>&nbsp;</td>
+  <td class=3Dxl100>&nbsp;</td>
+  <td class=3Dxl109>&nbsp;</td>
+  <td class=3Dxl94>&nbsp;</td>
+  <td class=3Dxl94>&nbsp;</td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.5pt'>
+  <td height=3D17 class=3Dxl73 style=3D'height:12.5pt'>&nbsp;</td>
+  <td class=3Dxl142>&nbsp;</td>
+  <td class=3Dxl73>&nbsp;</td>
+  <td class=3Dxl108>&nbsp;</td>
+  <td class=3Dxl158>&nbsp;</td>
+  <td class=3Dxl73>&nbsp;</td>
+  <td class=3Dxl108>&nbsp;</td>
+  <td class=3Dxl73>&nbsp;</td>
+  <td class=3Dxl73>&nbsp;</td>
+  <td class=3Dxl73>&nbsp;</td>
+  <td class=3Dxl73>&nbsp;</td>
+  <td class=3Dxl73>&nbsp;</td>
+  <td class=3Dxl73>&nbsp;</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=3D0 style=3D'display:none'>
+  <td width=3D144 style=3D'width:108pt'></td>
+  <td width=3D61 style=3D'width:46pt'></td>
+  <td width=3D61 style=3D'width:46pt'></td>
+  <td width=3D101 style=3D'width:76pt'></td>
+  <td width=3D101 style=3D'width:76pt'></td>
+  <td width=3D81 style=3D'width:61pt'></td>
+  <td width=3D106 style=3D'width:80pt'></td>
+  <td width=3D88 style=3D'width:66pt'></td>
+  <td width=3D79 style=3D'width:59pt'></td>
+  <td width=3D75 style=3D'width:57pt'></td>
+  <td width=3D106 style=3D'width:80pt'></td>
+  <td width=3D61 style=3D'width:46pt'></td>
+  <td width=3D77 style=3D'width:58pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
+
+------=_NextPart_01D4A5BC.1F6E3D20
+Content-Location: file:///C:/D845548D/Design_kmom05_diagram-filer/sheet002.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1252"
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml"
+xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+2">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 14">
+<link id=3DMain-File rel=3DMain-File href=3D"../Design_kmom05_diagram.htm">
+<link rel=3DFile-List href=3Dfilelist.xml>
+<![if IE]>
+<base href=3D"file:///C:\D845548D\Design_kmom05_diagram-filer\sheet002.htm"
+id=3D"webarch_temp_base_tag">
+<![endif]>
+<link rel=3DStylesheet href=3Dstylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\,";
+	mso-displayed-thousand-separator:" ";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+-->
+</style>
+<![if !supportTabStrip]><script language=3D"JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=3D4) {
+   if (parent.document.readyState=3D=3D"complete"
+    && parent.frames['frTabs'].document.readyState=3D=3D"complete")
+   parent.fnSetActiveSheet(2);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!=3D"frSheet")
+ window.location.replace("../Design_kmom05_diagram.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link=3Dblue vlink=3Dpurple>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D64 style=3D'borde=
+r-collapse:
+ collapse;table-layout:fixed;width:48pt'>
+ <col width=3D64 style=3D'width:48pt'>
+ <tr height=3D17 style=3D'height:12.5pt'>
+  <td height=3D17 width=3D64 style=3D'height:12.5pt;width:48pt'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=3D0 style=3D'display:none'>
+  <td width=3D64 style=3D'width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
+
+------=_NextPart_01D4A5BC.1F6E3D20
+Content-Location: file:///C:/D845548D/Design_kmom05_diagram-filer/filelist.xml
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/xml; charset="utf-8"
+
+<xml xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+ <o:MainFile HRef=3D"../Design_kmom05_diagram.htm"/>
+ <o:File HRef=3D"stylesheet.css"/>
+ <o:File HRef=3D"tabstrip.htm"/>
+ <o:File HRef=3D"chart001.htm"/>
+ <o:File HRef=3D"image001.png"/>
+ <o:File HRef=3D"sheet001.htm"/>
+ <o:File HRef=3D"sheet002.htm"/>
+ <o:File HRef=3D"filelist.xml"/>
+</xml>
+------=_NextPart_01D4A5BC.1F6E3D20--

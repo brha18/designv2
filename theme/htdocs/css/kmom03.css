@@ -401,16 +401,11 @@ template {
 }
 /**
  * Figure and figcaption for images and other media using figure/figcaption
- */
-/**
- * Figure with ASCIINEMA
- */
-/**
- * Figure with Codepen
- */
-/** --------------------------------------------------------------
- * Figure through .figure
- */
+
+@import "/@desinax/figure/less/asciinema.less";
+@import "/@desinax/figure/less/codepen.less";
+@import "/@desinax/figure/less/figure.less";
+*/
 html {
   font-size: 100%;
 }
@@ -726,6 +721,18 @@ p {
 .space-left {
   margin-left: 0.8em;
 }
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+/*
+img[alt=""],
+img:not([alt]) {
+    border:0.5em dashed red;
+}
+*/
 /*
 .table.fargschema {
         border-spacing: 0.5em;
