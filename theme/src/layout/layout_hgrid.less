@@ -10,7 +10,7 @@
 @columns:       24;
 @gridType:      "float"; // "flex"
 */
-
+/*
 // "Magic number"
 @magicNumber: 22px;
 //@magicNumber: 24px;
@@ -30,7 +30,7 @@
 @fontFamilyHeadings: @fontFamilyCambria;
 @fontFamilyBody: @fontFamilyCalibri;
 @fontFamilyCode: @fontFamilyCourier;
-
+*/
 /*
 // Activera "grid base font"
 body {
@@ -38,68 +38,15 @@ body {
     color: red;
 }
 */
-/*
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-code,
-table {
-    #desinax-hgrid.activateDefaultTypography();
-}
-*/
 
 // Visa griden
 .hgrid .inner-wrap {
-    @gridImage: "./../img/magic-numbert-@{magicNumber}.png";
+    @gridImage: "./../img/magic-number-@{magicNumber}.png";
     //@gridImage: "/../img/magic-numbert-@{magicNumber}.png";
     #desinax-hgrid.showGrid(@gridImage);
 
 
 }
-
-
   /*.gtest {
     background-color: lighten(#cf0, 20%);
 }*/
-
-/*
-.region {
-    height: 80px;
-
-}
-
-.row {
-    #desinax-vgrid.row();
-    background-color: #0f0;
-    margin-bottom: 12px;
-}
-
-.header1,
-.header2 {
-    #desinax-vgrid.column(@columns / 2);
-}
-
-.flash {
-    #desinax-vgrid.column(@columns - 4);
-    #desinax-vgrid.push(2); // flytta (x) antal kol till höger
-}
-
-.sidebar-left,
-.sidebar-right {
-    #desinax-vgrid.column(@columns / 4);
-}
-
-.main {
-    #desinax-vgrid.column(@columns / 2);
-}
-
-.footer {
-    #desinax-vgrid.column(@columns);
-}
-*/
