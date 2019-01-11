@@ -1,0 +1,117 @@
+/*!
+ * Stylesheet for design kmom02.
+ *
+ * This stylesheet is for the design course and kmom02. Its intention is to
+ * use kmom02.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+ /**
+  * Normalize and reset the style.
+  */
+ @import "normalize.css/normalize.less";
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+//@import "module/kmom01.less";
+// @import "module/kmom02.less";
+@import "module/stylechooser.less";  // Just an example module
+
+/**
+* Fonts from google
+*/
+//                             @import url('https://fonts.googleapis.com/css?family=KoHo');
+
+
+/**
+ * Import the vertical grid.
+ */
+// @import "/@desinax/vertical-grid/less/grid.less";
+//@import "layout/layout_kmom03.less";
+
+
+/*.row { // se layout_vgrid.less
+    #desinax-vgrid.row();
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+//    background-color: #0f0;
+    background-color: transparent;
+    margin-bottom: 12px;
+}*/
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+//@import "layout/layout_default.less";
+//@import "layout/responsive_default.less";
+
+//@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+//@import "base/base_default.less";
+@import "base/base.less";
+@import "base/base_05.less";
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+ * My own settings, not currently in their own module.
+ */
+// @import "layout/layout_kmom02_vad-var.less"; // Strong colors showing what and where
+//@import "layout/layout.less";
+//                        @import "layout/layout_kmom02.less";
+
+
+//@import "layout/layout_vgrid.less";
+
+@import "layout/layout_kmom06_element.less";
+@import "layout/layout_header_04.less";
+@import "layout/layout_footer_06_element.less";
+@import "layout/layout_flash_04.less";
+@import "layout/responsive_kmom06.less";
+
+/*
+// Variabler
+
+// Default grid, change to fit your requirements.
+
+@columnWidth:   30;
+@gutterWidth:   10;
+@columns:       24;
+@gridType:      "float"; // "flex"
+
+// "Magic number"
+@magicNumber: 22px;
+//@magicNumber: 24px;
+@fontSizeBody: 16px;
+
+// Använ det typografiska gridet  till min stil
+// Monospace
+@fontFamilyCourier: "Courier New", Courier, monospace;
+
+//Serif
+@fontFamiyCambria: Cambria, Georgia, Times, 'Times New Roman', serif;
+
+//Sans-serif
+@fontFamiyVerdana: Verdana, Geneva, sans-serif;
+
+// Font families som används
+@fontFamilyHeadings: @fontFamilyCambria;
+@fontFamilyBody: @fontFamilyCalibri;
+@fontFamilyCode: @fontFamilyCourier;
+*/

@@ -1,0 +1,355 @@
+
+// Default responsive meny
+a.rm-button{
+//    background-color: blue;
+//    color: red;
+    border-style: inset;
+//    border-color: red;
+    padding: 0.5em;
+}
+
+.rm-navbar {
+//    border-style: inset;
+//    font-size: 1.4em;
+//    color: inherit;
+//    display: inline-block;
+//    position: relative;
+}
+
+a:active {
+    background-color: goldenrod;
+}
+.rm-small-wrapper {
+//    color: black;
+//    border-color: black;
+//    border-style: inset;
+//    padding: 0.5em;
+}
+
+.rm-max.rm-navbar {
+    top: 0.5em;
+    right: 2em;
+}
+
+.rm-navbar ul {
+    font-size: 120%;
+}
+//
+// .rm-desktop li ul {
+// //    background-color: #fff;
+//     background-color: #ddfce199;
+//     font-size: 90%;
+//     padding-top: 0.5em;
+//     line-height: 30%;
+//     text-align: left;
+// }
+
+.rm-default ul li {
+//    box-shadow: 0 0 1px rgba(0,0,0,.4);
+}
+
+.rm-mobile li.rm-submenu-open > ul {
+    font-size: 100%;
+}
+
+.rm-navbar {
+//    border-style: inset;
+//    font-size: 1.4em;
+    color: inherit;
+    display: inline-block;
+    position: relative;
+}
+
+.rm-small-wrapper {
+    .rm-small {
+        color: inherit;
+    }
+//    color: black;
+//    border-color: black;
+//    border-style: inset;
+//    padding: 0.5em;
+}
+
+.rm-max.rm-navbar {
+//    top: auto;
+//    right: 20px;
+}
+
+.rm-desktop li ul {
+//    background-color: #fff;
+}
+
+.rm-desktop li {
+    a:link::selection {
+        background-color: goldenrod;
+    }
+//    background-color: #fff;
+}
+
+.rm-default ul li {
+    box-shadow: 0 0 1px rgba(0,0,0,.4);
+//    padding-left: 0.5em;
+}
+
+.rm-default li li {
+    min-width: 5em;
+}
+
+.rm-default a {
+    padding-left: 1em;
+}
+
+.rm-mobile a {
+    padding: 0;
+    padding-left: 1em;
+}
+
+.rm-max .rm-mobile li ul {
+    padding-left: 0.5em;
+    font-size: 100%;
+}
+
+#rm-menu.rm-mobile {
+//        #desinax-vgrid.column(3);
+//        #desinax-vgrid.push(20);
+//    width: 14em;
+//    height: 30em;
+    max-width: 15em;
+    max-height: 30em;
+    font-size: medium;
+//    background-color: gold;
+    display: inline-grid;
+//    color: red;
+    .rm-submenu-button {
+        padding: 5px 15px;
+        margin: 0;
+    }
+    .rm-clicked {
+        color: #a0ff00;
+    }
+}
+
+.rm-max {
+    .rm-small {
+        border-color: black;
+        border-style: solid;
+//        color: black;
+        color: goldenrod;
+//        padding: 0.2em;
+        padding: 0.9em;
+
+    }
+
+//    .rm-mobile {
+        &.rm-submenu-button a
+        {
+    //        #desinax-vgrid.column(3);
+    //        #desinax-vgrid.push(20);
+    //    width: 14em;
+        line-height: 0.3em;
+        max-width: 0.5em;
+        font-size: medium;
+        background-color: blueviolet;
+    //    color: red;
+        padding: 0.3em 0.2em;
+    }
+}
+
+    .rm-max .rm-mobile .rm-submenu-button::after
+//        &:after
+        {
+            //        #desinax-vgrid.column(3);
+            //        #desinax-vgrid.push(20);
+            //    width: 14em;
+            //    line-height: 0.3em;
+            //    max-width: 0.5em;
+            //    font-size: medium;
+                background-color: blueviolet;
+            //    color: red;
+
+            //    padding: 5em 15em;
+                content: "\21D3";
+            //}
+        }
+//    }
+//}
+
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 960px) {
+    .rm-desktop a {
+//        padding-left: 0.5em;
+//        padding-right: 0.5em;
+//        font-size: 1.2em;
+    }
+
+    .wrap-all {
+    //      background-color: rgb(10, 10, 155);
+        background-color: "80b166";
+    }
+
+    .region-main {
+        #desinax-vgrid.push(0);
+
+        #desinax-vgrid.column(@columns);
+
+        &.has-sidebar-left {
+            #desinax-vgrid.column(@columns);
+
+        }
+
+        &.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+
+        }
+          &.has-sidebar-left.has-sidebar-right {
+              #desinax-vgrid.column(@columns);
+
+          }
+          &.has-sidebar-right.has-sidebar-left {
+              #desinax-vgrid.column(@columns);
+
+          }
+      }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    .p2 {
+       font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .wrap-all {
+//        background-color: rgb(20, 30, 135);
+        background-color: #80b166;
+        color: #bff3b2;
+  }
+    .my-navbar {
+//        font-size: 0.6em;
+//      padding: 0.0em;
+  }
+    .region-header-col-1,
+    .region-header-col-3 {
+//        width: 15%;
+//        font-size: 1.0em;
+//        padding: 0.1em;
+    }
+
+    .region-header-col-2 {
+//      width: 70%;
+//        background-color: hsla(50, 33%, 25%, 0.75);
+//        padding: 0.1em;
+    }
+
+    a.rm-button {
+//      padding: 0.1em;
+    }
+
+    .region-flash {
+//      width: 100%;
+//      height: auto;
+//        #desinax-vgrid.column(@columns / 2);
+
+    }
+
+    .region-main {
+            &.has-sidebar-left {
+                #desinax-vgrid.column(@columns);
+            }
+            &.has-sidebar-left.has-sidebar-right {
+                #desinax-vgrid.column(@columns);
+            }
+    }
+    .region-sidebar-right {
+        #desinax-vgrid.column(@columns); // längst ner och spänner över hela sidan
+
+        #desinax-vgrid.push(0);
+
+        //display: none; // tar bort info från sidan
+    }
+
+    .region-sidebar-left {
+        #desinax-vgrid.column(@columns); // högst upp och spänner över hela sidan
+
+        //#desinax-vgrid.push(0);
+
+        //display: none; // tar bort info från sidan
+    }
+}
+
+table#t04 {
+//, thead, tbody, tfoot, tr, th, td {
+    display: block;
+}
+
+//        Read more: https://html.com/tables/styling/#ixzz5cEgknCh5
+
+
+
+@media screen and (max-width: 700px) {
+    .region-header-col-2 {
+        background-color: inherit;
+    }
+
+    .region-flash {
+        display: none;
+    }
+
+    .outer-wrap-header {
+        border-bottom: none;
+     }
+
+    .rm-desktop { // stäng av den menyen vid max-width ovan
+        display: none;
+    }
+    .rm-max .rm-small {
+        border-style: none;
+        padding: 0 0;
+    }
+
+    #rm-menu.rm-mobile {
+    //        #desinax-vgrid.column(3);
+    //        #desinax-vgrid.push(20);
+    //    width: 14em;
+    //    height: 30em;
+        max-width: 10em;
+        max-height: 30em;
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 600px) {
+/*     .sidebar-left,
+     .sidebar-right,
+     .main {
+         #desinax-vgrid.column(@columns);
+
+     }*/
+     .region-flash {
+         display: none;
+     }
+
+     h1,
+     h2,
+     h3,
+     h4,
+     h5,
+     h6,
+     p,
+     .p2 {
+         font-size: 100%;
+     }
+     .stylechooser {
+         background-color: #f22330;
+         max-width: 100%;
+         min-width: 100%;
+     }
+}

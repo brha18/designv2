@@ -1,0 +1,418 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+
+/**
+* Import the typographic grid.
+*/
+@import "/@desinax/typographic-grid/less/typography-font-families.less";
+@import "/@desinax/typographic-grid/less/typography-defaults.less";
+
+/**
+* Import the vertical grid.
+*/
+@import "/@desinax/vertical-grid/less/grid.less";
+
+
+.vgrid .inner-wrap {
+     @gridImage: "../img/grid_24x30x10-nomargin.png";
+     //@gridImage: "../img/grid_12x60x20-nomargin.png";
+     #desinax-vgrid.showGrid(@gridImage, 1100px);  // 1100px mappar inner-wrap
+
+     &.inner-wrap-header,
+     &.inner-wrap-footer {
+         #desinax-vgrid.showGrid(@gridImage);
+
+    }
+}
+
+// Visa den typografiska griden hgrid finns i layout_kmom03.less
+.hgrid .inner-wrap {
+//    @gridImage: "./../img/magic-numbert-@{magicNumber}.png";
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    //@gridImage: "/../img/magic-numbert-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+// Aktivera grid på alla typografiska elements
+#desinax-hgrid.activateDefaultTypography();
+
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+ #desinax-figure.figure();
+}
+
+figure.asciinema {
+ &:extend(figure.figure);
+ #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+
+}
+
+/**
+ * General layout
+ */
+
+ .wrap-all {
+//   background-color: #ccf;
+//   background-color: #bf7c32;
+//   border: red;
+//    border-width: thick;
+//    border-style: solid;
+//    background: url(../img/453px-Dalregementsgruppen_vapen.svg) no-repeat center center fixed;
+//    background-size: cover;
+//    background-color: rgba(255, 255, 255, 0.4);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.region {
+//    height: 80px;
+//    background-color: lighten(#cc0, 20%);
+    margin-bottom:@magicNumber;
+}
+
+ .outer-wrap {
+     border-style: solid;
+     border-width: thin;
+//     border-style: groove;
+//     color: #e9d7b3;
+//     max-width: 100%;
+ }
+
+
+ .inner-wrap {
+     #desinax-vgrid.grid(1100px);  // 1100px mappar bilden för vgrid
+
+     background: url(../img/453px-Dalregementsgruppen_vapen.svg) no-repeat center center fixed;
+     background-size: cover;
+ }
+
+.row {
+    #desinax-vgrid.row(100%);
+
+    // background-color: grey;
+    background-color: transparent;
+    margin-bottom: 12px;
+}
+//
+// .header1,
+// .header2 {
+//         #desinax-vgrid.column(@columns / 2);
+//
+// }
+//
+.region-flash img {
+// //        #desinax-vgrid.column(@columns);
+//    border-style: dotted;
+//    border-color: goldenrod;
+//     max-width: 100%;
+//     min-width: 100%;
+// //        #desinax-vgrid.push(0);
+//
+//         //align-items: center;
+//         //justify-self: center;
+//     padding-top: 0.7em;
+}
+
+
+.img {
+//    max-width: 100%;
+    #desinax-vgrid.grid(100%);
+
+    display: block;
+}
+
+.figure.figure img {
+//    max-width:100%;
+    #desinax-vgrid.grid(100%);
+
+    display:block
+}
+
+.centered-and-cropped {
+    object-fit: cover;
+}
+
+.site-logo {
+  display: none;
+}
+
+.region-breadcrumb {
+    #desinax-vgrid.column(@columns);
+
+}
+
+#rm-menu.rm-mobile {
+//    #desinax-vgrid.column(3);
+//    #desinax-vgrid.push(20);
+//    width: 10em;
+    height: 30em;
+    max-width: 14em;
+    font-size: medium;
+    max-height: 28em;
+//    background-color: cornflowerblue;
+//    background-color: #137d3d4d;
+    background-color: grey;
+    display: inline-grid;
+    color: #a0ff00;
+
+    .rm-clicked {
+        color: #a0ff00;
+    }
+}
+
+.wrap-sidebar {
+//    padding: 0.5em;
+//    margin-top: 1em;
+}
+
+.wrap-sidebar.block {
+//    margin-bottom: 48px;
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    #desinax-vgrid.column(@columns * 1 / 4); // 24/4=6
+
+}
+
+.region-sidebar-right{
+    #desinax-vgrid.push(1); // för att få lite space tv
+
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    display: inline;
+    #desinax-vgrid.column(@columns * 1 / 4 - 1); // 24/4-1=5
+
+    background: url(../img/dalahast.jpg) repeat center center fixed;
+}
+/*
+.region-sidebar-right.has-sidebar-left {
+    display: inline;
+    #desinax-vgrid.column(@columns * 1 / 4 - 2); // 24/4-2=4
+
+}
+*/
+/*
+.outer-wrap-main {
+  background-image: url(../img/gardening-tools_960_549_X.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% -20%;
+}
+*/
+
+.inner-wrap-main {
+//    max-width: 100%;
+//    margin: 0.5 auto;
+    background-image: url(../img/gardening-tools_960_549_X.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% -20%;
+}
+
+.region-main {
+//    display: inline;
+    #desinax-vgrid.column(@columns * 3 / 4); // 24*3/4=18
+
+    #desinax-vgrid.push(2);
+
+    // background-color: #acd18b1a;
+    background-color: rgba(255, 255, 255, 0.4);
+    &.has-sidebar {  //OBS att det är ingen punkt före "has"
+        #desinax-vgrid.push(0);
+
+    }
+
+    &.has-sidebar-right {
+        #desinax-vgrid.column(@columns * 3 / 4 - 1);  // för att få space th 3/4 av 24 - 1 = 17
+
+    }
+
+    &.has-sidebar-left.has-sidebar-right {  //OBS att det är ingen punkt före "has"
+        #desinax-vgrid.column(@columns - 10);
+
+//        #desinax-vgrid.column(-10); // 24-10=14
+
+    }
+}
+/*
+.next-previous {
+	margin-top: 1.0em;
+}
+*/
+
+/*
+.region-main.has-sidebar-left,
+.region-main.has-sidebar-right  {
+    //#desinax-vgrid.column(18);
+
+//    display: inline;
+//    float: left;
+//    width: auto;
+//    width: 70%;
+//    margin-top: 0.5em;
+//    margin-right: .52083333%;
+//    margin-left: 1.0%;
+}
+
+.region-main.has-sidebar-right {
+//    display: inline;
+//    float: left;
+//    width: auto;
+//    width: 70%;
+    // margin-top: 0.5em;
+    // margin-right: .52083333%;
+    // margin-left: 1.0%;
+}
+
+
+.region-main.has-sidebar-left.has-sidebar-right {
+//    display: inline;
+//    float: left;
+//    width: auto;
+//    width: 54%;
+    // margin-top: 0.5em;
+    // margin-right: .52083333%;
+    // margin-left: .1%;
+}
+
+.main {
+//    #desinax-vgrid.column(20);
+
+}
+*/
+
+.toc {
+//    margin-bottom: 24px;
+}
+
+.article {
+    #desinax-vgrid.grid(100%);
+
+//    padding: 0.5em;
+//    margin-top: 1em;
+    padding: 5px;
+}
+
+.ol {
+    line-height: 1.5em;
+}
+
+pre code {
+    background-color: inherit;
+}
+
+//.region-main hr::after,
+.region-main hr::after {
+// .block hr::after {
+//    content: none;
+    content: "   .region-main hr:after       ";
+    background-color: #e9d7b3;
+    font-style: @fontFamilyHeadings;
+}
+
+//.table,
+.fargschema,
+.laddningstid,
+.partier  {
+        border-spacing: 0.2em;
+        padding: 0.5em;
+        border-collapse: separate;
+        border-color: goldenrod;
+//        border-style: solid;
+        border-style: dotted;
+        border-width: thick;
+        background-color: #b3c5b7;
+//        background-color: cornflowerblue;
+        max-width: 90%;
+//        color: #0f1d06;
+}
+
+#t04 {
+    padding: 0.5em;
+    width: 90%;
+    background-color: #f1f1c1;
+    border-color: cornflowerblue;
+//        border-style: solid;
+    border-style: dashed;
+    border-width: medium;
+}
+
+.partier {
+//    border-style: none;
+    background-color: yellow;
+}
+/*
+.table#t04 td {
+    min-width: 1em;
+    border-spacing: 0.5em;
+}
+*/
+#t04 tr:nth-child(even) {
+  background-color: blueviolet;
+}
+
+#t04 tr:nth-child(odd) {
+  background-color: goldenrod;
+}
+
+.route-testa row {
+//    background-color: #ccc;
+}
+
+.fa-stroopwafel {
+    font-size: 2.5em;
+
+    &.fas {
+          background-color: tomato;
+    }
+    &.fab {
+          background-color: gold;
+          color: black;
+    }
+}
+
+/**
+ * Variables
+ */
+ // Default grid, change to fit your requirements.
+ @columnWidth:   30;
+ @gutterWidth:   10;
+ @columns:       24;
+ @gridType:      "float"; // "flex"
+ // "Magic number"
+ @magicNumber: 22px;
+ //@magicNumber: 24px;
+ @fontSizeBody: 16px;
+
+ // Använ det typografiska gridet  till min stil
+ // Monospace
+ @fontFamilyCourier: "Courier New", Courier, monospace;
+
+ //Serif
+ @fontFamiyCambria: Cambria, Georgia, Times, 'Times New Roman', serif;
+
+ //Sans-serif
+ @fontFamiyVerdana: Verdana, Geneva, sans-serif;
+@fontFamilyHelveticaNeue:   "Helvetica Neue", Helvetica, Arial, sans-serif;
+@fontFamilyCalibri:         Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+ // Font families som används
+ @fontFamilyHeadings: @fontFamilyCambria;
+ //@fontFamilyBody: @fontFamilyCalibri;
+ @fontFamilyBody: @fontFamilyHelveticaNeue;
+ @fontFamilyCode: @fontFamilyCourier;

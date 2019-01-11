@@ -1,0 +1,73 @@
+
+.author-byline {
+//    color: red;
+//    float: inherit;
+//    background-color: gold;
+//    padding: 1em;
+//    border: yellow;
+    border-width: thin;
+    border-style: solid;
+    text-align: center;
+    &.figure {
+        align-content: center;
+    }
+}
+
+/**
+* Footer Layout
+**/
+
+.region-footer {
+    #desinax-vgrid.column(@columns);
+
+    display: inline;
+//    background-color: white;
+//    color: red;
+}
+
+.footer-column-wrapper {
+//    width: 100%;
+}
+
+.footer-column {
+    #desinax-vgrid.column(@columns / 3); // dela med 3 för tre kokumner dvs 24/3 8 kolumner var
+}
+
+.footer-column-x
+    {
+//    background-color: beige;
+//    border: red;
+//    border-style: inset;
+    text-align: left;
+}
+
+.footer-column-1 {
+//  border: blue;
+//  border-style: outset;
+}
+
+.footer-column-2 {
+}
+
+.footer-column-3 {
+//  border: black;
+//  border-style: inset;
+}
+
+.footer-column-wrapper::after {
+    content:"";
+    display:block;
+    clear:both
+}
+
+.block.site-footer {
+    #desinax-vgrid.column(@columns);
+
+    border-top: solid;
+    border-width: thin;
+    margin-top: 0.5em;
+    border-color: inherit;
+    text-align: center;
+//    background-color: rgb(0, 100, 0);
+    background: linear-gradient(red, yellow, blue, orange);
+}
