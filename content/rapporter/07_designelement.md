@@ -39,7 +39,7 @@ Gradients: Jag har använt gradients, liggande ränder, i min byline.
 
 Kontrast: Jag har olika färger på tabellraderna i tabellen med designprinciper/-element i kmom06.
 
-Bilder: Jag har lekt med bilder som bakgrund på olika sätt; Dalregementsgruppens vapen som bakgrund för inner-wrap, repeterat en dalahäst som bakgrund för sidokolumner och trädgårdsverktygen som bakgrund till inner-wrap-main.
+Bilder: Jag har lekt med bilder som bakgrund på olika sätt; Dalregementsgruppens vapen som bakgrund för inner-wrap, repeterat en dalahäst som bakgrund för sidokolumner och trädgårdsverktygen som bakgrund till inner-wrap-main (vilket gör att det inte syns så mycket av Dalregementgruppens vapen).
 
 *Jag vill understryka att jag inte tycker att det är något vackert i detta.*
 

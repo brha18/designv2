@@ -6232,8 +6232,8 @@ a:active {
 .rm-max .rm-small {
   border-color: black;
   border-style: solid;
-  color: goldenrod;
-  padding: 0.9em;
+  color: black;
+  padding: 0.2em;
 }
 .rm-max.rm-submenu-button a {
   line-height: 0.3em;
@@ -6242,7 +6242,7 @@ a:active {
   background-color: blueviolet;
   padding: 0.3em 0.2em;
 }
-.rm-max .rm-mobile .rm-submenu-button::after {
+rm-max.rm-mobile.rm-submenu-button::after {
   background-color: blueviolet;
   content: "\21D3";
 }
@@ -6332,9 +6332,6 @@ a:active {
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
-}
-table#t04 {
-  display: block;
 }
 @media screen and (max-width: 700px) {
   .region-header-col-2 {

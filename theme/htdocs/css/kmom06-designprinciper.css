@@ -5840,6 +5840,9 @@ figure.figure-codepen {
 /**
  * General layout
  */
+body {
+  color: #d40000;
+}
 * {
   box-sizing: border-box;
 }
@@ -5868,6 +5871,9 @@ figure.figure-codepen {
   display: block;
   clear: both;
 }
+.region-flash img:hover {
+  transform: rotateY(180deg);
+}
 .img {
   margin-right: auto;
   margin-left: auto;
@@ -5886,6 +5892,22 @@ figure.figure-codepen {
 .site-logo {
   display: none;
 }
+/*
+.siteLogoText {
+    display: none; //=> "design",
+    }
+
+.siteLogoTextIcon {
+    background-image: url(../img/Mora_vapen.svg);
+    background-size: 2.5em 3.6em;
+    //  => "image/theme/leaf_40x40.png",
+    }
+
+.siteLogoTextIconAlt {
+    display: "Moras vapen";
+    }
+
+*/
 .region-breadcrumb {
   display: inline;
   float: left;
@@ -5904,6 +5926,9 @@ figure.figure-codepen {
 }
 #rm-menu.rm-mobile .rm-clicked {
   color: #a0ff00;
+}
+.wrap-sidebar.block {
+  background: url(../img/dalahast.jpg) repeat center center fixed;
 }
 .region-sidebar-left,
 .region-sidebar-right {
@@ -5931,11 +5956,9 @@ figure.figure-codepen {
 
 }
 */
-.outer-wrap-main {
-  background-image: url('gardening-tools_960_549_X');
-  background-repeat: no-repeat;
+.inner-wrap-main {
+  background-image: url(../img/gardening-tools_960_549_X.jpg);
   background-attachment: fixed;
-  background-position: 50% -20%;
 }
 .region-main {
   display: inline;
@@ -5944,7 +5967,7 @@ figure.figure-codepen {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 8.85416667%;
-  background-color: #acd18b1a;
+  background-color: #c8f3a2e6;
 }
 .region-main.has-sidebar {
   margin-left: 0.52083333%;
@@ -6036,7 +6059,7 @@ pre code {
   background-color: #b3c5b7;
   max-width: 90%;
 }
-table#t04 {
+#t04 {
   width: 100%;
   background-color: #f1f1c1;
 }
@@ -6050,10 +6073,10 @@ table#t04 {
     border-spacing: 0.5em;
 }
 */
-.table#t04 tr:nth-child(even) {
-  background-color: #dddd d;
+#t04 tr:nth-child(even) {
+  background-color: blue;
 }
-.table#t04 tr:nth-child(odd) {
+#t04 tr:nth-child(odd) {
   background-color: goldenrod;
 }
 .fa-stroopwafel {
@@ -6087,6 +6110,16 @@ table#t04 {
   margin-left: auto;
   max-width: 100%;
 }
+.siteLogoText {
+  display: none;
+}
+.siteLogoTextIcon {
+  display: none;
+  77background-image: url(../img/Mora_vapen.svg);
+}
+.siteLogoTextIconAlt {
+  display: none;
+}
 .region-header-col-1 {
   border-style: none;
   float: left;
@@ -6095,6 +6128,10 @@ table#t04 {
   margin-right: 0.52083333%;
   display: inline;
   border-width: thick;
+  background-image: url(../img/Mora_vapen.svg);
+  background-size: 2.6em 3.6em;
+  margin-top: 0.5em;
+  height: 3.6em;
 }
 .region-header-col-2 {
   float: left;
@@ -6232,8 +6269,10 @@ a:active {
 .rm-max .rm-small {
   border-color: black;
   border-style: solid;
-  color: goldenrod;
-  padding: 0.9em;
+  color: black;
+  padding: 0.2em;
+  background-image: url(../img/Mora_vapen.svg);
+  background-size: 2.6em 3.6em;
 }
 .rm-max.rm-submenu-button a {
   line-height: 0.3em;
@@ -6242,7 +6281,16 @@ a:active {
   background-color: blueviolet;
   padding: 0.3em 0.2em;
 }
-.rm-max .rm-mobile .rm-submenu-button::after {
+/*
+#svg4166 {  //Storleken på Mora vapen
+    max-height: 100%;
+}
+
+#use2844 {  //Annan fär än rött i Mora vapen
+    background-color: cornflowerblue;
+}
+*/
+rm-max.rm-mobile.rm-submenu-button::after {
   background-color: blueviolet;
   content: "\21D3";
 }
@@ -6332,9 +6380,6 @@ a:active {
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
-}
-table#t04 {
-  display: block;
 }
 @media screen and (max-width: 700px) {
   .region-header-col-2 {

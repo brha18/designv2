@@ -59,6 +59,10 @@ figure.figure-codepen {
 /**
  * General layout
  */
+body {
+    color: #d40000;
+
+}
 
  .wrap-all {
 //   background-color: #ccf;
@@ -119,6 +123,12 @@ figure.figure-codepen {
 //     padding-top: 0.7em;
 }
 
+.region-flash img:hover {
+    transform: rotateY(180deg);
+//    translate3d(x,y,z);
+//    rotate3d(x,y,z,angle);
+}
+
 
 .img {
 //    max-width: 100%;
@@ -130,6 +140,7 @@ figure.figure-codepen {
 .figure.figure img {
 //    max-width:100%;
     #desinax-vgrid.grid(100%);
+
     display:block
 }
 
@@ -140,6 +151,23 @@ figure.figure-codepen {
 .site-logo {
   display: none;
 }
+
+/*
+.siteLogoText {
+    display: none; //=> "design",
+    }
+
+.siteLogoTextIcon {
+    background-image: url(../img/Mora_vapen.svg);
+    background-size: 2.5em 3.6em;
+    //  => "image/theme/leaf_40x40.png",
+    }
+
+.siteLogoTextIconAlt {
+    display: "Moras vapen";
+    }
+
+*/
 
 .region-breadcrumb {
     #desinax-vgrid.column(@columns);
@@ -172,6 +200,7 @@ figure.figure-codepen {
 
 .wrap-sidebar.block {
 //    margin-bottom: 48px;
+    background: url(../img/dalahast.jpg) repeat center center fixed;
 }
 
 .region-sidebar-left,
@@ -198,17 +227,18 @@ figure.figure-codepen {
 
 }
 */
-
 .outer-wrap-main {
-  background-image: url('gardening-tools_960_549_X');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% -20%;
+
 }
 
 .inner-wrap-main {
 //    max-width: 100%;
 //    margin: 0.5 auto;
+
+    background-image: url(../img/gardening-tools_960_549_X.jpg);
+//    background-repeat: no-repeat;
+    background-attachment: fixed;
+//    background-position: 20% -10%;
 }
 
 .region-main {
@@ -217,7 +247,7 @@ figure.figure-codepen {
 
     #desinax-vgrid.push(2);
 
-    background-color: #acd18b1a;
+    background-color: #c8f3a2e6; //aad188cc //acd18bb3 //acd18b1a; //  c0f88fcc
     &.has-sidebar {  //OBS att det är ingen punkt före "has"
         #desinax-vgrid.push(0);
 
@@ -324,7 +354,7 @@ pre code {
 //        color: #0f1d06;
 }
 
-table#t04 {
+#t04 {
     width: 100%;
     background-color: #f1f1c1;
 }
@@ -339,11 +369,11 @@ table#t04 {
     border-spacing: 0.5em;
 }
 */
-.table#t04 tr:nth-child(even) {
-  background-color: #ddddd;
+#t04 tr:nth-child(even) {
+  background-color: blue;
 }
 
-.table#t04 tr:nth-child(odd) {
+#t04 tr:nth-child(odd) {
   background-color: goldenrod;
 }
 

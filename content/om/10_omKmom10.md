@@ -2,7 +2,7 @@
 
 
 ---
-Om uppgifterna i detta kursmoment, 06, i designkursen
+Om uppgifterna i detta kursmoment, 10, i designkursen
 =========================
 
 ### Krav allmänt i kmom10###
@@ -40,7 +40,7 @@ Lägg resultatet i *content/rapport/09_webbplatsdesign.md*.
 Organisationen *Valfrihet* har kontaktat dig och bett dig göra en analys inom design och webbplatser. Du tycker att det låter som en väldigt öppen fråga och du väljer därför att tolka “design och webbplatser” precis på det sättet du själv väljer.
 Du kan alltså fritt välja vad din undersökning handlar om. Gör att undersökningen handlar om något inom ramen för det som hanterats i kursen. Gör det tydligt i rapporten om vad du undersöker och hur du går tillväga.
 Lägg resultatet i *content/rapport/10_design-och-webbplatser.md*.
-#####Uppdrag webbplats och tema#####
+####Uppdrag webbplats och tema####
 Följande uppdrag rör utveckling av webbplatser och teman och de skall göras individuellt.
 Kunder
 Du har tre potentiella kunder, du väljer att utveckla en webbplats, med tillhörande teman, till en av dessa kunder.
@@ -59,6 +59,9 @@ Du kan själv välja om du vill att artisten skall vara ung/gammal, hålla på m
 *Kund 3*
 Egenföretagaren Bew Gorp, har startat upp en egen verksamhet där hen hyr ut sig själv som webbprogrammerare/webbutvecklare/webbdesigner. Bew behöver en webbplats för att marknadsföra sig själv och sina utomordentliga färdigheter inom området.
 Du kan själv välja profil och inriktning på webbplatsen, men gör medvetna val som gynnar Bew’s profil. Här kan du välja att göra grunden till din egen CV-webbplats.
+
+Inspiration
+
 #####Uppdrag 3: Webbplats (10p)#####
 * Skapa en ny webbplats till din kund, spara i en helt ny katalog me/proj i kursrepot.
 
@@ -101,6 +104,7 @@ Du gör ytterligare ett tema till kunden, ett alternativt tema.
 I detta tema förändrar du markant färgppaletten, typografin, designprinciper och designelement.
 Du använder också, till viss del, en annan layout än i tidigare tema, se till att de båda teman mixar regioner mellan 100% i bredd och en fast min-width.
 Beskriv detta tema i din about-sida, gör ett nytt stycke med ny tydlig rubrik. Länka också till temaväljaren så man kan skifta till ditt alternativa tema.
+####Uppdrag struktur####
 #####Uppdrag 6: Förklara strukturen kring temat (10p) (optionellt)#####
 I din about-sida gör du ett nytt stycke och förklarar strukturen bakom ditt tema.
 
