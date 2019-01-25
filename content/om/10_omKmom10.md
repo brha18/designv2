@@ -67,8 +67,9 @@ Inspiration
 
 * Använd din me/redovisa som grund. Du kan också välja en helt ny installation från example/redovisa och example/theme. Välj väg.
 
-* Beskriv i redovisningstexten hur du gör och varför du valde det sättet.
+* Beskriv i *redovisningstexten* hur du gör och varför du valde det sättet.
 Webbplatsen skall bestå av en förstasida (minst två kolumner), en about-sida och en blogg med minst tre blogginlägg.
+
 * Varje sida skall ha en flash-region med en bild.
 
 * Headern skall ha en egen logo och en favicon.
@@ -81,7 +82,8 @@ Webbplatsen skall bestå av en förstasida (minst två kolumner), en about-sida 
 
 * Webbplatsen skall vara responsiv.
 
-* I about-sidan lägger du in information om kunden, så som du tolkat kundens önskemål, kundens verksamhet och hur kunden vill att webbplatsen skall se ut och användas. Det blir din egen formulering och tolkning av kundens krav.
+* I *about-sidan* lägger du in information om kunden, så som du tolkat kundens önskemål, kundens verksamhet och hur kunden vill att webbplatsen skall se ut och användas. Det blir din egen formulering och tolkning av kundens krav.
+
 #####Uppdrag 4: Tema (10p)#####
 * Skapa ett tema till webbplatsen. Du kan använda dina egna teman som grund.
 
@@ -92,21 +94,24 @@ Webbplatsen skall bestå av en förstasida (minst två kolumner), en about-sida 
 * Testsidor för gridet skall fungera via ?vgrid och ?hgrid.
 
 * Temat skall fungera responsivt.
-* På about-sidan förklarar du ditt tema.
+
+* På *about-sidan* förklarar du ditt tema.
 
 * Dokumentera färgpaletten och berätta hur du valde färgerna.
 
 * Beskriv typografin, designprinciper och designelement som du använt.
 
 * Bifoga en snapshot på temat.
+
 #####Uppdrag 5: Tema alternativt (10p) (optionellt)#####
 Du gör ytterligare ett tema till kunden, ett alternativt tema.
 I detta tema förändrar du markant färgppaletten, typografin, designprinciper och designelement.
 Du använder också, till viss del, en annan layout än i tidigare tema, se till att de båda teman mixar regioner mellan 100% i bredd och en fast min-width.
-Beskriv detta tema i din about-sida, gör ett nytt stycke med ny tydlig rubrik. Länka också till temaväljaren så man kan skifta till ditt alternativa tema.
+Beskriv detta tema i din *about-sida*, gör ett nytt stycke med ny tydlig rubrik. Länka också till temaväljaren så man kan skifta till ditt alternativa tema.
+
 ####Uppdrag struktur####
 #####Uppdrag 6: Förklara strukturen kring temat (10p) (optionellt)#####
-I din about-sida gör du ett nytt stycke och förklarar strukturen bakom ditt tema.
+I din *about-sida* gör du ett nytt stycke och förklarar strukturen bakom ditt tema.
 
 * Förklara struktur av LESS-koden. Berätta hur du valt att strukturera koden och förklara varför det är en god uppdelning.
 

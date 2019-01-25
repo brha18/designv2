@@ -51,6 +51,11 @@ return [
                     "url" => "redovisning/kmom06",
                     "title" => "Redovisning för kmom06.",
                     ],
+                    [
+                    "text" => "Kmom10",
+                    "url" => "redovisning/kmom10",
+                    "title" => "Redovisning för kmom10.",
+                    ],
                 ],
             ],
         ],
@@ -84,6 +89,16 @@ return [
                         "text" => "Rapport kmom06 - Mitt tema 'Designprinciper'",
                         "url" => "rapporter/designprinciper",
                         "title" => "Rapport kmom06 - Mitt tema 'Designprinciper'.",
+                    ],
+                    [
+                        "text" => "Rapport kmom10 - Analys av trender i webbplatsdesign",
+                        "url" => "rapporter/webbplatsdesign",
+                        "title" => "Rapport kmom10 - Analys 'webbplatsdesign'.",
+                    ],
+                    [
+                        "text" => "Rapport kmom10 - Analys en webbplats",
+                        "url" => "rapporter/design-och-webbplatser",
+                        "title" => "Rapport kmom10 - Analys en webbplats.",
                     ],
                 ],
             ],
